@@ -1,3 +1,4 @@
+*! version 1.1 Christopher Boyer 01aug2016
 *! version 1.0 Christopher Boyer 04jul2016
 
 /* this file calculates indicator scores, values, 
@@ -7,14 +8,13 @@
    
 version 13
 set more off
-
  
 /* =================================================== 
    ==================== Poster 1 ===================== 
    =================================================== */
    
 * read csv file with raw indicator data
-import delimited using "data/questionnaire.csv", ///
+import delimited using "data/Municipalitie.csv", ///
     clear bindquotes(strict)
 
 /* 1. indicator values - the number at the bottom of
@@ -66,11 +66,10 @@ g score_meetings2 = value_meetings2 * 2
 
 * average attendance for the meetings held in 2013
 g score_attendance = 0
-replace score_attendance = 0 + ((40 - value_attendance) / 20) if value_attendance >= 20 & value_attendance < 40
-replace score_attendance = 1 + ((60 - value_attendance) / 20) if value_attendance >= 40 & value_attendance < 60
-replace score_attendance = 4 + ((80 - value_attendance) / 20) if value_attendance >= 60 & value_attendance < 80
-replace score_attendance = 6 + ((90 - value_attendance) / 10) if value_attendance >= 80 & value_attendance < 90
-replace score_attendance = 8 + ((100 - value_attendance) / 10) if value_attendance >= 90 & value_attendance < 100
+replace score_attendance = 1 -((60 - value_attendance) / 20) if value_attendance >= 20 & value_attendance < 40
+replace score_attendance = 5 + ((80 - value_attendance) / 10) if value_attendance >= 40 & value_attendance < 80
+replace score_attendance = 7 + ((90 - value_attendance) / 5) if value_attendance >= 80 & value_attendance < 90
+replace score_attendance = 10 + ((100 - value_attendance) * 3 / 10) if value_attendance >= 90 & value_attendance < 100
 replace score_attendance = 10 if value_attendance >= 100 & value_attendance < .
 
 * local taxes raised in 2013
@@ -188,7 +187,7 @@ g value_passing_exam = 100 * sd_a_01students_admitted_exam / sd_a_01total_studen
 g value_school_supplies = supplies_received
 
 * calculated by aggregating number of latrines per class
-g value_school_latrines = latrines_per_class  
+g value_school_latrines = functional_latrines
 
 g value_school_wells = functional_water / 100
 
