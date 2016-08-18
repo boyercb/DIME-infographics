@@ -39,14 +39,17 @@ foreach file of local filenames {
 		
 	* sort data set 
 	gettoken id ids : ids
-	sort `id'
+	sort `id' submissiondate
 	
 	* tag duplicates
 	duplicates tag `id', g(dups)
 	
+	* create unique identifier
+	g id = _n
+	
 	* drop non duplicates
 	drop if dups == 0
-	
+		
 	* export list to excel
 	export excel using "data/duplicates.xlsx", ///
 	    sheet("`file'") sheetreplace firstrow(var) 
@@ -74,14 +77,21 @@ foreach file of local filenames {
 		
 	* sort data set 
 	gettoken id ids : ids
-	sort `id'
+	sort `id' submissiondate
+	
+	* create unique identifier
+	g id = _n
 	
 	* merge the duplicate drop list
-	merge 1:1 `id', keep(keep) nogen
+	merge 1:1 id using "data/`file'_rep.dta", keepusing(keep) nogen
 	
 	* drop duplicates
 	drop if keep == 0
 	drop keep
+	
+	if "`id'" == "groupe_district_sanitairecommune" {
+		g commune = groupe_district_sanitairecommune
+	}
 	
 	* save stata data set
 	save "data/`file'.dta", replace
@@ -124,9 +134,12 @@ save "data/Directeur Formation Sanitaire.dta", replace
 /* =================================================== 
    ====================== merge ====================== 
    =================================================== */
+   
+local f6 `""Access Potable Water""'
+local filenames `"`filenames' `f6'"'
 
 gettoken file filenames : filenames
-use `file', clear
+use "data/`file'.dta", clear
 
 foreach file of local filenames {
 
