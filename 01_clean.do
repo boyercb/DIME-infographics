@@ -1,6 +1,6 @@
 *! version 1.0 Christopher Boyer 01aug2016
 
-/* this file cleanse raw indicator csv-files 
+/* this file cleans raw indicator csv-files 
    for two infographic posters summarizing the 
    performance of 140 municipal governments in 
    Burkina Faso. */
@@ -34,7 +34,7 @@ local ids `"`id1' `id2' `id3' `id4' `id5'"'
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "data/`file' 2014_WIDE.csv", ///
+	import delimited using "${raw}/`file' 2014_WIDE.csv", ///
 		clear bindquotes(strict)
 		
 	* sort data set 
@@ -64,7 +64,7 @@ forval i = 1/`r(N_worksheet)' {
 	    sheet(`sheet') firstrow clear
 		
 	* save stata data set
-	save "data/`sheet'_rep.dta", replace
+	save "${dta}/`sheet'_rep.dta", replace
 }
 
 local ids `"`id1' `id2' `id3' `id4' `id5'"'
@@ -72,7 +72,7 @@ local ids `"`id1' `id2' `id3' `id4' `id5'"'
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "data/`file' 2014_WIDE.csv", ///
+	import delimited using "${raw}/`file' 2014_WIDE.csv", ///
 		clear bindquotes(strict)
 		
 	* sort data set 
@@ -83,18 +83,41 @@ foreach file of local filenames {
 	g id = _n
 	
 	* merge the duplicate drop list
-	merge 1:1 id using "data/`file'_rep.dta", keepusing(keep) nogen
+	merge 1:1 id using "${dta}/`file'_rep.dta", keepusing(keep) nogen
 	
 	* drop duplicates
 	drop if keep == 0
 	drop keep
 	
-	if "`id'" == "groupe_district_sanitairecommune" {
+	* save stata data set
+	save "${dta}/`file'.dta", replace
+}
+
+* add the potable water data set (already in Stata format)
+local f6 `""Access Potable Water""'
+local filenames `"`filenames' `f6'"'
+
+* loop through files again and standardize for merging
+foreach file of local filenames {
+
+	* load data set
+	use "${dta}/`file'.dta", clear
+	
+	* standardize naming of commune variable for merging
+	cap confirm variable groupe_district_sanitairecommune
+	if !_rc {
 		g commune = groupe_district_sanitairecommune
 	}
 	
+	* fix inconsistencies in the way communes are named across data sets
+	replace commune = subinstr(commune, "-", "_", .)
+	replace commune = "WOLONKOTO" if commune == "WOLOKONTO"
+	replace commune = "ARIBINDA" if commune == "ARBINDA"
+	replace commune = "NIAOGO" if commune == "NIAOGHO"
+	replace commune = "BAGRE" if commune == "BAGRE (TENKODOGO)"
+	
 	* save stata data set
-	save "data/`file'.dta", replace
+	save "${dta}/`file'.dta", replace
 }
 
 
@@ -106,7 +129,7 @@ foreach file of local filenames {
       data to the commune level */
 	  
 * 1. schooling data
-use "data/Directeur Ecole.dta", clear
+use "${dta}/Directeur Ecole.dta", clear
 
 * calculate indicators to be aggregated
 g functional_latrines = (sd_a_02functional_latrines / number_classes) >= 1
@@ -119,32 +142,29 @@ replace supplies_received = 0 if supplies_received < 0
 * aggregate schooling data by commune
 collapse (mean) functional_latrines functional_water supplies_received, by(commune)
 
-save "data/Directeur Ecole.dta", replace
+save "${dta}/Directeur Ecole.dta", replace
 
 
 * 2. gas stock data
-use "data/Directeur Formation Sanitaire.dta", clear
+use "${dta}/Directeur Formation Sanitaire.dta", clear
 
 * aggregate gas stock data by commune
 collapse (mean) sd_a_01stock_gas , by(commune)
 
-save "data/Directeur Formation Sanitaire.dta", replace
+save "${dta}/Directeur Formation Sanitaire.dta", replace
 
 
 /* =================================================== 
    ====================== merge ====================== 
    =================================================== */
-   
-local f6 `""Access Potable Water""'
-local filenames `"`filenames' `f6'"'
 
 gettoken file filenames : filenames
-use "data/`file'.dta", clear
+use "${dta}/`file'.dta", clear
 
 foreach file of local filenames {
-
-	merge 1:m commune using "data/`file'.dta", nogen
 	
-	save "data/final.dta", replace
+	merge 1:1 commune using "${dta}/`file'.dta", nogen
 
+	save "${dta}/merged.dta", replace
+	
 }
