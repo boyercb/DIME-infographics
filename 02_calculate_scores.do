@@ -14,44 +14,54 @@ set more off
    =================================================== */
    
 * read csv file with raw indicator data
-import delimited using "data/Municipalitie.csv", ///
-    clear bindquotes(strict)
+use "${dta}/merged.dta", clear
 
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
 
-g value_meetings1 = ic_a_03ordinary_council_meeting
+g value_meetings1 = total_num_ordinary_scm
 
-g value_meetings2 = ic_a_05cdc_meetings_2013
+g value_meetings2 = num_cadre_concertation_meeting20
 
-g avg = (ic_a_04councilor_attendance_meeting1 +  ///
-         ic_a_04councilor_attendance_meeting2 +  ///
-	     ic_a_04councilor_attendance_meeting3 +  /// 
-	     ic_a_04councilor_attendance_meeting4) / ///
-	     ic_a_03ordinary_council_meetings
+g avg = (councilor_attendance_meeting1 +  ///
+         councilor_attendance_meeting2 +  ///
+	     councilor_attendance_meeting3 +  /// 
+	     councilor_attendance_meeting4) / ///
+	     total_num_ordinary_scm
 		 
-g value_attendance = (avg * 100) / ic_a_04total_councilor
+g value_attendance = (avg * 100) / total_councilor
 
-g value_taxes_raised = ic_a_06local_taxes_2012 / commune_population_number
+g value_taxes_raised = local_taxes_2012 / commune_population_number
 
-g value_taxes_forecast = 100 * ic_a_06local_taxes_2012 / ic_a_06local_taxes_forecast_2012
+g value_taxes_forecast = 100 * local_taxes_2012 / local_taxes_forecast_2012
 
-g value_procurement = ic_a_07execution_equipment_procurement_plan
+g value_procurement = execution_equipment_procurement_
 
+forval i = 1/8 {
+	g value_personnel`i' = "false"
+}
+replace value_personnel1 = "true" if agent_materiel_transfere == 1
+replace value_personnel2 = "true" if agent_secretaire == 1
+replace value_personnel3 = "true" if agent_etat_civil == 1
+replace value_personnel4 = "true" if agent_services_statistiques == 1
+replace value_personnel5 = "true" if agent_service_techniques == 1
+replace value_personnel6 = "true" if comptable == 1
+replace value_personnel7 = "true" if regisseur_recettes == 1
+replace value_personnel8 = "true" if agent_affaires_domaniales == 1
 
 /* 2. indicator scores - the number at the top of the
    sliding scale in the infographic */
    
 * number of personnel fulfilling the organigramme type
 g score_personnel = 0
-replace score_personnel = score_personnel + 1 if ic_a_01agent_secretaire == 1
-replace score_personnel = score_personnel + 2 if ic_a_01agent_etat_civil == 1
-replace score_personnel = score_personnel + 2 if ic_a_01comptable == 1
-replace score_personnel = score_personnel + 1 if ic_a_01regisseur_recettes == 1
-replace score_personnel = score_personnel + 1 if ic_a_01agent_materiel_transfere == 1
-replace score_personnel = score_personnel + 1 if ic_a_01agent_services_statistiqu == 1
-replace score_personnel = score_personnel + 1 if ic_a_01agent_service_techniques == 1
-replace score_personnel = score_personnel + 1 if ic_a_01agent_affaires_domaniales == 1
+replace score_personnel = score_personnel + 1 if agent_secretaire == 1
+replace score_personnel = score_personnel + 2 if agent_etat_civil == 1
+replace score_personnel = score_personnel + 2 if comptable == 1
+replace score_personnel = score_personnel + 1 if regisseur_recettes == 1
+replace score_personnel = score_personnel + 1 if agent_materiel_transfere == 1
+replace score_personnel = score_personnel + 1 if agent_services_statistiqu == 1
+replace score_personnel = score_personnel + 1 if agent_service_techniques == 1
+replace score_personnel = score_personnel + 1 if agent_affaires_domaniales == 1
 
 * number of meetings held (1 - 4)
 g score_meetings1 = 0
@@ -139,8 +149,7 @@ g total_points = total_services + total_council + total_finances
 keep region ///
      province ///
 	 commune ///
-	 commune_type ///
-	 value_personnel ///
+	 value_personnel* ///
 	 value_meetings1 ///
 	 value_meetings2 ///
 	 value_attendance ///
@@ -161,7 +170,7 @@ keep region ///
 	 
 /* Note: this line is to be replaced by either an export to 
    csv or via the construction of JSON formatted text */
-save "poster1.dta", replace
+save "${dta}/poster1.dta", replace
 
 
 /* =================================================== 
@@ -169,8 +178,7 @@ save "poster1.dta", replace
    =================================================== */
 	
 * read csv file with raw indicator data
-import delimited using "data_files/aggregate_final.csv", ///
-    clear bindquotes(strict)
+use "${dta}/merged.dta", clear
 	
   /* Note - aggregate_final.csv is created in a separate do-file by
      combining the ecole, district sanitaire, CEB, water access, and 
@@ -181,7 +189,7 @@ local national_average = 65.2
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
 
-g value_passing_exam = 100 * sd_a_01students_admitted_exam / sd_a_01total_students_sitting_exam - `national_average'
+g value_passing_exam = 100 * sd_a_01students_admitted_exam / sd_a_01students_admitted_exam - `national_average'
 
 * no. of weeks before or after start of school year that supplies were received
 g value_school_supplies = supplies_received
@@ -191,25 +199,25 @@ g value_school_latrines = functional_latrines
 
 g value_school_wells = functional_water / 100
 
-g value_assisted_births = 100 * sd_a_01assisted_deliveries_1 / sd_a_01projected_deliveries_1
+g value_assisted_births = 100 * assisted_deliveries / projected_deliveries
 
-g bcg = sd_a_02vaccination_coverage_bcg_1 / sd_a_02target_vaccination_bcg_1
+g bcg = vaccination_coverage_bcg / target_vaccination_bcg
 
-g vpo3 = sd_a_03target_vaccination_vpo3_1 / sd_a_03vaccination_coverage_vpo3_1
+g vpo3 = vaccination_coverage_vpo / target_vaccination_vpo3 
 
-g dtc = sd_a_04vaccination_coverage_dtchephib3_1 / sd_a_04target_vaccination_dtchephib3_1
+g dtc = vaccination_coverage_dtchephib3 / target_vaccination_dtchephib3
 
-g var = sd_a_05vaccination_coverage_var_1 / sd_a_05target_vaccination_var_1
+g var = vaccination_coverage_var / target_vaccination_var
 
-g vaa  = sd_a_06vaccination_coverage_vaa_1 / sd_a_06target_vaccination_vaa_1
+g vaa  = vaccination_coverage_vaa / target_vaccination_vaa
 
 g value_vaccines = bcg * vpo3 * dtc * var * vaa * 100
 
-g value_csps = sd_a_01-stock_gas
+g value_csps = sd_a_01stock_gas
 
-g value_water_access = access
+g value_water_access = tauxaccess
 
-g value_birth_certificates = sd_a_01birth_certificates / sd_a_01projected_deliveries_1
+g value_birth_certificates = birth_certificates / projected_deliveries
 
 
 /* 2. indicator scores - the number at the top of the
@@ -274,20 +282,20 @@ replace score_school_latrines = 14 if value_school_latrines >= 95 & value_school
 replace score_school_latrines = 15 if value_school_latrines >= 100 & value_school_latrines < .
 
 * percentage of births assisted by trained health worker
-g score_assisted_birth = 0
-replace score_assisted_birth = 1 if value_assisted_birth >= 40 & value_assisted_birth < .
-replace score_assisted_birth = 2 if value_assisted_birth >= 55 & value_assisted_birth < .
-replace score_assisted_birth = 4 if value_assisted_birth >= 60 & value_assisted_birth < .
-replace score_assisted_birth = 5 if value_assisted_birth >= 65 & value_assisted_birth < .
-replace score_assisted_birth = 7 if value_assisted_birth >= 70 & value_assisted_birth < .
-replace score_assisted_birth = 8 if value_assisted_birth >= 75 & value_assisted_birth < .
-replace score_assisted_birth = 9 if value_assisted_birth >= 80 & value_assisted_birth < .
-replace score_assisted_birth = 10 if value_assisted_birth >= 85 & value_assisted_birth < .
-replace score_assisted_birth = 11 if value_assisted_birth >= 90 & value_assisted_birth < .
-replace score_assisted_birth = 12 if value_assisted_birth >= 95 & value_assisted_birth < .
-replace score_assisted_birth = 13 if value_assisted_birth >= 100 & value_assisted_birth < .
-replace score_assisted_birth = 14 if value_assisted_birth >= 110 & value_assisted_birth < .
-replace score_assisted_birth = 15 if value_assisted_birth >= 120 & value_assisted_birth < .
+g score_assisted_births = 0
+replace score_assisted_births = 1 if value_assisted_birth >= 40 & value_assisted_birth < .
+replace score_assisted_births = 2 if value_assisted_birth >= 55 & value_assisted_birth < .
+replace score_assisted_births = 4 if value_assisted_birth >= 60 & value_assisted_birth < .
+replace score_assisted_births = 5 if value_assisted_birth >= 65 & value_assisted_birth < .
+replace score_assisted_births = 7 if value_assisted_birth >= 70 & value_assisted_birth < .
+replace score_assisted_births = 8 if value_assisted_birth >= 75 & value_assisted_birth < .
+replace score_assisted_births = 9 if value_assisted_birth >= 80 & value_assisted_birth < .
+replace score_assisted_births = 10 if value_assisted_birth >= 85 & value_assisted_birth < .
+replace score_assisted_births = 11 if value_assisted_birth >= 90 & value_assisted_birth < .
+replace score_assisted_births = 12 if value_assisted_birth >= 95 & value_assisted_birth < .
+replace score_assisted_births = 13 if value_assisted_birth >= 100 & value_assisted_birth < .
+replace score_assisted_births = 14 if value_assisted_birth >= 110 & value_assisted_birth < .
+replace score_assisted_births = 15 if value_assisted_birth >= 120 & value_assisted_birth < .
 
 * percentage of infants vaccinated for BCG, VAR, VAA, VPO3, and DTC-Hep+Hib3
 g score_vaccines = 0
@@ -340,8 +348,8 @@ replace score_birth_certificates = 10 if value_birth_certificates >= 95 & value_
 replace score_birth_certificates = 12 if value_birth_certificates >= 100 & value_birth_certificates < .
 
 * calculate subtotals
-g total_school = passing_exam_score + supplies_score + latrines_score + fw
-g total_health = assisted_births_score + vaccines_score + csps_score
+g total_school = score_passing_exam + score_school_supplies + score_school_wells + score_school_latrines
+g total_health = score_assisted_births + score_vaccines + score_csps
 g total_water_access = score_water_access
 g total_birth_certificates = score_birth_certificates
 
@@ -352,7 +360,6 @@ g total_points = total_school + total_health + total_water_access + total_birth_
 keep region ///
      province ///
 	 commune ///
-	 commune_type ///
      value_passing_exam ///
 	 value_school_supplies ///
 	 value_school_latrines ///
@@ -361,7 +368,7 @@ keep region ///
 	 value_vaccines ///
 	 value_csps ///
 	 value_water_access ///
-	 value_projected_births ///
+	 value_birth_certificates ///
 	 score_passing_exam ///
 	 score_school_supplies ///
 	 score_school_latrines ///
@@ -370,7 +377,7 @@ keep region ///
 	 score_vaccines ///
 	 score_csps ///
 	 score_water_access ///
-	 score_projected_births ///
+	 score_birth_certificates ///
 	 total_school ///
 	 total_health ///
 	 total_water_access ///
@@ -379,5 +386,5 @@ keep region ///
 
 /* Note: this line is to be replaced by either an export to 
    csv or via the construction of JSON formatted text */
-save "poster2.dta", replace
+save "${dta}/poster2.dta", replace
 
