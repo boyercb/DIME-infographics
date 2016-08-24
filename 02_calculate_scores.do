@@ -87,31 +87,30 @@ replace score_attendance = 10 + ((100 - value_attendance) * 3 / 10) if value_att
 replace score_attendance = 10 if value_attendance >= 100 & value_attendance < .
 
 * local taxes raised in 2013
-egen score_taxes_raised = cut(value_taxes_raised), ///
-    at(0,    ///
-	   100,  ///
-	   200,  ///
-	   400,  ///
-	   600,  ///
-	   1000, ///
-	   1200, ///
-	   1400, ///
-	   1800, ///
-	   2000, ///
-	   2200, ///
-	   2400, ///
-	   2800, ///
-	   3000, ///
-	   3500, ///
-	   4000, ///
-	   4500, ///
-	   5000, ///
-	   5500, ///
-	   6000, ///
-	   6500, ///
-	   7000, ///
-	   7500, ///
-	   100000)
+g score_taxes_raised = 0 
+replace score_taxes_raised = 1 if value_taxes_raised >= 100 & value_taxes_raised < .
+replace score_taxes_raised = 2 if value_taxes_raised >= 200 & value_taxes_raised < .
+replace score_taxes_raised = 3 if value_taxes_raised >= 400 & value_taxes_raised < .
+replace score_taxes_raised = 4 if value_taxes_raised >= 600 & value_taxes_raised < .
+replace score_taxes_raised = 5 if value_taxes_raised >= 1000 & value_taxes_raised < .
+replace score_taxes_raised = 6 if value_taxes_raised >= 1200 & value_taxes_raised < .
+replace score_taxes_raised = 7 if value_taxes_raised >= 1400 & value_taxes_raised < .
+replace score_taxes_raised = 8 if value_taxes_raised >= 1800 & value_taxes_raised < .
+replace score_taxes_raised = 9 if value_taxes_raised >= 2000 & value_taxes_raised < .
+replace score_taxes_raised = 10 if value_taxes_raised >= 2200 & value_taxes_raised < .
+replace score_taxes_raised = 11 if value_taxes_raised >= 2400 & value_taxes_raised < .
+replace score_taxes_raised = 12 if value_taxes_raised >= 2800 & value_taxes_raised < .
+replace score_taxes_raised = 13 if value_taxes_raised >= 3000 & value_taxes_raised < .
+replace score_taxes_raised = 14 if value_taxes_raised >= 3500 & value_taxes_raised < .
+replace score_taxes_raised = 15 if value_taxes_raised >= 4000 & value_taxes_raised < .
+replace score_taxes_raised = 16 if value_taxes_raised >= 4500 & value_taxes_raised < .
+replace score_taxes_raised = 17 if value_taxes_raised >= 5000 & value_taxes_raised < .
+replace score_taxes_raised = 18 if value_taxes_raised >= 5500 & value_taxes_raised < .
+replace score_taxes_raised = 19 if value_taxes_raised >= 6000 & value_taxes_raised < .
+replace score_taxes_raised = 20 if value_taxes_raised >= 6500 & value_taxes_raised < .
+replace score_taxes_raised = 22 if value_taxes_raised >= 7000 & value_taxes_raised < .
+replace score_taxes_raised = 25 if value_taxes_raised >= 7500 & value_taxes_raised < .
+
 
 * local taxes raised in 2013 / forecast for 2013
 g score_taxes_forecast = 0
