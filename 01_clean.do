@@ -135,13 +135,13 @@ use "${dta}/Directeur Ecole.dta", clear
 * calculate indicators to be aggregated
 g functional_latrines = (sd_a_02functional_latrines / number_classes) >= 1
 g functional_water = sd_a_01water_source_functional >= 9
-g supplies_received = (date(sd_a_03year_month_received_schoo, "DMY", 2100) - ///
+g supplies_received = (date(sd_a_03year_month_received_schoo, "MDY", 2100) - ///
     date("10/01/2014", "MDY") + 7 * (sd_a_03week_received_school_supp - 1)) / 7
 
 replace supplies_received = 0 if supplies_received < 0
 
 * aggregate schooling data by commune
-collapse (mean) functional_latrines functional_water supplies_received, by(commune)
+collapse (mean) functional_latrines functional_water supplies_received, by(commune) cw
 
 save "${dta}/Directeur Ecole.dta", replace
 
@@ -150,7 +150,7 @@ save "${dta}/Directeur Ecole.dta", replace
 use "${dta}/Directeur Formation Sanitaire.dta", clear
 
 * aggregate gas stock data by commune
-collapse (mean) sd_a_01stock_gas , by(commune)
+collapse (mean) sd_a_01stock_gas , by(commune) cw
 
 save "${dta}/Directeur Formation Sanitaire.dta", replace
 
