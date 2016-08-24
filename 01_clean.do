@@ -25,7 +25,7 @@ local filenames `"`f1' `f2' `f3' `f4' `f5'"'
 local id1 `""commune""'
 local id2 `""commune school school_autre""'
 local id3 `""commune formation_sanitaire formation_sanitaire_autre""'
-local id4 `""groupe_district_sanitairecommune""'
+local id4 `""commune1""'
 local id5 `""commune""'
 
 local ids `"`id1' `id2' `id3' `id4' `id5'"'
@@ -68,6 +68,7 @@ forval i = 1/`r(N_worksheet)' {
 }
 
 local ids `"`id1' `id2' `id3' `id4' `id5'"'
+
 * loop through files again and exclude duplicates on drop list
 foreach file of local filenames {
 
@@ -104,9 +105,9 @@ foreach file of local filenames {
 	use "${dta}/`file'.dta", clear
 	
 	* standardize naming of commune variable for merging
-	cap confirm variable groupe_district_sanitairecommune
+	cap confirm variable commune1
 	if !_rc {
-		g commune = groupe_district_sanitairecommune
+		g commune = commune1
 	}
 	
 	* fix inconsistencies in the way communes are named across data sets
