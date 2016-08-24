@@ -18,6 +18,10 @@ use "${dta}/merged.dta", clear
 
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
+replace councilor_attendance_meeting1 = 0 if mi(councilor_attendance_meeting1)
+replace councilor_attendance_meeting2 = 0 if mi(councilor_attendance_meeting2)
+replace councilor_attendance_meeting3 = 0 if mi(councilor_attendance_meeting3)
+replace councilor_attendance_meeting4 = 0 if mi(councilor_attendance_meeting4)
 
 g value_meetings1 = total_num_ordinary_scm
 
@@ -31,9 +35,9 @@ g avg = (councilor_attendance_meeting1 +  ///
 		 
 g value_attendance = (avg * 100) / total_councilor
 
-g value_taxes_raised = local_taxes_2012 / commune_population_number
+g value_taxes_raised = local_taxes_2014_amount / compop2014
 
-g value_taxes_forecast = 100 * local_taxes_2012 / local_taxes_forecast_2012
+g value_taxes_forecast = 100 * local_taxes_2014_amount / local_taxes_forecast_2014
 
 g value_procurement = execution_equipment_procurement_
 
@@ -84,7 +88,8 @@ replace score_attendance = 10 if value_attendance >= 100 & value_attendance < .
 
 * local taxes raised in 2013
 egen score_taxes_raised = cut(value_taxes_raised), ///
-    at(100,  ///
+    at(0,    ///
+	   100,  ///
 	   200,  ///
 	   400,  ///
 	   600,  ///
@@ -105,7 +110,8 @@ egen score_taxes_raised = cut(value_taxes_raised), ///
 	   6000, ///
 	   6500, ///
 	   7000, ///
-	   7500)
+	   7500, ///
+	   100000)
 
 * local taxes raised in 2013 / forecast for 2013
 g score_taxes_forecast = 0
@@ -167,6 +173,12 @@ keep region ///
 	 total_council ///
 	 total_finances ///
 	 total_points
+
+* round numeric variables to the nearest tenth
+ds, has(type numeric)
+foreach var of varlist `r(varlist)' {
+	replace `var' = round(`var', 0.1)
+}
 	 
 /* Note: this line is to be replaced by either an export to 
    csv or via the construction of JSON formatted text */
@@ -383,6 +395,12 @@ keep region ///
 	 total_water_access ///
 	 total_birth_certificates ///
 	 total_points
+
+* round numeric variables to the nearest tenth
+ds, has(type numeric)
+foreach var of varlist `r(varlist)' {
+	replace `var' = round(`var', 0.1)
+}
 
 /* Note: this line is to be replaced by either an export to 
    csv or via the construction of JSON formatted text */
