@@ -32,7 +32,8 @@ forval i = 1/`=_N' {
     file w p1 _tab(2) `""commune": `commune',"' _n
     file w p1 _tab(2) `""total_points": `total_points',"' _n
     file w p1 _tab(2) `""max_points": 86,"' _n 
-    
+    file w p1 _tab(2) `""stars": 3,"' _n
+	
     file w p1 _tab(2) `""items":["' _n 
     
     * section 1: municipal services 
@@ -40,6 +41,7 @@ forval i = 1/`=_N' {
     file w p1 _tab(4) `""label": "MAIRIE/SERVICES MUNICIPAUX","' _n
     file w p1 _tab(4) `""points": `total_services',"' _n
     file w p1 _tab(4) `""max_points": 10,"' _n
+	file w p1 _tab(4) `""stars": 3,"' _n
     file w p1 _tab(4) `""personnel": {"' _n
 	file w p1 _tab(5) `""agent_materiel_transfere": `value_personnel1',"' _n
     file w p1 _tab(5) `""agent_secretaire": `value_personnel2',"' _n
@@ -57,6 +59,7 @@ forval i = 1/`=_N' {
     file w p1 _tab(4) `""label": "CONSEIL MUNICIPAL","' _n
     file w p1 _tab(4) `""points": `total_council',"' _n
     file w p1 _tab(4) `""max_points": 23,"' _n
+    file w p1 _tab(4) `""stars": 3,"' _n
 
     file w p1 _tab(4) `""items": ["' _n
 
@@ -95,7 +98,8 @@ forval i = 1/`=_N' {
     file w p1 _tab(4) `""label": "GESTION FINANCIERE","' _n
     file w p1 _tab(4) `""points": `total_finances',"' _n
     file w p1 _tab(4) `""max_points": 53,"' _n
-    
+    file w p1 _tab(4) `""stars": 3,"' _n
+
     file w p1 _tab(4) `""items": ["' _n
     
     * subsection 3.1: 
