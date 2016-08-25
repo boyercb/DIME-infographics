@@ -30,7 +30,7 @@ void settings() {
 void setup(){
   
   //LOAD DATA FILE
-  json = loadJSONArray("tabulated_data.json");
+  json = loadJSONArray("../data/json/poster1.json");
   
   //for(int j = 10; j < 20; j = j+1){
   for(int j = 0; j < json.size(); j = j+1){
@@ -42,8 +42,8 @@ void setup(){
     background(255);
     fill(0);
   
-    boldFont = createFont("GillSans-Bold",93);
-    lightFont = createFont("GillSans-Light",50);
+    boldFont = createFont("Lato Bold",93);
+    lightFont = createFont("Lato-Light",50);
     
     textFont(boldFont);
     
@@ -68,13 +68,13 @@ void setup(){
       ellipse(middleX + textWidth("CAPACITÉ INSTITUTIONELLE") + 200 + (i * 30) - ((3*30)/2) + 20, 180, 22, 22);
     }
     
-    sectionHeader(249, "building.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
-    sectionHeader(938, "council.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
-    sectionHeader(1795, "coins.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points"));
+    sectionHeader(249, "svg/building.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
+    sectionHeader(938, "svg/council.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
+    sectionHeader(1795, "svg/coins.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points"));
     
     personnel(sections.getJSONObject(0).getJSONObject("personnel"));
     
-    //Nombre de sessions du Conseil Municipal tenues en 2013
+    //Nombre de sessions du Conseil Municipal tenues en 2014
     JSONObject jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(0);
     scale(jo.getString("label"),
       jo.getFloat("value"),
@@ -92,7 +92,7 @@ void setup(){
       jo.getJSONArray("scale_marks").getIntArray(),
       1086,1344, "%");
     
-    //Nombre de cadre de concertations organisés par la mairie en 2013
+    //Nombre de cadre de concertations organisés par la mairie en 2014
     jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(2);
     scale(jo.getString("label"),
       jo.getFloat("value"),
@@ -101,7 +101,7 @@ void setup(){
       jo.getJSONArray("scale_marks").getIntArray(),
       1086,1581, "");
       
-    //Taux du recouvrement des taxes en fonction de la population de la commune en 2013
+    //Taux du recouvrement des taxes en fonction de la population de la commune en 2014
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(0);
     scale(jo.getString("label"),
       jo.getFloat("value"),
@@ -110,7 +110,7 @@ void setup(){
       jo.getJSONArray("scale_marks").getIntArray(),
       1086,1978, " FCFA");
       
-    //Taux du recouvrement de taxes en 2013 en fonction des prévisions
+    //Taux du recouvrement de taxes en 2014 en fonction des prévisions
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(1);
     scale(jo.getString("label"),
       jo.getFloat("value"),
@@ -119,7 +119,7 @@ void setup(){
       jo.getJSONArray("scale_marks").getIntArray(),
       1086,2228, "%");
       
-    //Taux d’exécution du plan de passation des marchés au cours de 2013
+    //Taux d’exécution du plan de passation des marchés au cours de 2014
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(2);
     scale(jo.getString("label"),
       jo.getFloat("value"),
@@ -183,7 +183,7 @@ void stars(int rating, int yPos){
   fill(0);
   //space between stars
   int gap = 60; 
-  star = loadShape("star.svg");
+  star = loadShape("svg/star.svg");
   star.disableStyle();
   star.scale(0.8);
   strokeWeight(1);
@@ -316,12 +316,13 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
 
 // people icons
 void personnel(JSONObject peeps){
-  person = loadShape("person.svg");
+  person = loadShape("svg/person.svg");
   person.disableStyle();
-  check = loadShape("check.svg");
+  check = loadShape("svg/check.svg");
   
   fill(0);
   textFont(boldFont);
+  textSize(48);
   text("Personnel de la municipalité remplissant l’organigramme type", 300, 400);
   
   textSize(25);
@@ -378,7 +379,7 @@ void total(String year, float totalPoints, float maxPoints, int stars){
   fill(0);
   //space between stars
   int gap = 70; 
-  star = loadShape("star.svg");
+  star = loadShape("svg/star.svg");
   star.disableStyle();
   star.scale(1);
   noStroke();
