@@ -22,4 +22,4 @@ Below are brief descriptions of each of the Stata do-files. We've made liberal u
  - `03_create_JSON.do`: this file converts the indicator data sets to JSON-formatted text, outputting `poster1.json` and `poster2.json` to the `data/json` folder.
 
 ### Java Files
-The `poster1/poster1.pde` and `poster2/poster2.pde` sketchbook files process the JSON files exported by Stata and create the infographic poster PDFs stored in `poster1/pdf` and `poster2/pdf`.
+The [`poster1/poster1.pde`](poster1/poster1.pde) and `poster2/poster2.pde` sketchbook files process the JSON files exported by Stata and create the infographic poster PDFs stored in `poster1/pdf` and `poster2/pdf`.
