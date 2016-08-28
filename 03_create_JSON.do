@@ -167,13 +167,15 @@ forval i = 1/`=_N' {
     file w p2 _tab(2) `""commune": `commune',"' _n
     file w p2 _tab(2) `""total_points": `total_points',"'  _n
     file w p2 _tab(2) `""max_points": 140,"'  _n
+    file w p1 _tab(2) `""stars": 3,"' _n
 
     file w p2 _tab(2) `""items":["' _n
 
     file w p2 _tab(3) "{" _n
     file w p2 _tab(4) `""label": "ÉCOLES PRIMAIRES","' _n
-    file w p2 _tab(4) `""points": `total_schools',"'  _n
+    file w p2 _tab(4) `""points": `total_school',"'  _n
     file w p2 _tab(4) `""max_points": 70,"'  _n
+    file w p1 _tab(4) `""stars": 3,"' _n
 
     file w p2 _tab(4) `""items": ["' _n
 
@@ -195,15 +197,15 @@ forval i = 1/`=_N' {
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux d'écoles avec un forage fonctionnel","'  _n
-    file w p2 _tab(6) `""value": `value_school_well',"' _n
-    file w p2 _tab(6) `""score": `score_school_well',"' _n
+    file w p2 _tab(6) `""value": `value_school_wells',"' _n
+    file w p2 _tab(6) `""score": `score_school_wells',"' _n
     file w p2 _tab(6) `""points": [0,2,8,12,25],"'  _n
     file w p2 _tab(6) `""scale_marks": [0,25,50,75,100]"' _n
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux d’écoles avec des latrines\nfonctionnelles pour chaque classe","' _n
-    file w p2 _tab(6) `""value": `value_school_latrines' * 100,"' _n
+    file w p2 _tab(6) `""value": `value_school_latrines',"' _n
     file w p2 _tab(6) `""score": `score_school_latrines',"'  _n
     file w p2 _tab(6) `""points": [0,3,6,10,15],"'  _n
     file w p2 _tab(6) `""scale_marks": [25,40,60,80,100]"' _n
@@ -216,11 +218,13 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "SANTÉ","' _n
     file w p2 _tab(4) `""points": `total_health',"'  _n
     file w p2 _tab(4) `""max_points": 40,"'  _n
+    file w p1 _tab(4) `""stars": 3,"' _n
+
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux d’accouchements assistés\npendant l’année","'  _n
-    file w p2 _tab(6) `""value": `value_assisted_births' * 100,"'  _n
+    file w p2 _tab(6) `""value": `value_assisted_births',"'  _n
     file w p2 _tab(6) `""score": `score_assisted_births',"'  _n
     file w p2 _tab(6) `""points": [0,5,10,15],"'  _n
     file w p2 _tab(6) `""scale_marks": [35,65,85,100]"' _n
@@ -228,7 +232,7 @@ forval i = 1/`=_N' {
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux de nourrissons 0-11 mois ayant été\nvaccinés avec le BCG, VAR, VAA, VPO3,\nDTC-Hep+Hib3 en 2014","'  _n
-    file w p2 _tab(6) `""value": `value_vaccines' * 100,"'  _n
+    file w p2 _tab(6) `""value": `value_vaccines',"'  _n
     file w p2 _tab(6) `""score": `score_vaccines',"' _n
     file w p2 _tab(6) `""points": [0,3,5,7,15],"' _n
     file w p2 _tab(6) `""scale_marks": [55,65,75,90,100]"' _n
@@ -236,7 +240,7 @@ forval i = 1/`=_N' {
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu un stock de Gaz de la\nmunicipalité entre juin et décembre 2014","' _n
-    file w p2 _tab(6) `""value": `value_csps' *100,"' _n
+    file w p2 _tab(6) `""value": `value_csps',"' _n
     file w p2 _tab(6) `""score": `score_csps',"'  _n
     file w p2 _tab(6) `""points": [0,5,8,10],"' _n
     file w p2 _tab(6) `""scale_marks": [0,50,80,100]"' _n
@@ -249,12 +253,14 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "EAU ET ASSAINISSEMENT","'  _n
     file w p2 _tab(4) `""points": `total_water_access',"'  _n
     file w p2 _tab(4) `""max_points": 18,"' _n
+    file w p1 _tab(4) `""stars": 3,"' _n
+
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux de la population avec accès à\nune source d’eau potable fonctionnelle à\n1000m pour 300 personnes/forage","' _n
-    file w p2 _tab(6) `""value": `value_water_access'*100,"' _n
-    file w p2 _tab(6) `""score": `score_water_access'],"' _n
+    file w p2 _tab(6) `""value": `value_water_access',"' _n
+    file w p2 _tab(6) `""score": `score_water_access',"' _n
     file w p2 _tab(6) `""points": [0,4,8,12,18],"' _n
     file w p2 _tab(6) `""scale_marks": [15,35,55,75,100]"' _n
     file w p2 _tab(5) "}" _n
@@ -266,11 +272,13 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "ACTES DE NAISSANCES","' _n
     file w p2 _tab(4) `""points": `total_birth_certificates',"' _n
     file w p2 _tab(4) `""max_points": 12,"' _n
+	file w p1 _tab(4) `""stars": 3,"' _n
+	
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
     file w p2 _tab(6) `""label": "Taux d’actes de naissances\ndélivrés comparé aux naissances\nattendues","'  _n
-    file w p2 _tab(6) `""value": `value_birth_certificates' * 100,"' _n
+    file w p2 _tab(6) `""value": `value_birth_certificates',"' _n
     file w p2 _tab(6) `""score": `score_birth_certificates',"' _n
     file w p2 _tab(6) `""points": [0,1,3,5,7,12],"' _n
     file w p2 _tab(6) `""scale_marks": [10,20,45,60,80,100]"' _n
