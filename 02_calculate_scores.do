@@ -177,6 +177,7 @@ keep region ///
 ds, has(type numeric)
 foreach var of varlist `r(varlist)' {
 	replace `var' = round(`var', 0.1)
+	recode `var' (. = 0)
 }
 	 
 /* Note: this line is to be replaced by either an export to 
@@ -399,6 +400,7 @@ keep region ///
 ds, has(type numeric)
 foreach var of varlist `r(varlist)' {
 	replace `var' = round(`var', 0.1)
+	recode `var' (. = 0)
 }
 
 /* Note: this line is to be replaced by either an export to 
