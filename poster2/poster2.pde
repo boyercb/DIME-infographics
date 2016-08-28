@@ -30,7 +30,7 @@ void settings() {
 void setup(){
   
   //LOAD DATA FILE
-  json = loadJSONArray("poster2_data.json");
+  json = loadJSONArray("../data/json/poster2.json");
   
   //for(int j = 10; j < 20; j = j+1){
   for(int j = 0; j < json.size(); j = j+1){
@@ -42,8 +42,8 @@ void setup(){
     background(255);
     fill(0);
   
-    boldFont = createFont("GillSans-Bold",93);
-    lightFont = createFont("GillSans-Light",50);
+    boldFont = createFont("Lato Bold",93);
+    lightFont = createFont("Lato-Light",50);
     
     textFont(boldFont);
     
@@ -69,10 +69,10 @@ void setup(){
       ellipse(middleX + textWidth("COMPÉTENCE MUNICIPALE") + 200 + (i * 30) - ((3*30)/2) + 20, 180, 22, 22);
     }
     
-    sectionHeader(249, "ecoles.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
-    sectionHeader(1156, "sante.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
-    sectionHeader(1942, "water.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points"));
-    sectionHeader(2306, "birth.svg", sections.getJSONObject(3).getString("label"),sections.getJSONObject(3).getFloat("points"),sections.getJSONObject(3).getFloat("max_points"));
+    sectionHeader(249, "svg/ecoles.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
+    sectionHeader(1156, "svg/sante.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
+    sectionHeader(1942, "svg/water.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points"));
+    sectionHeader(2306, "svg/birth.svg", sections.getJSONObject(3).getString("label"),sections.getJSONObject(3).getFloat("points"),sections.getJSONObject(3).getFloat("max_points"));
     
     //ÉCOLES PRIMAIRES
     
@@ -219,7 +219,7 @@ void stars(int rating, int yPos){
   fill(0);
   //space between stars
   int gap = 60; 
-  star = loadShape("star.svg");
+  star = loadShape("svg/star.svg");
   star.disableStyle();
   star.scale(0.8);
   strokeWeight(1);
@@ -497,7 +497,7 @@ void total(String year, float totalPoints, float maxPoints, int stars){
   fill(0);
   //space between stars
   int gap = 70; 
-  star = loadShape("star.svg");
+  star = loadShape("svg/star.svg");
   star.disableStyle();
   star.scale(1);
   noStroke();
