@@ -180,7 +180,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Écart entre le taux d'admission du\nCEP dans la commune et au niveau\nnational (en points de pourcentage)","'  _n
+    file w p2 _tab(6) `""label": "Écart entre le taux d'admission du CEP (commune vs. national)","'  _n
     file w p2 _tab(6) `""value": `value_passing_exam',"' _n
     file w p2 _tab(6) `""score": `score_passing_exam',"'  _n
     file w p2 _tab(6) `""points": [0,4,8,14,18],"' _n
@@ -188,7 +188,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Retard moyen d'approvisionnement en\n fournitures scolaires (mesuré en nombre de\njours après la rentrée scolaire)","' _n
+    file w p2 _tab(6) `""label": "Retard moyen d'approvisionnement en fournitures scolaires (nombre de jours)","' _n
     file w p2 _tab(6) `""value": `value_school_supplies',"' _n
     file w p2 _tab(6) `""score": `score_school_supplies',"'  _n
     file w p2 _tab(6) `""points": [0,1,3,6,10],"'  _n
@@ -204,7 +204,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’écoles avec des latrines\nfonctionnelles pour chaque classe","' _n
+    file w p2 _tab(6) `""label": "Taux d’écoles avec des latrines fonctionnelles pour chaque classe","' _n
     file w p2 _tab(6) `""value": `value_school_latrines',"' _n
     file w p2 _tab(6) `""score": `score_school_latrines',"'  _n
     file w p2 _tab(6) `""points": [0,3,6,10,15],"'  _n
@@ -223,7 +223,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’accouchements assistés\npendant l’année","'  _n
+    file w p2 _tab(6) `""label": "Taux d’accouchements assistés pendant l’année","'  _n
     file w p2 _tab(6) `""value": `value_assisted_births',"'  _n
     file w p2 _tab(6) `""score": `score_assisted_births',"'  _n
     file w p2 _tab(6) `""points": [0,5,10,15],"'  _n
@@ -231,7 +231,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de nourrissons 0-11 mois ayant été\nvaccinés avec le BCG, VAR, VAA, VPO3,\nDTC-Hep+Hib3 en 2014","'  _n
+    file w p2 _tab(6) `""label": "Taux de nourrissons 0-11 mois ayant été vaccinés en 2014","'  _n
     file w p2 _tab(6) `""value": `value_vaccines',"'  _n
     file w p2 _tab(6) `""score": `score_vaccines',"' _n
     file w p2 _tab(6) `""points": [0,3,5,7,15],"' _n
@@ -239,7 +239,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu un stock de Gaz de la\nmunicipalité entre juin et décembre 2014","' _n
+    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu un stock de Gaz de la municipalité entre juin et décembre 2014","' _n
     file w p2 _tab(6) `""value": `value_csps',"' _n
     file w p2 _tab(6) `""score": `score_csps',"'  _n
     file w p2 _tab(6) `""points": [0,5,8,10],"' _n
@@ -258,7 +258,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de la population avec accès à\nune source d’eau potable fonctionnelle à\n1000m pour 300 personnes/forage","' _n
+    file w p2 _tab(6) `""label": "Taux de la population avec accès à une source d’eau potable fonctionnelle à 1000m pour 300 personnes/forage","' _n
     file w p2 _tab(6) `""value": `value_water_access',"' _n
     file w p2 _tab(6) `""score": `score_water_access',"' _n
     file w p2 _tab(6) `""points": [0,4,8,12,18],"' _n
@@ -277,7 +277,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’actes de naissances\ndélivrés comparé aux naissances\nattendues","'  _n
+    file w p2 _tab(6) `""label": "Taux d’actes de naissances délivrés comparé aux naissances attendues","'  _n
     file w p2 _tab(6) `""value": `value_birth_certificates',"' _n
     file w p2 _tab(6) `""score": `score_birth_certificates',"' _n
     file w p2 _tab(6) `""points": [0,1,3,5,7,12],"' _n
