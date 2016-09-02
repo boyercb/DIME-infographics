@@ -35,7 +35,7 @@ The [`poster1.pde`](poster1/poster1.pde) and [`poster2.pde`](poster2/poster2.pde
 ## Examples
 
 ### Poster 1
-![ABSOUYA Slide](poster1/pdf/ABSOUYA.pdf)
+![ABSOUYA Slide](https://github.com/boyercb/DIME-infographics/blob/master/poster1/pdf/ABSOUYA.pdf)
 
 ### Poster 2
-![ABSOUYA Slide](poster2/pdf/ABSOUYA.pdf)
+![ABSOUYA Slide](https://github.com/boyercb/DIME-infographics/blob/master/poster2/pdf/ABSOUYA.pdf)
