@@ -27,12 +27,12 @@ forval i = 1/`=_N' {
     
     * header
     file w p1 _tab(1) "{" _n 
-    file w p1 _tab(2) `""label": "COMPÉTENCE MUNICIPALE 2014/15","' _n
+    file w p1 _tab(2) `""label": "PERFORMANCE MUNICIPALE 2014/15","' _n
     file w p1 _tab(2) `""year": "2014/15","' _n 
     file w p1 _tab(2) `""commune": `commune',"' _n
     file w p1 _tab(2) `""total_points": `total_points',"' _n
     file w p1 _tab(2) `""max_points": 86,"' _n 
-    file w p1 _tab(2) `""stars": 3,"' _n
+    file w p1 _tab(2) `""stars": `stars_total',"' _n
 	
     file w p1 _tab(2) `""items":["' _n 
     
@@ -41,7 +41,7 @@ forval i = 1/`=_N' {
     file w p1 _tab(4) `""label": "MAIRIE/SERVICES MUNICIPAUX","' _n
     file w p1 _tab(4) `""points": `total_services',"' _n
     file w p1 _tab(4) `""max_points": 10,"' _n
-	file w p1 _tab(4) `""stars": 3,"' _n
+	file w p1 _tab(4) `""stars": `stars_services',"' _n
     file w p1 _tab(4) `""personnel": {"' _n
 	file w p1 _tab(5) `""agent_materiel_transfere": `value_personnel1',"' _n
     file w p1 _tab(5) `""agent_secretaire": `value_personnel2',"' _n
@@ -55,39 +55,45 @@ forval i = 1/`=_N' {
 	file w p1 _tab(3) "}," _n
     
     * section 2: councils 
-    file w p1 _tab(3) "{"
+    file w p1 _tab(3) "{" _n
     file w p1 _tab(4) `""label": "CONSEIL MUNICIPAL","' _n
     file w p1 _tab(4) `""points": `total_council',"' _n
     file w p1 _tab(4) `""max_points": 23,"' _n
-    file w p1 _tab(4) `""stars": 3,"' _n
+    file w p1 _tab(4) `""stars": `stars_council',"' _n
 
     file w p1 _tab(4) `""items": ["' _n
 
     * subsection 2.1: 
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Nombre de sessions du Conseil Municipal tenues en 2014","' _n
-    file w p1 _tab(6) `""value": `value_meetings1',"' _n
+    file w p1 _tab(6) `""label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014","' _n
     file w p1 _tab(6) `""score": `score_meetings1',"' _n
-    file w p1 _tab(6) `""points": [0,2,5],"' _n
-    file w p1 _tab(6) `""scale_marks": [0,2,4]"' _n
-    file w p1 _tab(5) "}," _n
-    
-    * subsection 2.2:
-    file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Taux de participation aux réunions ordinaires du Conseil Municipal (%)","' _n
-    file w p1 _tab(6) `""value": `value_attendance',"' _n
-    file w p1 _tab(6) `""score": `score_attendance',"' _n
-    file w p1 _tab(6) `""points": [0,1,4,6,8,10],"' _n
-    file w p1 _tab(6) `""scale_marks": [20,40,60,80,90,100]"' _n
+    file w p1 _tab(6) `""meetings": {"' _n
+	file w p1 _tab(7) `""session_1": `value_meetings1_1',"' _n
+	file w p1 _tab(7) `""session_2": `value_meetings1_2',"' _n
+	file w p1 _tab(7) `""session_3": `value_meetings1_3',"' _n
+	file w p1 _tab(7) `""session_4": `value_meetings1_4'"' _n
+    file w p1 _tab(6) "}" _n
     file w p1 _tab(5) "}," _n
     
     * subsection 2.3:
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Nombre de cadre de concertations organisés par la mairie en 2014","' _n
-    file w p1 _tab(6) `""value": `value_meetings2',"' _n
+    file w p1 _tab(6) `""label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014","' _n
     file w p1 _tab(6) `""score": `score_meetings2',"' _n
-    file w p1 _tab(6) `""points": [0,2,4,6,8],"' _n
-    file w p1 _tab(6) `""scale_marks": [0,1,2,3,4]"' _n
+    file w p1 _tab(6) `""meetings": {"' _n
+	file w p1 _tab(7) `""session_1": `value_meetings2_1',"' _n
+	file w p1 _tab(7) `""session_2": `value_meetings2_2',"' _n
+	file w p1 _tab(7) `""session_3": `value_meetings2_3',"' _n
+	file w p1 _tab(7) `""session_4": `value_meetings2_4'"' _n
+    file w p1 _tab(6) "}" _n	
+    file w p1 _tab(5) "}," _n
+	
+    * subsection 2.2:
+    file w p1 _tab(5) "{" _n
+    file w p1 _tab(6) `""label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)","' _n
+    file w p1 _tab(6) `""value": `value_attendance',"' _n
+    file w p1 _tab(6) `""score": `score_attendance',"' _n
+    file w p1 _tab(6) `""points": [0,1,4,6,8,10],"' _n
+    file w p1 _tab(6) `""scale_marks": [20,40,60,80,90,100]"' _n
     file w p1 _tab(5) "}" _n
     
     file w p1 _tab(4) "]" _n
@@ -98,13 +104,13 @@ forval i = 1/`=_N' {
     file w p1 _tab(4) `""label": "GESTION FINANCIERE","' _n
     file w p1 _tab(4) `""points": `total_finances',"' _n
     file w p1 _tab(4) `""max_points": 53,"' _n
-    file w p1 _tab(4) `""stars": 3,"' _n
+    file w p1 _tab(4) `""stars": `stars_finances',"' _n
 
     file w p1 _tab(4) `""items": ["' _n
     
     * subsection 3.1: 
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Recettes fiscales collectées en 2014 (FCFA/habitant)","' _n
+    file w p1 _tab(6) `""label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)","' _n
     file w p1 _tab(6) `""value": `value_taxes_raised',"' _n
     file w p1 _tab(6) `""score": `score_taxes_raised',"' _n
     file w p1 _tab(6) `""points": [0,10,15,25],"' _n
@@ -113,7 +119,7 @@ forval i = 1/`=_N' {
     
     * subsection 3.2: 
     file w p1 _tab(5) "{" _n 
-    file w p1 _tab(6) `""label": "Taux du recouvrement de taxes en 2014 en fonction des prévisions (%)","' _n
+    file w p1 _tab(6) `""label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)","' _n
     file w p1 _tab(6) `""value": `value_taxes_forecast',"' _n
     file w p1 _tab(6) `""score": `score_taxes_forecast',"' _n
     file w p1 _tab(6) `""points": [0,2,4,6,8,10],"' _n
@@ -122,7 +128,7 @@ forval i = 1/`=_N' {
     
     * subsection 3.3
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Taux d’exécution du plan de passation des marchés au cours de 2014 (%)","' _n
+    file w p1 _tab(6) `""label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)","' _n
     file w p1 _tab(6) `""value": `value_procurement',"' _n
     file w p1 _tab(6) `""score": `score_procurement',"' _n
     file w p1 _tab(6) `""points": [0,1,4,7,12,16],"' _n
@@ -162,12 +168,12 @@ forval i = 1/`=_N' {
     }    
     
     file w p2 _tab(1) "{" _n
-    file w p2 _tab(2) `""label": "COMPÉTENCE MUNICIPALE 2014/15","' _n
+    file w p2 _tab(2) `""label": "PERFORMANCE MUNICIPALE 2014/15","' _n
     file w p2 _tab(2) `""year": "2014/15","' _n
     file w p2 _tab(2) `""commune": `commune',"' _n
     file w p2 _tab(2) `""total_points": `total_points',"'  _n
     file w p2 _tab(2) `""max_points": 140,"'  _n
-    file w p2 _tab(2) `""stars": 3,"' _n
+    file w p2 _tab(2) `""stars": `stars_total',"' _n
 
     file w p2 _tab(2) `""items":["' _n
 
@@ -175,12 +181,12 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "ÉCOLES PRIMAIRES","' _n
     file w p2 _tab(4) `""points": `total_school',"'  _n
     file w p2 _tab(4) `""max_points": 70,"'  _n
-    file w p2 _tab(4) `""stars": 3,"' _n
+    file w p2 _tab(4) `""stars": `stars_school',"' _n
 
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Écart entre le taux d'admission du CEP (commune vs. national)","'  _n
+    file w p2 _tab(6) `""label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)","'  _n
     file w p2 _tab(6) `""value": `value_passing_exam',"' _n
     file w p2 _tab(6) `""score": `score_passing_exam',"'  _n
     file w p2 _tab(6) `""points": [0,4,8,14,18],"' _n
@@ -188,7 +194,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Retard moyen d'approvisionnement en fournitures scolaires (nombre de jours)","' _n
+    file w p2 _tab(6) `""label": "Retard moyen d'appro-\nvisionnement en fournitures\nscolaires (nombre de jours\naprès la rentrée scolaire)","' _n
     file w p2 _tab(6) `""value": `value_school_supplies',"' _n
     file w p2 _tab(6) `""score": `score_school_supplies',"'  _n
     file w p2 _tab(6) `""points": [0,1,3,6,10],"'  _n
@@ -196,7 +202,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d'écoles avec un forage fonctionnel","'  _n
+    file w p2 _tab(6) `""label": "Taux d'écoles avec\nun forage fonctionnel","'  _n
     file w p2 _tab(6) `""value": `value_school_wells',"' _n
     file w p2 _tab(6) `""score": `score_school_wells',"' _n
     file w p2 _tab(6) `""points": [0,2,8,12,25],"'  _n
@@ -204,7 +210,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’écoles avec des latrines fonctionnelles pour chaque classe","' _n
+    file w p2 _tab(6) `""label": "Taux d’écoles avec\ndes latrines fonctionnelles\npour chaque classe","' _n
     file w p2 _tab(6) `""value": `value_school_latrines',"' _n
     file w p2 _tab(6) `""score": `score_school_latrines',"'  _n
     file w p2 _tab(6) `""points": [0,3,6,10,15],"'  _n
@@ -218,12 +224,12 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "SANTÉ","' _n
     file w p2 _tab(4) `""points": `total_health',"'  _n
     file w p2 _tab(4) `""max_points": 40,"'  _n
-    file w p2 _tab(4) `""stars": 3,"' _n
+    file w p2 _tab(4) `""stars": `stars_health',"' _n
 
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’accouchements assistés pendant l’année","'  _n
+    file w p2 _tab(6) `""label": "Taux d’accouchements\nassistés pendant l’année","'  _n
     file w p2 _tab(6) `""value": `value_assisted_births',"'  _n
     file w p2 _tab(6) `""score": `score_assisted_births',"'  _n
     file w p2 _tab(6) `""points": [0,5,10,15],"'  _n
@@ -231,7 +237,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de nourrissons 0-11 mois ayant été vaccinés en 2014","'  _n
+    file w p2 _tab(6) `""label": "Taux de nourrissons\n0-11 mois ayant été vaccinés\navec le BCG, VAR, VAA, VPO3,\nDTC-Hep+Hib3 en 2014","'  _n
     file w p2 _tab(6) `""value": `value_vaccines',"'  _n
     file w p2 _tab(6) `""score": `score_vaccines',"' _n
     file w p2 _tab(6) `""points": [0,3,5,7,15],"' _n
@@ -239,7 +245,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu un stock de Gaz de la municipalité entre juin et décembre 2014","' _n
+    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu\nun stock de Gaz de la\nmunicipalité entre juin\net décembre 2014","' _n
     file w p2 _tab(6) `""value": `value_csps',"' _n
     file w p2 _tab(6) `""score": `score_csps',"'  _n
     file w p2 _tab(6) `""points": [0,5,8,10],"' _n
@@ -253,12 +259,12 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "EAU ET ASSAINISSEMENT","'  _n
     file w p2 _tab(4) `""points": `total_water_access',"'  _n
     file w p2 _tab(4) `""max_points": 18,"' _n
-    file w p2 _tab(4) `""stars": 3,"' _n
+    file w p2 _tab(4) `""stars": `stars_water_access',"' _n
 
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de la population avec accès à une source d’eau potable fonctionnelle à 1000m pour 300 personnes/forage","' _n
+    file w p2 _tab(6) `""label": "Taux de la population avec\naccès à une source d’eau\npotable fonctionnelle à 1000m\npour 300 personnes/forage","' _n
     file w p2 _tab(6) `""value": `value_water_access',"' _n
     file w p2 _tab(6) `""score": `score_water_access',"' _n
     file w p2 _tab(6) `""points": [0,4,8,12,18],"' _n
@@ -272,12 +278,12 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""label": "ACTES DE NAISSANCES","' _n
     file w p2 _tab(4) `""points": `total_birth_certificates',"' _n
     file w p2 _tab(4) `""max_points": 12,"' _n
-	file w p2 _tab(4) `""stars": 3,"' _n
+	file w p2 _tab(4) `""stars": `stars_birth_certificates',"' _n
 	
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’actes de naissances délivrés comparé aux naissances attendues","'  _n
+    file w p2 _tab(6) `""label": "Taux d’actes de naissances\ndélivrés comparé aux\nnaissances attendues","'  _n
     file w p2 _tab(6) `""value": `value_birth_certificates',"' _n
     file w p2 _tab(6) `""score": `score_birth_certificates',"' _n
     file w p2 _tab(6) `""points": [0,1,3,5,7,12],"' _n

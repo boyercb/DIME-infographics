@@ -1,3 +1,4 @@
+*! version 1.2 Christopher Boyer 11sep2016
 *! version 1.1 Christopher Boyer 01aug2016
 *! version 1.0 Christopher Boyer 04jul2016
 
@@ -52,6 +53,21 @@ replace value_personnel5 = "true" if agent_service_techniques == 1
 replace value_personnel6 = "true" if comptable == 1
 replace value_personnel7 = "true" if regisseur_recettes == 1
 replace value_personnel8 = "true" if agent_affaires_domaniales == 1
+
+forval i = 1/4 {
+	g value_meetings1_`i' = "false"
+	g value_meetings2_`i' = "false"
+}
+
+replace value_meetings1_1 = "true" if value_meetings1 >= 1 & value_meetings1 < .
+replace value_meetings1_2 = "true" if value_meetings1 >= 2 & value_meetings1 < .
+replace value_meetings1_3 = "true" if value_meetings1 >= 3 & value_meetings1 < .
+replace value_meetings1_4 = "true" if value_meetings1 >= 4 & value_meetings1 < .
+
+replace value_meetings2_1 = "true" if value_meetings2 >= 1 & value_meetings2 < .
+replace value_meetings2_2 = "true" if value_meetings2 >= 2 & value_meetings2 < .
+replace value_meetings2_3 = "true" if value_meetings2 >= 3 & value_meetings2 < .
+replace value_meetings2_4 = "true" if value_meetings2 >= 4 & value_meetings2 < .
 
 /* 2. indicator scores - the number at the top of the
    sliding scale in the infographic */
@@ -147,8 +163,14 @@ g total_services = score_personnel
 g total_council = score_meetings1 + score_meetings2 + score_attendance 
 g total_finances = score_taxes_raised + score_taxes_forecast + score_procurement
 
+xtile stars_services = total_services, nq(5)
+xtile stars_council = total_council, nq(5)
+xtile stars_finances = total_finances, nq(5)
+
 * calculate total score
 g total_points = total_services + total_council + total_finances
+
+xtile stars_total = total_points, nq(5)
 
 * keep only important variables
 keep region ///
@@ -157,6 +179,8 @@ keep region ///
 	 value_personnel* ///
 	 value_meetings1 ///
 	 value_meetings2 ///
+	 value_meetings1_* ///
+	 value_meetings2_* ///
 	 value_attendance ///
 	 value_taxes_raised ///
 	 value_taxes_forecast ///
@@ -171,7 +195,11 @@ keep region ///
 	 total_services ///
 	 total_council ///
 	 total_finances ///
-	 total_points
+	 total_points ///
+	 stars_services ///
+	 stars_council ///
+	 stars_finances ///
+	 stars_total
 
 * round numeric variables to the nearest tenth
 ds, has(type numeric)
@@ -196,7 +224,7 @@ use "${dta}/merged.dta", clear
      combining the ecole, district sanitaire, CEB, water access, and 
 	 questionnaire files and aggregating data to the district level */
 	 
-local national_average = 65.2
+local national_average = 82.2
 
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
@@ -207,9 +235,9 @@ g value_passing_exam = 100 * sd_a_01students_admitted_exam / sd_a_01students_adm
 g value_school_supplies = supplies_received
 
 * calculated by aggregating number of latrines per class
-g value_school_latrines = functional_latrines
+g value_school_latrines = 100 * functional_latrines
 
-g value_school_wells = functional_water / 100
+g value_school_wells = 100 * functional_water
 
 g value_assisted_births = 100 * assisted_deliveries / projected_deliveries
 
@@ -223,13 +251,13 @@ g var = vaccination_coverage_var / target_vaccination_var
 
 g vaa  = vaccination_coverage_vaa / target_vaccination_vaa
 
-g value_vaccines = bcg * vpo3 * dtc * var * vaa * 100
+g value_vaccines = (bcg + vpo3 + dtc + var + vaa)/5 * 100
 
-g value_csps = sd_a_01stock_gas
+g value_csps = 100 * sd_a_01stock_gas
 
 g value_water_access = tauxaccess
 
-g value_birth_certificates = birth_certificates / projected_deliveries
+g value_birth_certificates = 100 * birth_certificates / projected_deliveries
 
 
 /* 2. indicator scores - the number at the top of the
@@ -253,7 +281,10 @@ replace score_passing_exam = 18 if value_passing_exam <= 35
 replace score_passing_exam = 20 if value_passing_exam > 35 & value_passing_exam < .
 
 * delay in provision of school supplies
-g score_school_supplies = max(0, 10 - sqrt(3 * value_school_supplies))
+g score_school_supplies = 0
+replace score_school_supplies = 10 if value_school_supplies <= 1
+replace score_school_supplies = 10 / (value_school_supplies ^ 0.5) if value_school_supplies > 1 & value_school_supplies <= 200
+replace score_school_supplies = 0 if value_school_supplies > 200 & !mi(value_school_supplies)
 
 * percentage of schools with working water source
 g score_school_wells = 0
@@ -324,7 +355,7 @@ replace score_vaccines = 14 if value_vaccines >= 140 & value_vaccines < .
 replace score_vaccines = 15 if value_vaccines >= 150 & value_vaccines < .
 
 * percentage of CSPS with stocked gas
-g score_csps = 10 * value_csps
+g score_csps = value_csps / 10
 
 * percentage of the population with access to potable water source
 g score_water_access = 0
@@ -365,8 +396,15 @@ g total_health = score_assisted_births + score_vaccines + score_csps
 g total_water_access = score_water_access
 g total_birth_certificates = score_birth_certificates
 
+xtile stars_school = total_school, nq(5)
+xtile stars_health = total_health, nq(5)
+xtile stars_water_access = total_water_access, nq(5)
+xtile stars_birth_certificates = total_birth_certificates, nq(5)
+
 * calculate total score
 g total_points = total_school + total_health + total_water_access + total_birth_certificates
+
+xtile stars_total = total_points, nq(5)
 
 * keep only important variables
 keep region ///
@@ -394,7 +432,12 @@ keep region ///
 	 total_health ///
 	 total_water_access ///
 	 total_birth_certificates ///
-	 total_points
+	 total_points ///
+	 stars_school ///
+	 stars_health ///
+	 stars_water_access ///
+	 stars_birth_certificates ///
+	 stars_total
 
 * round numeric variables to the nearest tenth
 ds, has(type numeric)
