@@ -11,7 +11,7 @@ def resize(file, scale):
     img = Image.open(file)
     fname, ext = os.path.splitext(file)
     width, height = img.size
-    resized = img.resize((math.floor(width * scale), math.floor(height * scale)))
+    resized = img.resize((868, 613))
     resized.save(fname + "_resized.png")
 
 for file in glob.glob('*.jpg'):

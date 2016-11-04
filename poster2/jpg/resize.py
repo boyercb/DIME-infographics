@@ -12,7 +12,8 @@ def resize(file, scale):
     fname, ext = os.path.splitext(file)
     width, height = img.size
     resized = img.resize((868, 613))
-    cropped = resized.crop((0, 69, 868, 613))
+    # was 69
+    cropped = resized.crop((0, 50, 868, 560))
     cropped.save(fname + "_resized.png")
 
 for file in glob.glob('*.jpg'):
