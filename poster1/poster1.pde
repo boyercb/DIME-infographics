@@ -7,21 +7,24 @@ PShape icn;
 PShape star;
 PShape person;
 PShape check;
+PShape meet;
 
 PFont boldFont;
 PFont lightFont;
 
-PImage img1;
-PImage img2;
-PImage img3;
-PImage img3b;
-PImage img4;
-PImage img5;
-PImage img6;
-PImage img7;
-PImage img8;
-PImage img9;
-PImage img10;
+PImage img111;
+PImage img211;
+PImage img231;
+PImage img232;
+PImage img221;
+PImage img311;
+PImage img312;
+PImage img321;
+PImage img322;
+PImage img331;
+PImage img332;
+
+PImage logo;
 
 Table data;
 
@@ -42,14 +45,14 @@ void settings() {
 void setup(){
   
   //LOAD DATA FILE
-  json = loadJSONArray("../data/json/poster1.json");
+  json = loadJSONArray("../data/json/2015/poster1.json");
   
   //for(int j = 10; j < 20; j = j+1){
   for(int j = 0; j < json.size(); j = j+1){
 
     JSONObject communeData = json.getJSONObject(j);
     JSONArray sections = communeData.getJSONArray("items");
-    beginRecord(PDF, "pdf/" + communeData.getString("commune") + ".pdf");
+    beginRecord(PDF, "pdf/2015/" + communeData.getString("commune") + ".pdf");
     //size(w, h);
     background(255);
     fill(0);
@@ -57,137 +60,132 @@ void setup(){
     boldFont = createFont("Lato Bold", 93);
     lightFont = createFont("Lato-Light", 50);
     
-    img1 = loadImage("jpg/personel dans la municipalite 01 ecrito copie_resized.png");
-    img2 = loadImage("jpg/nombre de session ordinaire_resized.png");
-    img3 = loadImage("jpg/taux de participation au reunin ordinaire 01 copie_resized.png");
-    img3b = loadImage("jpg/taux de participation au reunin ordinaire 02 copie_resized.png"); 
-    img4 = loadImage("jpg/cadre de concertation 002 copie_resized.png");
-    img5 = loadImage("jpg/recette fiscale 01_resized.png");
-    img6 = loadImage("jpg/recette fiscale 02_resized.png");
-    img7 = loadImage("jpg/recettes fiscales par tête d'habitant01_resized.png");
-    img8 = loadImage("jpg/Recettes fiscales par tête d'habitant_resized.png");
-    img9 = loadImage("jpg/plan de passassion de marche 01_resized.png");
-    img10 = loadImage("jpg/plan de passassion de marche 02_resized.png");
+    img111= loadImage("jpg/personel dans la municipalite 01 ecrito copie_resized.png");
+    img211 = loadImage("jpg/nombre de session ordinaire_resized.png");
+    img231 = loadImage("jpg/taux de participation au reunin ordinaire_left_resized.png");
+    img232 = loadImage("jpg/taux de participation au reunin ordinaire_right_resized.png"); 
+    img221 = loadImage("jpg/cadre de concertation 002 copie_resized.png");
+    img311 = loadImage("jpg/recettes fiscales_left_resized.png");
+    img312 = loadImage("jpg/recettes fiscales_right_resized.png");
+    img321 = loadImage("jpg/Recettes fiscales par tête d'habitant_left_resized.png");
+    img322 = loadImage("jpg/recettes fiscales par tête d'habitant_right_resized.png");
+    img331 = loadImage("jpg/plan de passassion de marche left 2_resized.png");
+    img332 = loadImage("jpg/plan de passassion de marche right 2_resized.png");
 
+    logo = loadImage("svg/logo.jpg");
+    
     textFont(boldFont);
     
     //SECTION: Title
-  
+    String commune = communeData.getString("commune");
     fill(primaryColor);
-    text(communeData.getString("label"), 77, 100);
+    text("MUNICIPALITÉ DE " + commune.replaceAll("_", " "), (w - textWidth("MUNICIPALITÉ DE " + commune)) / 2, 100);
     
     fill(textColor);
     textFont(lightFont);
-    text("CAPACITÉ INSTITUTIONELLE", 77, 170);
+    text(communeData.getString("label"), 77, 170);
     textAlign(RIGHT);
-    text("MUNICIPALITÉ DE " + communeData.getString("commune"), 1883, 170);
+    text("CAPACITÉ INSTITUTIONELLE", 1883, 170);
     textAlign(LEFT);
     
-    float middleX = (w - textWidth("MUNICIPALITÉ DE " + communeData.getString("commune")) - textWidth("CAPACITÉ INSTITUTIONELLE") - 400) * 0.5;
+    float middleX = (w - textWidth("CAPACITÉ INSTITUTIONELLE") - textWidth(communeData.getString("label")) - 400) * 0.5;
     
     //three dots FIXME
-    noStroke();
+/*  noStroke();
     fill(highlightColor);
     for (int i = 0; i < 3; i = i+1) {
-      ellipse(middleX + textWidth("CAPACITÉ INSTITUTIONELLE") + 200 + (i * 30) - ((3*30)/2) + 20, 150, 22, 22);
-    }
+      ellipse(middleX + textWidth(communeData.getString("label")) + 200 + (i * 30) - ((3*30)/2) + 20, 150, 22, 22);
+    } */
     
+    image(logo, middleX + textWidth(communeData.getString("label")) + 200 - 125/2, 113, 125, 86);
 
      // original 1446, 434
-    image(img1, 100, 335, 1018, 306);
+    // image(img111, 100, 355, 1018, 306);
     // original (868, 613)
-    image(img2, 287.5, 865, 439, 306);
+    image(img211, 350, 845, 373, 260);
     // original (868, 613)
-    image(img3, 1025, 865, 439, 306);
-    image(img3b, 1485, 865, 439, 306);
+    image(img221, 350, 1130, 373, 260);
     // original (1363, 613)
-    image(img4, 287.5, 1395, 681, 306); 
+    image(img231, 350, 1415, 373, 260);
+    image(img232, 1535, 1415, 373, 260);
     // originals (613, 434)
-    image(img5, 100, 1880, 434, 306);
-    image(img6, 554, 1880, 434, 306);       
+    image(img311, 350, 1840, 373, 260);
+    image(img312, 1535, 1840, 373, 260);       
     // originals (868, 613)
-    image(img7, 1025, 1880, 439, 306);
-    image(img8, 1485, 1880, 439, 306);    
+    image(img321, 350, 2125, 373, 260);
+    image(img322, 1535, 2125, 373, 260);    
     // originals (613, 434)
-    image(img9, 100, 2300, 434, 306);
-    image(img10, 554, 2300, 434, 306);      
+    image(img331, 350, 2410, 373, 260);
+    image(img332, 1535, 2410, 373, 260);      
     
-    sectionHeader(215, "svg/building.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
-    sectionHeader(725, "svg/council.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
-    sectionHeader(1740, "svg/coins.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points")); 
-    
+    sectionHeader(215, 
+                  "svg/building.svg", 
+                  sections.getJSONObject(0).getString("label"),
+                  sections.getJSONObject(0).getFloat("points"),
+                  sections.getJSONObject(0).getFloat("max_points"),
+                  sections.getJSONObject(0).getInt("stars"));
+    sectionHeader(705,
+                  "svg/council.svg", 
+                  sections.getJSONObject(1).getString("label"),
+                  sections.getJSONObject(1).getFloat("points"),
+                  sections.getJSONObject(1).getFloat("max_points"),
+                  sections.getJSONObject(1).getInt("stars"));
+    sectionHeader(1705, 
+                  "svg/coins.svg", 
+                  sections.getJSONObject(2).getString("label"),
+                  sections.getJSONObject(2).getFloat("points"),
+                  sections.getJSONObject(2).getFloat("max_points"),
+                  sections.getJSONObject(2).getInt("stars")); 
     personnel(sections.getJSONObject(0).getJSONObject("personnel"));
     
+    JSONObject jo;
+    
     //Nombre de sessions du Conseil Municipal tenues en 2014
-    JSONObject jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(0);
-    scale("",
-      jo.getFloat("value"),
-      jo.getFloat("score"),  
-      jo.getJSONArray("points").getIntArray(), 
-      jo.getJSONArray("scale_marks").getIntArray(),
-      287, 1235, "");
-   
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(25);
-    text(jo.getString("label"), 287, 850);
-   
-    //Taux de participation aux réunions ordinaires du Conseil Municipal
-    jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(1);
-    scale("",
-      jo.getFloat("value"),
-      jo.getFloat("score"),  
-      jo.getJSONArray("points").getIntArray(), 
-      jo.getJSONArray("scale_marks").getIntArray(),
-      1200, 1235, "%");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(25);
-    text(jo.getString("label"), 1025, 850);
-  
+    jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(0);
+    meetings(jo.getJSONObject("meetings"),
+             jo.getString("label"),
+             "Session",
+             910);
+ 
     //Nombre de cadre de concertations organisés par la mairie en 2014
+    jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(1);
+    meetings(jo.getJSONObject("meetings"),
+             jo.getString("label"),
+             "Cadre de\nConcertation",
+             1195);
+    
+    //Taux de participation aux réunions ordinaires du Conseil Municipal
     jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(2);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1200, 1525, "");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(25);
-    text(jo.getString("label"), 287, 1380);
+      825, 1525, "%");
     
     //Taux du recouvrement des taxes en fonction de la population de la commune en 2014
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(0);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      287, 2195, " FCFA"); */
-
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(25);
-    text(jo.getString("label"), 287, 1865);
+      825, 1950, " FCFA");
 
     //Taux du recouvrement de taxes en 2014 en fonction des prévisions
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(1);
-    /*scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1086, 2228, "%");*/
+      825, 2235, "%");
       
-    textFont(boldFont);
+  /*  textFont(boldFont);
     textAlign(LEFT);
     textSize(25);
-    text(jo.getString("label"), 1087, 1865);
-/*    
+    text(jo.getString("label"), 1087, 1830);*/
+
     //Taux d’exécution du plan de passation des marchés au cours de 2014
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(2);
     scale(jo.getString("label"),
@@ -195,8 +193,8 @@ void setup(){
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1086, 2456, "%");
-    */
+      825, 2510, "%");
+    
     total(communeData.getString("year"), communeData.getFloat("total_points"), communeData.getFloat("max_points"), communeData.getInt("stars"));
   
     endRecord();
@@ -207,7 +205,7 @@ void setup(){
 }
 
 //Section header template
-void sectionHeader(int yPos, String iconPath, String title, float points, float max){
+void sectionHeader(int yPos, String iconPath, String title, float points, float max, int numstars){
   
   icn = loadShape(iconPath);
   
@@ -243,7 +241,7 @@ void sectionHeader(int yPos, String iconPath, String title, float points, float 
   text("— " + points + "/" + max + " points", tw + 310, yPos + 60);
   
   //FIXME: Figure out the correct star mapping
-  stars(round(points/max * 5), yPos);
+  stars(numstars, yPos);
   
 }
 
@@ -374,11 +372,11 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   // label
   textAlign(RIGHT);
   textFont(boldFont);
-  textSize(35);
+  textSize(24);
   
   float textHeight = split(label, "\n").length * (textAscent() + textDescent());
   
-  text(label, scaleX - 200, scaleY - (textHeight * 0.5) + 50);
+  text(label, scaleX - 373 - 150, scaleY - (textHeight * 0.5) + 50);
   
   
 }
@@ -389,23 +387,25 @@ void personnel(JSONObject peeps){
   person.disableStyle();
   check = loadShape("svg/check.svg");
   
+  String lbl = "Personnel de la municipalité remplissant l’organigramme type";
+  
   fill(0);
   textFont(boldFont);
-  textSize(35);
-  text("Personnel de la municipalité remplissant l’organigramme type", 100, 685);
+  textSize(25);
+  text(lbl, (w - textWidth(lbl))/2, 340);
   
-  textSize(20);
-  textLeading(20);
+  textSize(18);
+  textLeading(18);
   textAlign(CENTER);
   
-  peep("Secrétaire", peeps.getBoolean("agent_secretaire"), 1200, 335);
-  peep("Agent Etat Civil\net des Services\nStatistiques", peeps.getBoolean("agent_etat_civil"), 1400, 335);
-  peep("Comptable", peeps.getBoolean("comptable"), 1600, 335);
-  peep("Régisseur de\nRecettes", peeps.getBoolean("regisseur_recettes"), 1800, 335);
-  peep("Agent de\nMatériel\nTransféré", peeps.getBoolean("agent_materiel_transfere"), 1200, 510);
-  peep("Agent de\nServices\nStatistiques", peeps.getBoolean("agent_services_statistiques"), 1400, 510);
-  peep("Agent de\nService\nTechnique", peeps.getBoolean("agent_service_techniques"), 1600, 510);
-  peep("Agent de Service\ndes Affaires\nDomaniales\net Foncières", peeps.getBoolean("agent_affaires_domaniales_foncieres"), 1800, 510);
+  peep("Secrétaire", peeps.getBoolean("agent_secretaire"), 300, 380);
+  peep("Agent Etat Civil\net des Services\nStatistiques", peeps.getBoolean("agent_etat_civil"), 500, 380);
+  peep("Comptable", peeps.getBoolean("comptable"), 700, 380);
+  peep("Régisseur de\nRecettes", peeps.getBoolean("regisseur_recettes"), 900, 380);
+  peep("Agent de\nMatériel\nTransféré", peeps.getBoolean("agent_materiel_transfere"), 1100, 380);
+  peep("Agent de\nServices\nStatistiques", peeps.getBoolean("agent_services_statistiques"), 1300, 380);
+  peep("Agent de\nService\nTechnique", peeps.getBoolean("agent_service_techniques"), 1500, 380);
+  peep("Agent de Service\ndes Affaires\nDomaniales\net Foncières", peeps.getBoolean("agent_affaires_domaniales_foncieres"), 1700, 380);
 
 }
 
@@ -413,7 +413,7 @@ void peep(String title, Boolean filled, int x, int y){
   
   fill(0);
   // original (50, 240)
-  text(title, x + 25, y + 125);
+  text(title, x + 50, y + 240);
   if(filled) {
     noStroke();
     fill(primaryColor, 255);
@@ -424,10 +424,60 @@ void peep(String title, Boolean filled, int x, int y){
     fill(255);
   }
   // original (85, 209)
-  shape(person, x, y, 42, 104);
+  shape(person, x, y, 85, 209);
   if(filled){
-    shape(check, x, y, 42, 104);
+    shape(check, x, y, 85, 209);
   }
+  
+}
+
+// people icons
+void meetings(JSONObject meets, String label, String icontext, int y){
+  meet = loadShape("svg/session.svg");
+  meet.disableStyle();
+  check = loadShape("svg/check.svg");
+  
+  fill(0);
+  // label
+  textAlign(RIGHT);
+  textFont(boldFont);
+  textSize(25);
+  
+  float textHeight = split(label, "\n").length * (textAscent() + textDescent());
+  
+  text(label, 825 - 373 - 150, y - (textHeight * 0.5) + 90);
+  
+  
+  textSize(18);
+  textLeading(18);
+  textAlign(CENTER);
+  
+  meet(icontext + " 1", meets.getBoolean("session_1"), 850, y);
+  meet(icontext + " 2", meets.getBoolean("session_2"), 1050, y);
+  meet(icontext + " 3", meets.getBoolean("session_3"), 1250, y);
+  meet(icontext + " 4", meets.getBoolean("session_4"), 1450, y);
+  
+}
+
+void meet(String title, Boolean filled, int x, int y){
+  
+  fill(0);
+  // original (50, 240)
+  text(title, x + 75, y + 135);
+  if(filled) {
+    noStroke();
+    fill(primaryColor, 255);
+  }
+  else{
+    stroke(primaryColor);
+    strokeWeight(3);
+    fill(255);
+  }
+  // original (85, 209)
+  shape(meet, x, y, 300, 240);
+  /*if(filled){
+    shape(check, x + 52, y + 10, 42, 104);
+  }*/
   
 }
 
@@ -435,17 +485,17 @@ void total(String year, float totalPoints, float maxPoints, int stars){
   
   stroke(primaryColor);
   strokeWeight(9);
-  line(0, 2656, w, 2656);
+  line(0, 2686, w, 2686);
   
   textFont(lightFont);
   textSize(96);
   textAlign(LEFT);
   fill(primaryColor);
-  text("Points total en " + year + ":", 61, 2772);
+  text("Points total en " + year + ":", 61, 2780);
   float tw = textWidth("Points total en " + year + ":");
   
   textFont(boldFont);
-  text(totalPoints + "/" + maxPoints, 85 + tw, 2772);
+  text(totalPoints + "/" + maxPoints, 85 + tw, 2780);
   
   fill(0);
   //space between stars
@@ -463,7 +513,7 @@ void total(String year, float totalPoints, float maxPoints, int stars){
     else{
       fill(225);
     }
-    shape(star, gap * i + 1550, 2656 + 40);
+    shape(star, gap * i + 1550, 2656 + 48);
     
   }
   
