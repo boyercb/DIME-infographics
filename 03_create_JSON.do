@@ -6,7 +6,7 @@
 version 13
 set more off
 
-
+local yrplus1 = ${year} - 2000 + 1 
 /* =================================================== 
    ==================== Poster 1 ===================== 
    =================================================== */
@@ -27,8 +27,8 @@ forval i = 1/`=_N' {
     
     * header
     file w p1 _tab(1) "{" _n 
-    file w p1 _tab(2) `""label": "PERFORMANCE MUNICIPALE 2014/15","' _n
-    file w p1 _tab(2) `""year": "2014/15","' _n 
+    file w p1 _tab(2) `""label": "PERFORMANCE MUNICIPALE ${year}/`yrplus1'","' _n
+    file w p1 _tab(2) `""year": "${year}/`yrplus1'","' _n 
     file w p1 _tab(2) `""commune": `commune',"' _n
     file w p1 _tab(2) `""total_points": `total_points',"' _n
     file w p1 _tab(2) `""max_points": 86,"' _n 
@@ -65,7 +65,7 @@ forval i = 1/`=_N' {
 
     * subsection 2.1: 
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014","' _n
+    file w p1 _tab(6) `""label": "Nombre de sessions\ndu Conseil Municipal\ntenues en ${year}","' _n
     file w p1 _tab(6) `""score": `score_meetings1',"' _n
     file w p1 _tab(6) `""meetings": {"' _n
 	file w p1 _tab(7) `""session_1": `value_meetings1_1',"' _n
@@ -77,7 +77,7 @@ forval i = 1/`=_N' {
     
     * subsection 2.3:
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014","' _n
+    file w p1 _tab(6) `""label": "Nombre de cadres de\nconcertations organisés\npar la mairie en ${year}","' _n
     file w p1 _tab(6) `""score": `score_meetings2',"' _n
     file w p1 _tab(6) `""meetings": {"' _n
 	file w p1 _tab(7) `""session_1": `value_meetings2_1',"' _n
@@ -110,7 +110,7 @@ forval i = 1/`=_N' {
     
     * subsection 3.1: 
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)","' _n
+    file w p1 _tab(6) `""label": "Recettes fiscales collectées\nen ${year} en fonction de la\npopulation (FCFA/habitant)","' _n
     file w p1 _tab(6) `""value": `value_taxes_raised',"' _n
     file w p1 _tab(6) `""score": `score_taxes_raised',"' _n
     file w p1 _tab(6) `""points": [0,10,15,25],"' _n
@@ -119,7 +119,7 @@ forval i = 1/`=_N' {
     
     * subsection 3.2: 
     file w p1 _tab(5) "{" _n 
-    file w p1 _tab(6) `""label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)","' _n
+    file w p1 _tab(6) `""label": "Taux du recouvrement de\ntaxes en ${year} en fonction\ndes prévisions (%)","' _n
     file w p1 _tab(6) `""value": `value_taxes_forecast',"' _n
     file w p1 _tab(6) `""score": `score_taxes_forecast',"' _n
     file w p1 _tab(6) `""points": [0,2,4,6,8,10],"' _n
@@ -128,7 +128,7 @@ forval i = 1/`=_N' {
     
     * subsection 3.3
     file w p1 _tab(5) "{" _n
-    file w p1 _tab(6) `""label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)","' _n
+    file w p1 _tab(6) `""label": "Taux d’exécution du plan\nde passation des marchés\nau cours de ${year} (%)","' _n
     file w p1 _tab(6) `""value": `value_procurement',"' _n
     file w p1 _tab(6) `""score": `score_procurement',"' _n
     file w p1 _tab(6) `""points": [0,1,4,7,12,16],"' _n
@@ -168,8 +168,8 @@ forval i = 1/`=_N' {
     }    
     
     file w p2 _tab(1) "{" _n
-    file w p2 _tab(2) `""label": "PERFORMANCE MUNICIPALE 2014/15","' _n
-    file w p2 _tab(2) `""year": "2014/15","' _n
+    file w p2 _tab(2) `""label": "PERFORMANCE MUNICIPALE ${year}/`yrplus1'","' _n
+    file w p2 _tab(2) `""year": "${year}/`yrplus1'","' _n
     file w p2 _tab(2) `""commune": `commune',"' _n
     file w p2 _tab(2) `""total_points": `total_points',"'  _n
     file w p2 _tab(2) `""max_points": 140,"'  _n
@@ -197,8 +197,8 @@ forval i = 1/`=_N' {
     file w p2 _tab(6) `""label": "Retard moyen d'appro-\nvisionnement en fournitures\nscolaires (nombre de jours\naprès la rentrée scolaire)","' _n
     file w p2 _tab(6) `""value": `value_school_supplies',"' _n
     file w p2 _tab(6) `""score": `score_school_supplies',"'  _n
-    file w p2 _tab(6) `""points": [0,1,3,6,10],"'  _n
-    file w p2 _tab(6) `""scale_marks": [30,25,15,4,0]"' _n
+    file w p2 _tab(6) `""points": [1,2,3,5,10],"'  _n
+    file w p2 _tab(6) `""scale_marks": [50,25,10,4,0]"' _n
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
@@ -237,7 +237,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de nourrissons\n0-11 mois ayant été vaccinés\navec le BCG, VAR, VAA, VPO3,\nDTC-Hep+Hib3 en 2014","'  _n
+    file w p2 _tab(6) `""label": "Taux de nourrissons\n0-11 mois ayant été vaccinés\navec le BCG, VAR, VAA, VPO3,\nDTC-Hep+Hib3 en ${year}","'  _n
     file w p2 _tab(6) `""value": `value_vaccines',"'  _n
     file w p2 _tab(6) `""score": `score_vaccines',"' _n
     file w p2 _tab(6) `""points": [0,3,5,7,15],"' _n
@@ -245,7 +245,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(5) "}," _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu\nun stock de Gaz de la\nmunicipalité entre juin\net décembre 2014","' _n
+    file w p2 _tab(6) `""label": "Taux de CSPS ayant reçu\nun stock de gaz suffisant de la\nmunicipalité entre juin\net décembre ${year}","' _n
     file w p2 _tab(6) `""value": `value_csps',"' _n
     file w p2 _tab(6) `""score": `score_csps',"'  _n
     file w p2 _tab(6) `""points": [0,5,8,10],"' _n
@@ -283,7 +283,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d’actes de naissances\ndélivrés comparé aux\nnaissances attendues","'  _n
+    file w p2 _tab(6) `""label": "Taux d'actes de naissances\ndélivrés aux nouveau-nés comparé\naux naissance attendues","'  _n
     file w p2 _tab(6) `""value": `value_birth_certificates',"' _n
     file w p2 _tab(6) `""score": `score_birth_certificates',"' _n
     file w p2 _tab(6) `""points": [0,1,3,5,7,12],"' _n

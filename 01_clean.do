@@ -34,7 +34,7 @@ local ids `"`id1' `id2' `id3' `id4' `id5'"'
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "${raw}/`file' 2014_WIDE.csv", ///
+	import delimited using "${raw}/`file' ${year}_WIDE.csv", ///
 		clear bindquotes(strict)
 		
 	* sort data set 
@@ -51,16 +51,16 @@ foreach file of local filenames {
 	drop if dups == 0
 		
 	* export list to excel
-	export excel using "data/duplicates.xlsx", ///
+	export excel using "${etc}/duplicates.xlsx", ///
 	    sheet("`file'") sheetreplace firstrow(var) 
 }
 
-import excel using "data/replacements.xlsx", describe
+import excel using "${etc}/replacements.xlsx", describe
 forval i = 1/`r(N_worksheet)' {
 	local sheet `"`r(worksheet_`i')'"'
 
 	* import the sheet
-	import excel using "data/replacements.xlsx", ///
+	import excel using "${etc}/replacements.xlsx", ///
 	    sheet(`sheet') firstrow clear
 		
 	* save stata data set
@@ -73,7 +73,7 @@ local ids `"`id1' `id2' `id3' `id4' `id5'"'
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "${raw}/`file' 2014_WIDE.csv", ///
+	import delimited using "${raw}/`file' ${year}_WIDE.csv", ///
 		clear bindquotes(strict)
 		
 	* sort data set 
@@ -113,9 +113,18 @@ foreach file of local filenames {
 	* fix inconsistencies in the way communes are named across data sets
 	replace commune = subinstr(commune, "-", "_", .)
 	replace commune = "WOLONKOTO" if commune == "WOLOKONTO"
-	replace commune = "ARIBINDA" if commune == "ARBINDA"
+	replace commune = "ARBINDA" if commune == "ARIBINDA"
 	replace commune = "NIAOGO" if commune == "NIAOGHO"
 	replace commune = "BAGRE" if commune == "BAGRE (TENKODOGO)"
+	replace commune = "SANGA" if commune == "SANGHA"
+	replace commune = "BOUSSOUMA GARANGO" if commune == "BOUSSOUMA_GARANGO" 
+	replace commune = "BOUSSOUMA KAYA" if commune == "BOUSSOUMA_KAYA"
+	replace commune = "ZIMTANGA" if commune == "ZIMTENGA"
+	
+	if "`file'" == "CEB" & ${year} == 2015 {
+		ren students_admitted_exam sd_a_01students_admitted_exam 
+	    ren total_students_sitting_exam sd_a_01total_students_sitting_ex
+	} 
 	
 	* save stata data set
 	save "${dta}/`file'.dta", replace
@@ -133,16 +142,25 @@ foreach file of local filenames {
 use "${dta}/Directeur Ecole.dta", clear
 
 * calculate indicators to be aggregated
-g functional_latrines = (sd_a_02functional_latrines / number_classes) >= 1
-g functional_water = sd_a_01water_source_functional >= 9
-g supplies_received = date(sd_a_03year_month_received_schoo, "MDY", 2100) - ///
-    date("10/01/2014", "MDY") + 7 * (sd_a_03week_received_school_supp - 1)
+if ${year} == 2014 {
+	g functional_latrines = (sd_a_02functional_latrines / number_classes) >= 1
+	g functional_water = sd_a_01water_source_functional >= 9
+	g supplies_received = date(sd_a_03year_month_received_schoo, "MDY", 2100) - ///
+		date("10/01/${year}", "MDY") + 7 * (sd_a_03week_received_school_supp - 1)
+}
+else {
+	replace functional_latrines = (functional_latrines / number_classes) >= 1
+	g functional_water = water_source_functional >= 9
+	g supplies_received = date(year_month_received_schoo, "DMY", 2100) - ///
+		date("10/01/${year}", "MDY") + 7 * (week_received_school_supp - 1)
+
+}
 
 replace supplies_received = 0 if supplies_received < 0
 replace supplies_received = 364 if mi(supplies_received) | supplies_received >= 365 | supplies_received <= -200
 
 * aggregate schooling data by commune
-collapse (mean) functional_latrines functional_water supplies_received, by(commune) cw
+collapse (mean) functional_latrines functional_water supplies_received, by(commune)
 
 save "${dta}/Directeur Ecole.dta", replace
 
@@ -151,7 +169,10 @@ save "${dta}/Directeur Ecole.dta", replace
 use "${dta}/Directeur Formation Sanitaire.dta", clear
 
 * aggregate gas stock data by commune
-collapse (mean) sd_a_01stock_gas , by(commune) cw
+if ${year} == 2015 {
+	g sd_a_01stock_gas = stock_gas
+}
+collapse (mean) sd_a_01stock_gas , by(commune)
 
 save "${dta}/Directeur Formation Sanitaire.dta", replace
 
@@ -164,7 +185,7 @@ gettoken file filenames : filenames
 use "${dta}/`file'.dta", clear
 
 foreach file of local filenames {
-	
+
 	merge 1:1 commune using "${dta}/`file'.dta", nogen
 
 	save "${dta}/merged.dta", replace

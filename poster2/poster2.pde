@@ -30,6 +30,8 @@ PImage img312;
 PImage img411;
 PImage img412;
 
+PImage logo;
+
 Table data;
 
 //colors
@@ -49,14 +51,14 @@ void settings() {
 void setup(){
   
   //LOAD DATA FILE
-  json = loadJSONArray("../data/json/poster2.json");
+  json = loadJSONArray("../data/json/2015/poster2.json");
   
   //for(int j = 10; j < 20; j = j+1){
   for(int j = 0; j < json.size(); j = j+1){
 
     JSONObject communeData = json.getJSONObject(j);
     JSONArray sections = communeData.getJSONArray("items");
-    beginRecord(PDF, "pdf/" + communeData.getString("commune") + ".pdf");
+    beginRecord(PDF, "pdf/2015/" + communeData.getString("commune") + ".pdf");
     //size(w, h);
     background(255);
     fill(0);
@@ -64,213 +66,191 @@ void setup(){
     boldFont = createFont("Lato Bold", 83);
     lightFont = createFont("Lato-Light", 40);
     
-    img111 = loadImage("jpg/CEP 001_resized.png");
-    img112 = loadImage("jpg/CEP 002_resized.png");
-    img121 = loadImage("jpg/eleves qui li en classe 02_resized.png");
-    img122 = loadImage("jpg/eleves qui li en classe 01 copie_resized.png"); 
-    img131 = loadImage("jpg/ecole avec forage 001_resized.png");
-    img132 = loadImage("jpg/ecole avec forage 0002_resized.png");
-    img141 = loadImage("jpg/ecole avec latrine_resized.png");
-    img142 = loadImage("jpg/ecole sans latrine_resized.png");
-    img211 = loadImage("jpg/accouchement assistee 002_resized.png");
-    img212 = loadImage("jpg/accouchement nom assistee 01_resized.png");
-    img221 = loadImage("jpg/vaccin de 0-11-00002 copie_resized.png"); 
-    img222 = loadImage("jpg/vaccin de 0-11-00001 copie_resized.png"); 
-    img231 = loadImage("jpg/csps recu un stock de gaz 01_resized.png"); 
-    img232 = loadImage("jpg/csps sans stock de gaz 02_resized.png"); 
-    img311 = loadImage("jpg/village avec forage 01_resized.png"); 
-    img312 = loadImage("jpg/village sans forage_resized.png"); 
-    img411 = loadImage("jpg/maireie acte de naissances present_resized.png"); 
-    img412 = loadImage("jpg/maireie acte de naissances abscent_resized.png"); 
+    img111 = loadImage("jpg/CEP_left_resized.png");
+    img112 = loadImage("jpg/CEP_right_resized.png");
+    img121 = loadImage("jpg/eleves qui li en classe_left_resized.png");
+    img122 = loadImage("jpg/eleves qui li en classe_right_resized.png"); 
+    img131 = loadImage("jpg/ecole avec forage_left_resized.png");
+    img132 = loadImage("jpg/ecole avec forage_right_resized.png");
+    img141 = loadImage("jpg/ecole sans latrine_left_resized.png");
+    img142 = loadImage("jpg/ecole avec latrine_right_resized.png");
+    img211 = loadImage("jpg/accouchement nom assistee_left_resized.png");
+    img212 = loadImage("jpg/accouchement assistee_right_resized.png");
+    img221 = loadImage("jpg/vaccin de 0-11_left_resized.png"); 
+    img222 = loadImage("jpg/vaccin de 0-11_right_resized.png"); 
+    img231 = loadImage("jpg/csps sans stock de gaz_left_resized.png"); 
+    img232 = loadImage("jpg/csps recu un stock de gaz_right_resized.png"); 
+    img311 = loadImage("jpg/village sans forage_left_resized.png"); 
+    img312 = loadImage("jpg/village avec forage_right_resized.png"); 
+    img411 = loadImage("jpg/maireie acte de naissances abscent_left_resized.png"); 
+    img412 = loadImage("jpg/maireie acte de naissances present_right_resized.png"); 
+
+    logo = loadImage("svg/logo.jpg");
 
     textFont(boldFont);
     
     //SECTION: Title
   
+    String commune = communeData.getString("commune");
     fill(primaryColor);
-    text(communeData.getString("label"), 77, 90);
+    text("MUNICIPALITÉ DE " + commune.replaceAll("_", " "), (w - textWidth("MUNICIPALITÉ DE " + commune)) / 2, 90);
     
     fill(textColor);
     textFont(lightFont);
-    text("SERVICES PUBLICS", 77, 140);
-    //text("CAPACITÉ INSTITUTIONELLE", 77, 200);
+    text(communeData.getString("label"), 77, 140);
     textAlign(RIGHT);
-    text("MUNICIPALITÉ DE " + communeData.getString("commune"), 1883, 140);
+    text("SERVICES PUBLICS", w - 77 - textWidth(communeData.getString("label"))/2 + textWidth("SERVICES PUBLIC")/2, 140);
     textAlign(LEFT);
     
-    float middleX = (w - textWidth("MUNICIPALITÉ DE " + communeData.getString("commune")) - textWidth("CAPACITÉ INSTITUTIONELLE") - 400) * 0.5;
+    float middleX = (w - 102) * 0.5;
     
     //three dots FIXME
-    noStroke();
+/*  noStroke();
     fill(highlightColor);
     for (int i = 0; i < 3; i = i+1) {
-      ellipse(middleX + textWidth("COMPÉTENCE MUNICIPALE") + 200 + (i * 30) - ((3*30)/2) + 20, 130, 22, 22);
-    }
+      ellipse(middleX + textWidth(communeData.getString("label")) + 200 + (i * 30) - ((3*30)/2) + 20, 150, 22, 22);
+    } */
+    //+ textWidth(communeData.getString("label")) + 200 - 125/2
+    image(logo, middleX , 108, 102, 70);
 
-    image(img111, 100, 300, 394, 248);    // original (868, 613)
-    image(img112, 528, 300, 394, 248);    // original (868, 613)
-    image(img121, 1020, 300, 394, 248);   // original (868, 613)
-    image(img122, 1448, 300, 394, 248);   // original (869, 613)    
-    image(img131, 100, 730, 394, 248);    //
-    image(img132, 528, 730, 394, 248); 
-    image(img141, 1020, 730, 394, 248);
-    image(img142, 1448, 730, 394, 248);   
+    image(img111, 350, 285, 373, 220);    // original (868, 613)
+    image(img112, 1535, 285, 373, 220);    // original (868, 613)
+    image(img121, 350, 520, 373, 220);   // original (868, 613)
+    image(img122, 1535, 520, 373, 220);   // original (869, 613)    
+    image(img131, 350, 755, 373, 220);    //
+    image(img132, 1535, 755, 373, 220); 
+    image(img141, 350, 990, 373, 220);
+    image(img142, 1535, 990, 373, 220);   
    
     // section 2
-    image(img211, 100, 1251, 394, 248);
-    image(img212, 528, 1251, 394, 248);    
-    image(img221, 1020, 1251, 394, 248);
-    image(img222, 1448, 1251, 394, 248);      
-    image(img231, 287, 1685, 394, 248);
-    image(img232, 715, 1685, 394, 248);  
+    image(img211, 350, 1320, 373, 220);
+    image(img212, 1535, 1320, 373, 220);    
+    image(img221, 350, 1555, 373, 220);
+    image(img222, 1535, 1555, 373, 220);      
+    image(img231, 350, 1785, 373, 220);
+    image(img232, 1535, 1785, 373, 220);  
 
     // section 3
-    image(img311, 287, 2066, 394, 248);
-    image(img312, 715, 2066, 394, 248);
+    image(img311, 350, 2130, 373, 220);
+    image(img312, 1535, 2130, 373, 220);
      
     // section 4
-    image(img411, 287, 2446, 394, 248);
-    image(img412, 715, 2446, 394, 248);
+    image(img411, 350, 2466, 373, 220);
+    image(img412, 1535, 2466, 373, 220);
     
-    sectionHeader(180, "svg/ecoles.svg", sections.getJSONObject(0).getString("label"),sections.getJSONObject(0).getFloat("points"),sections.getJSONObject(0).getFloat("max_points"));
-    sectionHeader(1131, "svg/sante.svg", sections.getJSONObject(1).getString("label"),sections.getJSONObject(1).getFloat("points"),sections.getJSONObject(1).getFloat("max_points"));
-    sectionHeader(1946, "svg/water.svg", sections.getJSONObject(2).getString("label"),sections.getJSONObject(2).getFloat("points"),sections.getJSONObject(2).getFloat("max_points"));
-    sectionHeader(2326, "svg/birth.svg", sections.getJSONObject(3).getString("label"),sections.getJSONObject(3).getFloat("points"),sections.getJSONObject(3).getFloat("max_points"));
+    sectionHeader(185, 
+                  "svg/ecoles.svg", 
+                  sections.getJSONObject(0).getString("label"),
+                  sections.getJSONObject(0).getFloat("points"),
+                  sections.getJSONObject(0).getFloat("max_points"),
+                  sections.getJSONObject(0).getInt("stars"));
+    sectionHeader(1230, 
+                  "svg/sante.svg", 
+                  sections.getJSONObject(1).getString("label"),
+                  sections.getJSONObject(1).getFloat("points"),
+                  sections.getJSONObject(1).getFloat("max_points"),
+                  sections.getJSONObject(1).getInt("stars"));
+    sectionHeader(2026, 
+                  "svg/water.svg", 
+                  sections.getJSONObject(2).getString("label"),
+                  sections.getJSONObject(2).getFloat("points"),
+                  sections.getJSONObject(2).getFloat("max_points"),
+                  sections.getJSONObject(2).getInt("stars"));
+    sectionHeader(2366,
+                  "svg/birth.svg", 
+                  sections.getJSONObject(3).getString("label"),
+                  sections.getJSONObject(3).getFloat("points"),
+                  sections.getJSONObject(3).getFloat("max_points"),
+                  sections.getJSONObject(3).getInt("stars"));
     
     //ÉCOLES PRIMAIRES
     
     //Taux d'Admission du CEP comparé à la moyenne nationale
     JSONObject jo = sections.getJSONObject(0).getJSONArray("items").getJSONObject(0);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      225, 595, "%");
+      825, 375, "pts de %");
 
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 280, 285);
-    
     //% d'écoles recevant les fournitures scolaires avant le début de l'année scolaire 2013/2014
     jo = sections.getJSONObject(0).getJSONArray("items").getJSONObject(1);
-    scaleBackward("",
+    scaleBackward(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1150, 595, "%");
-
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 1050, 285);
+      825, 610, "jours");
     
     //% d'écoles avec un forage fonctionnel
     jo = sections.getJSONObject(0).getJSONArray("items").getJSONObject(2);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      225, 1027, "%");
-    
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 300, 710);
+      825, 855, "%");
     
     //d’écoles avec des latrines fonctionnelles pour chaque classe
     jo = sections.getJSONObject(0).getJSONArray("items").getJSONObject(3);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1150, 1027, "%");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 1100, 710);
+      825, 1080, "%");
     
     //SANTÉ
       
     //d’accouchements assistés pendant l’année
     jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(0);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      225, 1548, "%");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 280, 1235);
-    
+      825, 1410, "%");
       
     //de nourrissons 0-11 mois ayant été vaccinés avec le BCG, VAR, VAA, VPO3, DTC-Hep+Hib3 en 2013
     jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(1);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1150, 1548, "%");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 1150, 1235);
+      825, 1645, "%");
       
     //de CSPS ayant reçu un stock de Gaz de la municipalité entre juin et décembre 2013*
     jo = sections.getJSONObject(1).getJSONArray("items").getJSONObject(2);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1200, 1778, "%");
-     
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 280, 1664);
+      825, 1875, "%");
     
     //EAU ET ASSAINISSEMENT
     
     //de la population avec accès à une source d’eau potable fonctionnelle à 1000m pour 300 personnes/ forage.*
     jo = sections.getJSONObject(2).getJSONArray("items").getJSONObject(0);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1200, 2170, "%");
-     
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 280, 2049);
+      825, 2220, "%");
     
     //ACTES DE NAISSANCES
     
     //Nombre d’actes de naissances délivrés comparé aux naissances attendues
     jo = sections.getJSONObject(3).getJSONArray("items").getJSONObject(0);
-    scale("",
+    scale(jo.getString("label"),
       jo.getFloat("value"),
       jo.getFloat("score"),  
       jo.getJSONArray("points").getIntArray(), 
       jo.getJSONArray("scale_marks").getIntArray(),
-      1200, 2550, "%");
-      
-    textFont(boldFont);
-    textAlign(LEFT);
-    textSize(22);
-    text(jo.getString("label"), 280, 2430);
+      825, 2556, "%");
     
     total(communeData.getString("year"), communeData.getFloat("total_points"), communeData.getFloat("max_points"), communeData.getInt("stars"));
   
@@ -282,7 +262,7 @@ void setup(){
 }
 
 //Section header template
-void sectionHeader(int yPos, String iconPath, String title, float points, float max){
+void sectionHeader(int yPos, String iconPath, String title, float points, float max, int numstars){
   
   icn = loadShape(iconPath);
   
@@ -296,16 +276,25 @@ void sectionHeader(int yPos, String iconPath, String title, float points, float 
   
   line(65, yPos, 1638, yPos);
   
-  ellipse(136, 97 + yPos, 246, 246);
-  shape(icn, 26, 10 + yPos);
+  // original ellipse (246, 246)
+  if (iconPath == "svg/sante.svg") {
+      ellipse(136, 67 + yPos, 200, 200);
+      shape(icn, 51,yPos - 5, 180, 180);
+  } else if (iconPath == "svg/birth.svg") {
+      ellipse(136, 67 + yPos, 200, 200);
+      shape(icn, 46,yPos, 180, 180);    
+  } else {
+      ellipse(136, 67 + yPos, 200, 200);
+      shape(icn, 46,yPos - 20, 180, 180);    
+  }
   
   fill(255);
   noStroke();
   beginShape();
   vertex(1647,yPos - 10);
   vertex(1710,yPos - 10);
-  vertex(1660,yPos + 100);
-  vertex(1597,yPos + 100);
+  vertex(1660,yPos + 80);
+  vertex(1597,yPos + 80);
   endShape();
   
   textFont(boldFont);
@@ -318,12 +307,12 @@ void sectionHeader(int yPos, String iconPath, String title, float points, float 
   text("— " + points + "/" + max + " points", tw + 300, yPos + 52);
   
   //FIXME: Figure out the correct star mapping
-  stars(int((points/max)/(.2)), yPos);
+  stars(numstars, yPos);
   
 }
 
 //Stars for section ratings
-void stars(int rating, int yPos){
+void stars(float rating, int yPos){
   fill(0);
   //space between stars
   int gap = 60; 
@@ -334,23 +323,24 @@ void stars(int rating, int yPos){
   stroke(primaryColor);
   
   for (int i = 0; i < 5; i = i+1) {
-    
-    if(i < rating){
-      fill(primaryColor);
-    }
-    else{
-      fill(primaryColor, 30);
-    }
-    shape(star, gap * i + 1640, yPos + 15);
-    
+     fill(primaryColor, 30);
+     shape(star, gap * i + 1640, yPos + 15);
   }
+
+  for (int i = 0; i < floor(rating); i = i+1) {
+     fill(primaryColor);
+     shape(star, gap * i + 1640, yPos + 15);
+  }
+
+     //shape(star, gap * (floor(rating) + 1) + 1640, yPos + 15);
+
 }
 
 //Tara - edit
 void scaleBackward(String label, float value, float score, int[] points, int[] scaleMarks, int scaleX, int scaleY, String scaleUnit){
   println("value: " + value);
   int scaleHeight = 50;
-  int scaleWidth = 700;
+  int scaleWidth = 600;
   
   int startColor = color(235,180,158);
   int endColor = primaryColor;
@@ -376,6 +366,7 @@ void scaleBackward(String label, float value, float score, int[] points, int[] s
     }
   }
   
+
   //gap lines
   for (int i = 0; i < points.length; i = i+1) {
     stroke(255);
@@ -437,11 +428,11 @@ void scaleBackward(String label, float value, float score, int[] points, int[] s
   textSize(22);
   for (int i = 0; i < points.length; i = i+1) {
     //blank out label if close to score
-    if(abs(value - scaleMarks[i]) > .1 * (max - min) && xPos + map(scaleMarks[i], min, max, 0, scaleWidth) != 0){
+    if(abs(value - scaleMarks[i]) > .1 * (min - max) && xPos + map(scaleMarks[i], max, min, 0, scaleWidth) != 0){
       text(str(points[i]), map(scaleMarks[i], min, max, 0, scaleWidth) + scaleX, scaleY - 15);
     }
   }
-  text("pts.", scaleWidth + scaleX + 75, scaleY - 15);
+  text("pts.", scaleWidth + scaleX + 50, scaleY - 15);
   
   //bottom labels (scale marks)
   textFont(lightFont);
@@ -449,7 +440,7 @@ void scaleBackward(String label, float value, float score, int[] points, int[] s
   for (int i = 0; i < scaleMarks.length; i = i+1) {
     
     //blank out label if close to value
-    if(abs(value - scaleMarks[i]) > .1 * (max - min) && xPos + map(scaleMarks[i], min, max, 0, scaleWidth) != 0){
+    if(abs(value - scaleMarks[i]) > .1 * (min - max) && xPos + map(scaleMarks[i], max, min, 0, scaleWidth) != 0){
        text(scaleMarks[i], map(scaleMarks[i], min, max, 0, scaleWidth) + scaleX, scaleY + scaleHeight + 30);
     }
   }
@@ -460,11 +451,11 @@ void scaleBackward(String label, float value, float score, int[] points, int[] s
   // label
   textAlign(RIGHT);
   textFont(boldFont);
-  textSize(35);
+  textSize(22);
   
   float textHeight = split(label, "\n").length * (textAscent() + textDescent());
   
-  text(label, scaleX - 200, scaleY - (textHeight * 0.5) + 50);
+  text(label, scaleX - 373 - 150, scaleY - (textHeight * 0.5) + 50);
   
   
 }
@@ -479,8 +470,8 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   int scaleHeight = 50;
   int scaleWidth = 600;
   
-  int startColor = color(217,239,235);
-  int endColor = color(110,200,192);
+  int startColor = color(235,180,158);
+  int endColor = primaryColor;
   
   int gap = 3;
   
@@ -531,7 +522,7 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   ellipse(xPos + scaleX, scaleY - 22, 45, 45);
   ellipse(xPos + scaleX, scaleY + 72, 45, 45);
   
-  fill(0);
+  fill(255);
   textAlign(CENTER);
 
   
@@ -548,6 +539,8 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   textFont(lightFont);
   textSize(22);
   text(round(value), xPos + scaleX, scaleY + scaleHeight + 30);
+  
+  fill(0);
   
   //top labels (points)
   textFont(boldFont);
@@ -576,11 +569,11 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   // label
   textAlign(RIGHT);
   textFont(boldFont);
-  textSize(35);
+  textSize(22);
   
   float textHeight = split(label, "\n").length * (textAscent() + textDescent());
   
-  text(label, scaleX - 200, scaleY - (textHeight * 0.5) + 50);
+  text(label, scaleX - 373 - 150, scaleY - (textHeight * 0.5) + 50);
   
   
 }
@@ -611,7 +604,7 @@ void total(String year, float totalPoints, float maxPoints, int stars){
   
   for (int i = 0; i < 5; i = i+1) {
     
-    if(i < stars){
+    if(i < stars + 0.1){
       fill(highlightColor);
     }
     else{

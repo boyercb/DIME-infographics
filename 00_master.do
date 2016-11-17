@@ -9,15 +9,17 @@
    
 version 13
 set more off
- 
+	
  
 /* =================================================== 
    ================== set globals ==================== 
    =================================================== */
    
-global raw  "data/raw"
-global dta  "data/dta"
-global json "data/json"
+global year 2015
+global raw  "data/raw/${year}"
+global dta  "data/dta/${year}"
+global json "data/json/${year}"
+global etc  "data/etc/${year}"
 
 
 /* =================================================== 
@@ -27,5 +29,3 @@ global json "data/json"
 do "01_clean.do"
 do "02_calculate_scores.do"
 do "03_create_JSON.do"
-
-

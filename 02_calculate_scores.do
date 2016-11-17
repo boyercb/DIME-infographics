@@ -36,9 +36,9 @@ g avg = (councilor_attendance_meeting1 +  ///
 		 
 g value_attendance = (avg * 100) / total_councilor
 
-g value_taxes_raised = local_taxes_2014_amount / compop2014
+g value_taxes_raised = local_taxes_${year}_amount / compop${year}
 
-g value_taxes_forecast = 100 * local_taxes_2014_amount / local_taxes_forecast_2014
+g value_taxes_forecast = 100 * local_taxes_${year}_amount / local_taxes_forecast_${year}
 
 g value_procurement = execution_equipment_procurement_
 
@@ -229,7 +229,7 @@ local national_average = 82.2
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
 
-g value_passing_exam = 100 * sd_a_01students_admitted_exam / sd_a_01students_admitted_exam - `national_average'
+g value_passing_exam = 100 * (sd_a_01students_admitted_exam / sd_a_01total_students_sitting_ex) - `national_average'
 
 * no. of weeks before or after start of school year that supplies were received
 g value_school_supplies = supplies_received
@@ -265,19 +265,19 @@ g value_birth_certificates = 100 * birth_certificates / projected_deliveries
 
 * difference from national average in pass rates of CEP
 g score_passing_exam = 0
-replace score_passing_exam = 1 if value_passing_exam <= -40
-replace score_passing_exam = 2 if value_passing_exam <= -30
-replace score_passing_exam = 3 if value_passing_exam <= -25
-replace score_passing_exam = 4 if value_passing_exam <= -20
-replace score_passing_exam = 5 if value_passing_exam <= -15
-replace score_passing_exam = 6 if value_passing_exam <= -10
-replace score_passing_exam = 7 if value_passing_exam <= -5
-replace score_passing_exam = 8 if value_passing_exam <= 5
-replace score_passing_exam = 9 if value_passing_exam <= 10
-replace score_passing_exam = 10 if value_passing_exam <= 15
-replace score_passing_exam = 12 if value_passing_exam <= 20
-replace score_passing_exam = 14 if value_passing_exam <= 25
-replace score_passing_exam = 18 if value_passing_exam <= 35
+replace score_passing_exam = 1 if value_passing_exam <= -40 
+replace score_passing_exam = 2 if value_passing_exam <= -30 & value_passing_exam > -40
+replace score_passing_exam = 3 if value_passing_exam <= -25 & value_passing_exam > -30
+replace score_passing_exam = 4 if value_passing_exam <= -20 & value_passing_exam > -25
+replace score_passing_exam = 5 if value_passing_exam <= -15 & value_passing_exam > -20
+replace score_passing_exam = 6 if value_passing_exam <= -10 & value_passing_exam > -15
+replace score_passing_exam = 7 if value_passing_exam <= -5 & value_passing_exam > -10
+replace score_passing_exam = 8 if value_passing_exam <= 5 & value_passing_exam > -5
+replace score_passing_exam = 9 if value_passing_exam <= 10 & value_passing_exam > 5
+replace score_passing_exam = 10 if value_passing_exam <= 15 & value_passing_exam > 10
+replace score_passing_exam = 12 if value_passing_exam <= 20 & value_passing_exam > 15
+replace score_passing_exam = 14 if value_passing_exam <= 25 & value_passing_exam > 20
+replace score_passing_exam = 18 if value_passing_exam <= 35 & value_passing_exam > 25
 replace score_passing_exam = 20 if value_passing_exam > 35 & value_passing_exam < .
 
 * delay in provision of school supplies
