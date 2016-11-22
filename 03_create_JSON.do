@@ -7,6 +7,8 @@ version 13
 set more off
 
 local yrplus1 = ${year} - 2000 + 1 
+
+
 /* =================================================== 
    ==================== Poster 1 ===================== 
    =================================================== */
@@ -283,7 +285,7 @@ forval i = 1/`=_N' {
     file w p2 _tab(4) `""items": ["' _n
 
     file w p2 _tab(5) "{" _n
-    file w p2 _tab(6) `""label": "Taux d'actes de naissances\ndélivrés aux nouveau-nés comparé\naux naissance attendues","'  _n
+    file w p2 _tab(6) `""label": "Taux d'actes de naissances\ndélivrés aux nouveau-nés\ncomparé aux naissance\nattendues","'  _n
     file w p2 _tab(6) `""value": `value_birth_certificates',"' _n
     file w p2 _tab(6) `""score": `score_birth_certificates',"' _n
     file w p2 _tab(6) `""points": [0,1,3,5,7,12],"' _n

@@ -111,7 +111,7 @@ void setup(){
       ellipse(middleX + textWidth(communeData.getString("label")) + 200 + (i * 30) - ((3*30)/2) + 20, 150, 22, 22);
     } */
     //+ textWidth(communeData.getString("label")) + 200 - 125/2
-    image(logo, middleX , 108, 102, 70);
+    image(logo, middleX , 95, 127, 85);
 
     image(img111, 350, 285, 373, 220);    // original (868, 613)
     image(img112, 1535, 285, 373, 220);    // original (868, 613)
@@ -451,7 +451,7 @@ void scaleBackward(String label, float value, float score, int[] points, int[] s
   // label
   textAlign(RIGHT);
   textFont(boldFont);
-  textSize(22);
+  textSize(20);
   
   float textHeight = split(label, "\n").length * (textAscent() + textDescent());
   
@@ -569,7 +569,7 @@ void scale(String label, float value, float score, int[] points, int[] scaleMark
   // label
   textAlign(RIGHT);
   textFont(boldFont);
-  textSize(22);
+  textSize(20);
   
   float textHeight = split(label, "\n").length * (textAscent() + textDescent());
   
