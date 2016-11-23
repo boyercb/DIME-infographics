@@ -1,3 +1,4 @@
+*! version 1.4 Christopher Boyer 23nov2016
 *! version 1.0 Christopher Boyer 19aug2016
 
 /* this file creates JSON formatted text files

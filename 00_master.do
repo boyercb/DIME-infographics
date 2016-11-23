@@ -1,3 +1,4 @@
+*! version 1.4 Christopher Boyer 23nov2016
 *! version 1.0 Christopher Boyer 04aug2016
 
 /* this is the master file for the creation of infographic 

@@ -1,3 +1,4 @@
+*! version 1.4 Christopher Boyer 23nov2016
 *! version 1.0 Christopher Boyer 01aug2016
 
 /* this file cleans raw indicator csv-files 
