@@ -43,7 +43,7 @@ The [`poster1.pde`](poster1/poster1.pde) and [`poster2.pde`](poster2/poster2.pde
   2. Open [`00_master.do`](00_master.do). Update the `year` global macro to `X`; update the `national_average` global to the average rate of admission to the CEP for year `X`. Then run.
   3. If there are duplicate observations they will be written to `duplicates.xlsx` in the [`data/etc`](data/etc) folder. You can mark which to keep (e.g. the most recent submission) in the `replacements.xlsx` file. You will need to re-run [`00_master.do`](00_master.do).
   4. If there have been any changes in the names of variables you can update them in either the [`01_clean.do`](01_clean.do) file or the [`02_calculate_scores.do`](02_calculate_scores.do).
-  5. If you are using [Stata 13](http://www.stata.com/) you will need to open the json files at this point ([`poster1.json`](data/json/2014/poster1.json) and [`poster2.json`](data/json/2014/poster2.json)) and replace the character "Ã‰" with the character "É" and save both with UTF-8 encoding (Stata 14 supports Unicode). 
+  5. If you are using [Stata 13](http://www.stata.com/) you will need to open the json files at this point ([`poster1.json`](data/json/2014/poster1.json) and [`poster2.json`](data/json/2014/poster2.json)) and replace the character `Ã‰` with the character `É` and save both with UTF-8 encoding (Stata 14 supports Unicode by default). 
   6. Open [`poster1.pde`](poster1/poster1.pde). Update the year variable to `X` and run. This will create the infographic posters for poster design #1.
   7. Open [`poster2.pde`](poster2/poster2.pde). Update the year variable to `X` and run. This will create the infographic posters for poster design #2.
 
