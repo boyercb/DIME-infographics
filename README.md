@@ -33,7 +33,7 @@ The [`poster1.pde`](poster1/poster1.pde) and [`poster2.pde`](poster2/poster2.pde
   1. Clone the repository to your local directory.
   2. Download and install the [Processing Development Environment](https://processing.org/download/?processing).
   3. Open and run [`00_master.do`](00_master.do). This will run all other do-files and process the raw data and create [`poster1.json`](data/json/poster1.json) and [`poster2.json`](data/json/poster2.json).
-  4. If you are using [Stata 13](http://www.stata.com/) you will need to open the json files at this point ([`poster1.json`](data/json/2014/poster1.json) and [`poster2.json`](data/json/2014/poster2.json)) and replace the character "Ã‰" with the character "É" and save both with UTF-8 encoding (Stata 14 supports Unicode). 
+  4. If you are using [Stata 13](http://www.stata.com/) you will need to open the json files at this point ([`poster1.json`](data/json/2014/poster1.json) and [`poster2.json`](data/json/2014/poster2.json)) and replace the character `Ã‰` with the character `É` and save both with UTF-8 encoding (Stata 14 supports Unicode). 
   5. Open and run [`poster1.pde`](poster1/poster1.pde). This will create the infographic posters for poster design #1.
   6. Open and run [`poster2.pde`](poster2/poster2.pde). This will create the infographic posters for poster design #2.
 
