@@ -10,7 +10,7 @@ Data for the infographic indicators were collected via interviews with key infor
  - [`District Sanitaire 2014_WIDE.csv`](data/raw/2014/District Sanitaire 2014_WIDE.csv)
  - [`Municipalite 2014_WIDE.csv`](data/raw/2014/Municipalite 2014_WIDE.csv)
 
- In addition, data about the availability of potable water should be converted to a `dta` file and copied, by year, to the [`data/dta`](data/dta) folder (example from 2014/2015 below): 
+In addition, data about the availability of potable water should be converted to a `dta` file and copied, by year, to the [`data/dta`](data/dta) folder (example from 2014/2015 below): 
 
  - [`Access Potable Water.dta`](data/dta/2014/Access Potable Water.dta)
 
