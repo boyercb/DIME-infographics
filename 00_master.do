@@ -15,7 +15,9 @@ set more off
    ================== set globals ==================== 
    =================================================== */
    
-global year 2014
+global year = 2015
+global national_average = 82.2
+
 global raw  "data/raw/${year}"
 global dta  "data/dta/${year}"
 global json "data/json/${year}"

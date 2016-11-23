@@ -223,13 +223,11 @@ use "${dta}/merged.dta", clear
   /* Note - aggregate_final.csv is created in a separate do-file by
      combining the ecole, district sanitaire, CEB, water access, and 
 	 questionnaire files and aggregating data to the district level */
-	 
-local national_average = 82.2
 
 /* 1. indicator values - the number at the bottom of
    the sliding scale in the infographic */
 
-g value_passing_exam = 100 * (sd_a_01students_admitted_exam / sd_a_01total_students_sitting_ex) - `national_average'
+g value_passing_exam = 100 * (sd_a_01students_admitted_exam / sd_a_01total_students_sitting_ex) - $national_average
 
 * no. of weeks before or after start of school year that supplies were received
 g value_school_supplies = supplies_received
