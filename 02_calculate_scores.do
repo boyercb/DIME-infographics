@@ -97,10 +97,10 @@ g score_meetings2 = value_meetings2 * 2
 
 * average attendance for the meetings held in 2013
 g score_attendance = 0
-replace score_attendance = 1 -((60 - value_attendance) / 20) if value_attendance >= 20 & value_attendance < 40
-replace score_attendance = 5 + ((80 - value_attendance) / 10) if value_attendance >= 40 & value_attendance < 80
-replace score_attendance = 7 + ((90 - value_attendance) / 5) if value_attendance >= 80 & value_attendance < 90
-replace score_attendance = 10 + ((100 - value_attendance) * 3 / 10) if value_attendance >= 90 & value_attendance < 100
+replace score_attendance = 1 - ((40 - value_attendance) / 20) if value_attendance >= 20 & value_attendance < 40
+replace score_attendance = 5 - ((80 - value_attendance) / 10) if value_attendance >= 40 & value_attendance < 80
+replace score_attendance = 7 - ((90 - value_attendance) / 5) if value_attendance >= 80 & value_attendance < 90
+replace score_attendance = 10 - ((100 - value_attendance) * 3 / 10) if value_attendance >= 90 & value_attendance < 100
 replace score_attendance = 10 if value_attendance >= 100 & value_attendance < .
 
 * local taxes raised in 2013
@@ -131,13 +131,14 @@ replace score_taxes_raised = 25 if value_taxes_raised >= 7500 & value_taxes_rais
 
 * local taxes raised in 2013 / forecast for 2013
 g score_taxes_forecast = 0
-replace score_taxes_forecast = 1 if value_taxes_forecast >= 60 & value_taxes_forecast < .
-replace score_taxes_forecast = 2 if value_taxes_forecast >= 65 & value_taxes_forecast < .
-replace score_taxes_forecast = 3 if value_taxes_forecast >= 70 & value_taxes_forecast < .
-replace score_taxes_forecast = 4 if value_taxes_forecast >= 75 & value_taxes_forecast < .
-replace score_taxes_forecast = 5 if value_taxes_forecast >= 80 & value_taxes_forecast < .
-replace score_taxes_forecast = 6 if value_taxes_forecast >= 85 & value_taxes_forecast < .
-replace score_taxes_forecast = 7 if value_taxes_forecast >= 90 & value_taxes_forecast < .
+replace score_taxes_forecast = 1 if value_taxes_forecast >= 55 & value_taxes_forecast < .
+replace score_taxes_forecast = 2 if value_taxes_forecast >= 60 & value_taxes_forecast < .
+replace score_taxes_forecast = 3 if value_taxes_forecast >= 66 & value_taxes_forecast < .
+replace score_taxes_forecast = 4 if value_taxes_forecast >= 70 & value_taxes_forecast < .
+replace score_taxes_forecast = 5 if value_taxes_forecast >= 75 & value_taxes_forecast < .
+replace score_taxes_forecast = 6 if value_taxes_forecast >= 80 & value_taxes_forecast < .
+replace score_taxes_forecast = 7 if value_taxes_forecast >= 85 & value_taxes_forecast < .
+replace score_taxes_forecast = 8 if value_taxes_forecast >= 90 & value_taxes_forecast < .
 replace score_taxes_forecast = 9 if value_taxes_forecast >= 95 & value_taxes_forecast < .
 replace score_taxes_forecast = 10 if value_taxes_forecast >= 100 & value_taxes_forecast < .
 

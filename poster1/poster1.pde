@@ -45,14 +45,14 @@ void settings() {
 void setup(){
   
   //LOAD DATA FILE
-  json = loadJSONArray("../data/json/2014/poster1.json");
+  json = loadJSONArray("../data/json/2015/poster1.json");
   
   //for(int j = 10; j < 20; j = j+1){
   for(int j = 0; j < json.size(); j = j+1){
 
     JSONObject communeData = json.getJSONObject(j);
     JSONArray sections = communeData.getJSONArray("items");
-    beginRecord(PDF, "pdf/2014/" + communeData.getString("commune") + ".pdf");
+    beginRecord(PDF, "pdf/2015/" + communeData.getString("commune") + ".pdf");
     //size(w, h);
     background(255);
     fill(0);
@@ -91,7 +91,8 @@ void setup(){
     float middleX = (w - textWidth("CAPACITÉ INSTITUTIONNELLE") - textWidth(communeData.getString("label")) - 400) * 0.5;
     
     //three dots FIXME
-/*  noStroke();
+    /*  
+    noStroke();
     fill(highlightColor);
     for (int i = 0; i < 3; i = i+1) {
       ellipse(middleX + textWidth(communeData.getString("label")) + 200 + (i * 30) - ((3*30)/2) + 20, 150, 22, 22);

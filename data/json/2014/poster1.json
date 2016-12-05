@@ -3,9 +3,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ABSOUYA,
-		"total_points": 38.79999923706055,
+		"total_points": 34.20000076293945,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -25,9 +25,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.80000019073486,
+				"points": 10.19999980926514,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -52,15 +52,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.80000305175781,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 19,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -74,7 +74,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 76.40000152587891,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -93,7 +93,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ANDEMTENGA,
-		"total_points": 33.09999847412109,
+		"total_points": 33.90000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -115,9 +115,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 11.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -142,15 +142,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.5,
-						"score": 7.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -164,7 +164,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 57.20000076293945,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -183,7 +183,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ARBINDA,
-		"total_points": 20.60000038146973,
+		"total_points": 19.39999961853027,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -205,7 +205,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.60000038146973,
+				"points": 10.39999961853027,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -232,8 +232,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87,
-						"score": 7.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -297,7 +297,7 @@
 				"label": "CONSEIL MUNICIPAL",
 				"points": 13,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -323,7 +323,7 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 100,
 						"score": 10,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -363,7 +363,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANE,
-		"total_points": 32.59999847412109,
+		"total_points": 32.40000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -385,7 +385,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 8.600000381469727,
+				"points": 7.400000095367432,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -412,15 +412,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 73.90000152587891,
-						"score": 5.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 19,
+				"points": 20,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -434,7 +434,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 66.19999694824219,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -453,7 +453,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANFORA,
-		"total_points": 72.5,
+		"total_points": 69.5,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -475,7 +475,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.5,
+				"points": 12.5,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -502,8 +502,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95,
-						"score": 11.5,
-						"points": [0,1,4,6,8,10],
+						"score": 8.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -543,7 +543,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANI,
-		"total_points": 43.09999847412109,
+		"total_points": 42.90000152587891,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -565,9 +565,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 11.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -592,8 +592,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.40000152587891,
-						"score": 7.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -633,9 +633,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BARABOULE,
-		"total_points": 39.59999847412109,
+		"total_points": 35.40000152587891,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -655,7 +655,97 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.60000038146973,
+				"points": 10.39999961853027,
+				"max_points": 23,
+				"stars": 2,
+				"items": [
+					{
+						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
+						"score": 3,
+						"meetings": {
+							"session_1": true,
+							"session_2": true,
+							"session_3": false,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
+						"score": 0,
+						"meetings": {
+							"session_1": false,
+							"session_2": false,
+							"session_3": false,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
+						"value": 91.30000305175781,
+						"score": 7.400000095367432,
+						"points": [0,1,3,5,7,10],
+						"scale_marks": [20,40,60,80,90,100]
+					}
+				]
+			},
+			{
+				"label": "GESTION FINANCIERE",
+				"points": 20,
+				"max_points": 53,
+				"stars": 2,
+				"items": [
+					{
+						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
+						"value": 225.6999969482422,
+						"score": 2,
+						"points": [0,10,15,25],
+						"scale_marks": [50,2200,4500,7500]
+					},
+					{
+						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
+						"value": 71.40000152587891,
+						"score": 4,
+						"points": [0,2,4,6,8,10],
+						"scale_marks": [50,60,70,80,90,100]
+					},
+					{
+						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
+						"value": 94.09999847412109,
+						"score": 14,
+						"points": [0,1,4,7,12,16],
+						"scale_marks": [0,20,40,60,80,100]
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "PERFORMANCE MUNICIPALE 2014/15",
+		"year": "2014/15",
+		"commune": BARSALOGHO,
+		"total_points": 35.5,
+		"max_points": 86,
+		"stars": 2,
+		"items":[
+			{
+				"label": "MAIRIE/SERVICES MUNICIPAUX",
+				"points": 6,
+				"max_points": 10,
+				"stars": 2,
+				"personnel": {
+					"agent_materiel_transfere": false,
+					"agent_secretaire": false,
+					"agent_etat_civil": true,
+					"agent_services_statistiques": false,
+					"agent_service_techniques": false,
+					"comptable": true,
+					"regisseur_recettes": true,
+					"agent_affaires_domaniales_foncieres": true
+				}
+			},
+			{
+				"label": "CONSEIL MUNICIPAL",
+				"points": 12.5,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -681,99 +771,9 @@
 					},
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
-						"value": 91.30000305175781,
-						"score": 12.60000038146973,
-						"points": [0,1,4,6,8,10],
-						"scale_marks": [20,40,60,80,90,100]
-					}
-				]
-			},
-			{
-				"label": "GESTION FINANCIERE",
-				"points": 19,
-				"max_points": 53,
-				"stars": 2,
-				"items": [
-					{
-						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 225.6999969482422,
-						"score": 2,
-						"points": [0,10,15,25],
-						"scale_marks": [50,2200,4500,7500]
-					},
-					{
-						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 71.40000152587891,
-						"score": 3,
-						"points": [0,2,4,6,8,10],
-						"scale_marks": [50,60,70,80,90,100]
-					},
-					{
-						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
-						"value": 94.09999847412109,
-						"score": 14,
-						"points": [0,1,4,7,12,16],
-						"scale_marks": [0,20,40,60,80,100]
-					}
-				]
-			}
-		]
-	},
-	{
-		"label": "PERFORMANCE MUNICIPALE 2014/15",
-		"year": "2014/15",
-		"commune": BARSALOGHO,
-		"total_points": 36.5,
-		"max_points": 86,
-		"stars": 2,
-		"items":[
-			{
-				"label": "MAIRIE/SERVICES MUNICIPAUX",
-				"points": 6,
-				"max_points": 10,
-				"stars": 2,
-				"personnel": {
-					"agent_materiel_transfere": false,
-					"agent_secretaire": false,
-					"agent_etat_civil": true,
-					"agent_services_statistiques": false,
-					"agent_service_techniques": false,
-					"comptable": true,
-					"regisseur_recettes": true,
-					"agent_affaires_domaniales_foncieres": true
-				}
-			},
-			{
-				"label": "CONSEIL MUNICIPAL",
-				"points": 13.5,
-				"max_points": 23,
-				"stars": 3,
-				"items": [
-					{
-						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
-						"score": 3,
-						"meetings": {
-							"session_1": true,
-							"session_2": true,
-							"session_3": false,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
-						"score": 0,
-						"meetings": {
-							"session_1": false,
-							"session_2": false,
-							"session_3": false,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.19999694824219,
-						"score": 10.5,
-						"points": [0,1,4,6,8,10],
+						"score": 9.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -813,9 +813,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BASKOURE,
-		"total_points": 47.29999923706055,
+		"total_points": 44.79999923706055,
 		"max_points": 86,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -835,9 +835,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.29999923706055,
+				"points": 13.80000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -862,8 +862,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.80000305175781,
-						"score": 11.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 8.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -903,7 +903,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BEGUEDO,
-		"total_points": 36.79999923706055,
+		"total_points": 36.29999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -925,9 +925,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.80000019073486,
+				"points": 8.300000190734863,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -952,29 +952,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 62.5,
-						"score": 6.800000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 3.299999952316284,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 21,
 				"max_points": 53,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1113.199951171875,
-						"score": 5,
+						"value": 1727.699951171875,
+						"score": 7,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 97.80000305175781,
-						"score": 9,
+						"value": 151.8000030517578,
+						"score": 10,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -993,7 +993,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BERE,
-		"total_points": 43.29999923706055,
+		"total_points": 41.70000076293945,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -1015,7 +1015,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.30000019073486,
+				"points": 7.699999809265137,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -1042,15 +1042,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 67.5,
-						"score": 6.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 3.700000047683716,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 27,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -1064,7 +1064,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 87.40000152587891,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1083,9 +1083,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BEREGADOUGOU,
-		"total_points": 49.29999923706055,
+		"total_points": 44.79999923706055,
 		"max_points": 86,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -1105,9 +1105,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.29999923706055,
+				"points": 12.80000019073486,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1132,8 +1132,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92.5,
-						"score": 12.30000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -1173,7 +1173,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BINDE,
-		"total_points": 38.59999847412109,
+		"total_points": 36.40000152587891,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -1195,7 +1195,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.60000038146973,
+				"points": 7.400000095367432,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -1222,15 +1222,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 64,
-						"score": 6.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 3.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -1244,7 +1244,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 67.09999847412109,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1263,7 +1263,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BISSIGA,
-		"total_points": 42.29999923706055,
+		"total_points": 41.70000076293945,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -1285,9 +1285,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.30000019073486,
+				"points": 10.69999980926514,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1312,8 +1312,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 76.80000305175781,
-						"score": 5.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 4.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -1353,7 +1353,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BITTOU,
-		"total_points": 46.40000152587891,
+		"total_points": 44.59999847412109,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -1375,7 +1375,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.39999961853027,
+				"points": 12.60000038146973,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -1402,15 +1402,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.40000152587891,
-						"score": 11.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 8.600000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 24,
+				"points": 25,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -1424,7 +1424,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 78.59999847412109,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1443,7 +1443,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOALA,
-		"total_points": 30.5,
+		"total_points": 31.5,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -1465,7 +1465,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.5,
+				"points": 11.5,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -1492,29 +1492,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.5,
-						"score": 7.5,
-						"points": [0,1,4,6,8,10],
+						"score": 6.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 13,
+				"points": 15,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": .2000000029802322,
-						"score": 0,
+						"value": 157.8000030517578,
+						"score": 1,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 92.09999847412109,
-						"score": 7,
+						"score": 8,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1533,7 +1533,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUDRY,
-		"total_points": 29.79999923706055,
+		"total_points": 25.20000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -1555,9 +1555,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.80000019073486,
+				"points": 10.19999980926514,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1582,15 +1582,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.59999847412109,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 8,
+				"points": 9,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -1604,7 +1604,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 59,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1623,7 +1623,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOULSA,
-		"total_points": 29,
+		"total_points": 31,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -1645,9 +1645,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14,
+				"points": 12,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1672,29 +1672,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 84.80000305175781,
-						"score": 8,
-						"points": [0,1,4,6,8,10],
+						"score": 6,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 11,
+				"points": 15,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": .5,
-						"score": 0,
+						"value": 538.9000244140625,
+						"score": 3,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 79.30000305175781,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -1713,7 +1713,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUNDORE,
-		"total_points": 41.79999923706055,
+		"total_points": 36.29999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -1735,9 +1735,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.79999923706055,
+				"points": 11.19999980926514,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1762,8 +1762,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.80000305175781,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -1772,7 +1772,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 23,
 				"max_points": 53,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -1803,9 +1803,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUROUM,
-		"total_points": 33.79999923706055,
+		"total_points": 30.20000076293945,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -1825,9 +1825,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.80000019073486,
+				"points": 9.199999809265137,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1852,8 +1852,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 80.90000152587891,
-						"score": 8.800000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 5.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -1862,7 +1862,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 16,
 				"max_points": 53,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -1893,7 +1893,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOURZANGA,
-		"total_points": 51.40000152587891,
+		"total_points": 50.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -1915,9 +1915,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.39999961853027,
+				"points": 13.60000038146973,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -1942,8 +1942,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.80000305175781,
-						"score": 7.400000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 6.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -1983,9 +1983,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSE,
-		"total_points": 39.5,
+		"total_points": 44.5,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -2005,9 +2005,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.5,
+				"points": 10.5,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -2032,22 +2032,22 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.59999847412109,
-						"score": 7.5,
-						"points": [0,1,4,6,8,10],
+						"score": 6.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 28,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1.299999952316284,
-						"score": 0,
+						"value": 1283.199951171875,
+						"score": 6,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
@@ -2073,9 +2073,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSOUMA GARANGO,
-		"total_points": 30.29999923706055,
+		"total_points": 36.79999923706055,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -2095,7 +2095,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.30000019073486,
+				"points": 12.69999980926514,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -2122,29 +2122,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.80000305175781,
-						"score": 11.30000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 8.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 8,
+				"points": 17,
 				"max_points": 53,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 330.7999877929688,
-						"score": 2,
+						"value": 1249.699951171875,
+						"score": 6,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 20.20000076293945,
-						"score": 0,
+						"value": 76.40000152587891,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -2163,9 +2163,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSOUMA KAYA,
-		"total_points": 38.90000152587891,
+		"total_points": 34.09999847412109,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -2185,9 +2185,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.89999961853027,
+				"points": 12.10000038146973,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -2212,15 +2212,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.40000152587891,
-						"score": 12.89999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 14,
+				"points": 15,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -2234,7 +2234,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 61.59999847412109,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -2253,7 +2253,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": COMIN_YANGA,
-		"total_points": 24.79999923706055,
+		"total_points": 23.20000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -2275,7 +2275,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.80000019073486,
+				"points": 9.199999809265137,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -2302,8 +2302,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 86.09999847412109,
-						"score": 7.800000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 6.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -2343,7 +2343,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DABLO,
-		"total_points": 38.20000076293945,
+		"total_points": 37.79999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -2365,9 +2365,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.19999980926514,
+				"points": 12.80000019073486,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -2392,8 +2392,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 88.90000152587891,
-						"score": 7.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -2433,7 +2433,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DAKORO,
-		"total_points": 28,
+		"total_points": 26,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -2455,9 +2455,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11,
+				"points": 9,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -2482,8 +2482,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 85,
-						"score": 8,
-						"points": [0,1,4,6,8,10],
+						"score": 6,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -2523,9 +2523,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DAPELOGO,
-		"total_points": 42.29999923706055,
+		"total_points": 41.70000076293945,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -2545,9 +2545,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.30000019073486,
+				"points": 9.699999809265137,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -2572,8 +2572,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 88.5,
-						"score": 7.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 6.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -2582,7 +2582,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 23,
 				"max_points": 53,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -2613,7 +2613,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DARGO,
-		"total_points": 28.29999923706055,
+		"total_points": 28.70000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -2635,7 +2635,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.30000019073486,
+				"points": 11.69999980926514,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -2662,29 +2662,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 83.30000305175781,
-						"score": 8.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 5.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 10,
+				"points": 13,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": .300000011920929,
-						"score": 0,
+						"value": 277.2999877929688,
+						"score": 2,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 66.19999694824219,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -2703,7 +2703,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DEOU,
-		"total_points": 38.59999847412109,
+		"total_points": 38.40000152587891,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -2725,7 +2725,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.60000038146973,
+				"points": 11.39999961853027,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -2752,15 +2752,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 74.09999847412109,
-						"score": 5.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 19,
+				"points": 20,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -2774,7 +2774,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 75.59999847412109,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -2793,7 +2793,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DIALGAYE,
-		"total_points": 29.20000076293945,
+		"total_points": 24.79999923706055,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -2815,7 +2815,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.20000076293945,
+				"points": 11.80000019073486,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -2842,8 +2842,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92.80000305175781,
-						"score": 12.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -2883,7 +2883,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DIGUEL,
-		"total_points": 43.5,
+		"total_points": 41.5,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -2905,7 +2905,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.5,
+				"points": 11.5,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -2932,15 +2932,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95,
-						"score": 11.5,
-						"points": [0,1,4,6,8,10],
+						"score": 8.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 24,
+				"points": 25,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -2954,7 +2954,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89.09999847412109,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -2973,7 +2973,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DJIBO,
-		"total_points": 56.5,
+		"total_points": 51.5,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -2995,9 +2995,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.5,
+				"points": 10.5,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -3022,8 +3022,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.69999694824219,
-						"score": 12.5,
-						"points": [0,1,4,6,8,10],
+						"score": 7.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3063,9 +3063,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DORI,
-		"total_points": 41.59999847412109,
+		"total_points": 41.40000152587891,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -3085,7 +3085,97 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.60000038146973,
+				"points": 13.39999961853027,
+				"max_points": 23,
+				"stars": 5,
+				"items": [
+					{
+						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
+						"score": 4,
+						"meetings": {
+							"session_1": true,
+							"session_2": true,
+							"session_3": true,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
+						"score": 0,
+						"meetings": {
+							"session_1": false,
+							"session_2": false,
+							"session_3": false,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
+						"value": 98.09999847412109,
+						"score": 9.399999618530273,
+						"points": [0,1,3,5,7,10],
+						"scale_marks": [20,40,60,80,90,100]
+					}
+				]
+			},
+			{
+				"label": "GESTION FINANCIERE",
+				"points": 20,
+				"max_points": 53,
+				"stars": 2,
+				"items": [
+					{
+						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
+						"value": 1012,
+						"score": 5,
+						"points": [0,10,15,25],
+						"scale_marks": [50,2200,4500,7500]
+					},
+					{
+						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
+						"value": 88.59999847412109,
+						"score": 7,
+						"points": [0,2,4,6,8,10],
+						"scale_marks": [50,60,70,80,90,100]
+					},
+					{
+						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
+						"value": 67,
+						"score": 8,
+						"points": [0,1,4,7,12,16],
+						"scale_marks": [0,20,40,60,80,100]
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "PERFORMANCE MUNICIPALE 2014/15",
+		"year": "2014/15",
+		"commune": DOULOUGOU,
+		"total_points": 45.20000076293945,
+		"max_points": 86,
+		"stars": 4,
+		"items":[
+			{
+				"label": "MAIRIE/SERVICES MUNICIPAUX",
+				"points": 7,
+				"max_points": 10,
+				"stars": 4,
+				"personnel": {
+					"agent_materiel_transfere": true,
+					"agent_secretaire": false,
+					"agent_etat_civil": true,
+					"agent_services_statistiques": false,
+					"agent_service_techniques": false,
+					"comptable": true,
+					"regisseur_recettes": true,
+					"agent_affaires_domaniales_foncieres": true
+				}
+			},
+			{
+				"label": "CONSEIL MUNICIPAL",
+				"points": 11.19999980926514,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -3111,99 +3201,9 @@
 					},
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
-						"value": 98.09999847412109,
-						"score": 10.60000038146973,
-						"points": [0,1,4,6,8,10],
-						"scale_marks": [20,40,60,80,90,100]
-					}
-				]
-			},
-			{
-				"label": "GESTION FINANCIERE",
-				"points": 19,
-				"max_points": 53,
-				"stars": 2,
-				"items": [
-					{
-						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1012,
-						"score": 5,
-						"points": [0,10,15,25],
-						"scale_marks": [50,2200,4500,7500]
-					},
-					{
-						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 88.59999847412109,
-						"score": 6,
-						"points": [0,2,4,6,8,10],
-						"scale_marks": [50,60,70,80,90,100]
-					},
-					{
-						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
-						"value": 67,
-						"score": 8,
-						"points": [0,1,4,7,12,16],
-						"scale_marks": [0,20,40,60,80,100]
-					}
-				]
-			}
-		]
-	},
-	{
-		"label": "PERFORMANCE MUNICIPALE 2014/15",
-		"year": "2014/15",
-		"commune": DOULOUGOU,
-		"total_points": 50.79999923706055,
-		"max_points": 86,
-		"stars": 5,
-		"items":[
-			{
-				"label": "MAIRIE/SERVICES MUNICIPAUX",
-				"points": 7,
-				"max_points": 10,
-				"stars": 4,
-				"personnel": {
-					"agent_materiel_transfere": true,
-					"agent_secretaire": false,
-					"agent_etat_civil": true,
-					"agent_services_statistiques": false,
-					"agent_service_techniques": false,
-					"comptable": true,
-					"regisseur_recettes": true,
-					"agent_affaires_domaniales_foncieres": true
-				}
-			},
-			{
-				"label": "CONSEIL MUNICIPAL",
-				"points": 16.79999923706055,
-				"max_points": 23,
-				"stars": 5,
-				"items": [
-					{
-						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
-						"score": 4,
-						"meetings": {
-							"session_1": true,
-							"session_2": true,
-							"session_3": true,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
-						"score": 0,
-						"meetings": {
-							"session_1": false,
-							"session_2": false,
-							"session_3": false,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.80000305175781,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3212,7 +3212,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 27,
 				"max_points": 53,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -3243,7 +3243,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DOUNA,
-		"total_points": 46,
+		"total_points": 44,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -3265,7 +3265,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17,
+				"points": 15,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -3292,8 +3292,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 96.69999694824219,
-						"score": 11,
-						"points": [0,1,4,6,8,10],
+						"score": 9,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3333,7 +3333,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DOURTENGA,
-		"total_points": 30.10000038146973,
+		"total_points": 29.89999961853027,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -3355,9 +3355,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 11.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -3382,8 +3382,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 79.19999694824219,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3423,7 +3423,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": FALAGOUNTOU,
-		"total_points": 58.79999923706055,
+		"total_points": 53.20000076293945,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -3445,9 +3445,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.79999923706055,
+				"points": 11.19999980926514,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -3472,8 +3472,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.80000305175781,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3513,7 +3513,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GAONGO,
-		"total_points": 26.10000038146973,
+		"total_points": 27.89999961853027,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -3535,7 +3535,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.100000381469727,
+				"points": 8.899999618530273,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -3562,28 +3562,28 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 78.59999847412109,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 11,
+				"points": 13,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 0,
-						"score": 0,
+						"value": 280.1000061035156,
+						"score": 2,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 0,
+						"value": 20.5,
 						"score": 0,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
@@ -3603,7 +3603,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GARANGO,
-		"total_points": 37.09999847412109,
+		"total_points": 37.90000152587891,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -3625,7 +3625,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.100000381469727,
+				"points": 8.899999618530273,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -3652,15 +3652,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 78.90000152587891,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -3674,7 +3674,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 70.69999694824219,
-						"score": 3,
+						"score": 4,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -3693,7 +3693,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOGO,
-		"total_points": 51.40000152587891,
+		"total_points": 47.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -3715,7 +3715,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 18.39999961853027,
+				"points": 13.60000038146973,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -3742,15 +3742,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92,
-						"score": 12.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 27,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -3764,7 +3764,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 86.59999847412109,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -3783,7 +3783,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOMBOUSSOUGOU,
-		"total_points": 34.09999847412109,
+		"total_points": 32.90000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -3805,7 +3805,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 9.899999618530273,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -3832,15 +3832,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 84.69999694824219,
-						"score": 8.100000381469727,
-						"points": [0,1,4,6,8,10],
+						"score": 5.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 15,
+				"points": 16,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -3854,7 +3854,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 86.59999847412109,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -3873,7 +3873,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GORGADJI,
-		"total_points": 34.29999923706055,
+		"total_points": 31.70000076293945,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -3895,7 +3895,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.30000019073486,
+				"points": 12.69999980926514,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -3922,8 +3922,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.80000305175781,
-						"score": 11.30000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 8.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -3963,7 +3963,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOROM_GOROM,
-		"total_points": 56.40000152587891,
+		"total_points": 51.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -3985,9 +3985,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.39999961853027,
+				"points": 11.60000038146973,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -4012,8 +4012,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92,
-						"score": 12.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -4053,7 +4053,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOUNGHIN,
-		"total_points": 47.20000076293945,
+		"total_points": 42.79999923706055,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -4075,9 +4075,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.20000076293945,
+				"points": 11.80000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -4102,8 +4102,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92.59999847412109,
-						"score": 12.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -4112,7 +4112,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 23,
 				"max_points": 53,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -4143,7 +4143,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIARO,
-		"total_points": 25.60000038146973,
+		"total_points": 25.39999961853027,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -4165,7 +4165,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 8.600000381469727,
+				"points": 7.400000095367432,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -4192,15 +4192,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 86.80000305175781,
-						"score": 7.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 11,
+				"points": 12,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -4214,7 +4214,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 84.5,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -4233,9 +4233,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIBA,
-		"total_points": 42,
+		"total_points": 43,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -4257,7 +4257,7 @@
 				"label": "CONSEIL MUNICIPAL",
 				"points": 16,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -4283,14 +4283,14 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 100,
 						"score": 10,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 19,
+				"points": 20,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -4304,7 +4304,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 87.09999847412109,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -4323,7 +4323,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIBARE,
-		"total_points": 53.90000152587891,
+		"total_points": 50.09999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -4345,7 +4345,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.89999961853027,
+				"points": 14.10000038146973,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -4372,8 +4372,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 93.59999847412109,
-						"score": 11.89999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 8.100000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -4413,7 +4413,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": IPELCE,
-		"total_points": 34.59999847412109,
+		"total_points": 34.40000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -4435,7 +4435,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.60000038146973,
+				"points": 10.39999961853027,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -4462,15 +4462,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.19999694824219,
-						"score": 7.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 19,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -4484,7 +4484,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 55.70000076293945,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -4503,7 +4503,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KANDO,
-		"total_points": 23,
+		"total_points": 24,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -4553,14 +4553,14 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 0,
 						"score": 0,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -4574,7 +4574,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 77.19999694824219,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -4593,9 +4593,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KANKALABA,
-		"total_points": 34.20000076293945,
+		"total_points": 38,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -4615,9 +4615,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.19999980926514,
+				"points": 14,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -4641,9 +4641,9 @@
 					},
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
-						"value": 68.30000305175781,
-						"score": 6.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"value": 100,
+						"score": 10,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -4683,7 +4683,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KAYA,
-		"total_points": 54.20000076293945,
+		"total_points": 51.79999923706055,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -4705,7 +4705,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 20.20000076293945,
+				"points": 17.79999923706055,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -4732,8 +4732,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 96,
-						"score": 11.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 8.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -4742,7 +4742,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 27,
 				"max_points": 53,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -4773,7 +4773,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KAYAO,
-		"total_points": 38.5,
+		"total_points": 36.5,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -4795,7 +4795,97 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.5,
+				"points": 9.5,
+				"max_points": 23,
+				"stars": 2,
+				"items": [
+					{
+						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
+						"score": 4,
+						"meetings": {
+							"session_1": true,
+							"session_2": true,
+							"session_3": true,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
+						"score": 0,
+						"meetings": {
+							"session_1": false,
+							"session_2": false,
+							"session_3": false,
+							"session_4": false
+						}
+					},
+					{
+						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
+						"value": 82.59999847412109,
+						"score": 5.5,
+						"points": [0,1,3,5,7,10],
+						"scale_marks": [20,40,60,80,90,100]
+					}
+				]
+			},
+			{
+				"label": "GESTION FINANCIERE",
+				"points": 20,
+				"max_points": 53,
+				"stars": 2,
+				"items": [
+					{
+						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
+						"value": 391,
+						"score": 2,
+						"points": [0,10,15,25],
+						"scale_marks": [50,2200,4500,7500]
+					},
+					{
+						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
+						"value": 81.19999694824219,
+						"score": 6,
+						"points": [0,2,4,6,8,10],
+						"scale_marks": [50,60,70,80,90,100]
+					},
+					{
+						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
+						"value": 85,
+						"score": 12,
+						"points": [0,1,4,7,12,16],
+						"scale_marks": [0,20,40,60,80,100]
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "PERFORMANCE MUNICIPALE 2014/15",
+		"year": "2014/15",
+		"commune": KELBO,
+		"total_points": 45,
+		"max_points": 86,
+		"stars": 4,
+		"items":[
+			{
+				"label": "MAIRIE/SERVICES MUNICIPAUX",
+				"points": 7,
+				"max_points": 10,
+				"stars": 4,
+				"personnel": {
+					"agent_materiel_transfere": false,
+					"agent_secretaire": true,
+					"agent_etat_civil": true,
+					"agent_services_statistiques": false,
+					"agent_service_techniques": false,
+					"comptable": true,
+					"regisseur_recettes": true,
+					"agent_affaires_domaniales_foncieres": true
+				}
+			},
+			{
+				"label": "CONSEIL MUNICIPAL",
+				"points": 11,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -4821,106 +4911,16 @@
 					},
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
-						"value": 82.59999847412109,
-						"score": 8.5,
-						"points": [0,1,4,6,8,10],
-						"scale_marks": [20,40,60,80,90,100]
-					}
-				]
-			},
-			{
-				"label": "GESTION FINANCIERE",
-				"points": 19,
-				"max_points": 53,
-				"stars": 2,
-				"items": [
-					{
-						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 391,
-						"score": 2,
-						"points": [0,10,15,25],
-						"scale_marks": [50,2200,4500,7500]
-					},
-					{
-						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 81.19999694824219,
-						"score": 5,
-						"points": [0,2,4,6,8,10],
-						"scale_marks": [50,60,70,80,90,100]
-					},
-					{
-						"label": "Taux d’exécution du plan\nde passation des marchés\nau cours de 2014 (%)",
-						"value": 85,
-						"score": 12,
-						"points": [0,1,4,7,12,16],
-						"scale_marks": [0,20,40,60,80,100]
-					}
-				]
-			}
-		]
-	},
-	{
-		"label": "PERFORMANCE MUNICIPALE 2014/15",
-		"year": "2014/15",
-		"commune": KELBO,
-		"total_points": 50,
-		"max_points": 86,
-		"stars": 5,
-		"items":[
-			{
-				"label": "MAIRIE/SERVICES MUNICIPAUX",
-				"points": 7,
-				"max_points": 10,
-				"stars": 4,
-				"personnel": {
-					"agent_materiel_transfere": false,
-					"agent_secretaire": true,
-					"agent_etat_civil": true,
-					"agent_services_statistiques": false,
-					"agent_service_techniques": false,
-					"comptable": true,
-					"regisseur_recettes": true,
-					"agent_affaires_domaniales_foncieres": true
-				}
-			},
-			{
-				"label": "CONSEIL MUNICIPAL",
-				"points": 17,
-				"max_points": 23,
-				"stars": 5,
-				"items": [
-					{
-						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
-						"score": 4,
-						"meetings": {
-							"session_1": true,
-							"session_2": true,
-							"session_3": true,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Nombre de cadres de\nconcertations organisés\npar la mairie en 2014",
-						"score": 0,
-						"meetings": {
-							"session_1": false,
-							"session_2": false,
-							"session_3": false,
-							"session_4": false
-						}
-					},
-					{
-						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.09999847412109,
-						"score": 13,
-						"points": [0,1,4,6,8,10],
+						"score": 7,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 27,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -4934,7 +4934,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89.59999847412109,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -4953,9 +4953,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOGHO,
-		"total_points": 32.20000076293945,
+		"total_points": 32.79999923706055,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -4975,9 +4975,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.19999980926514,
+				"points": 9.800000190734863,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5002,15 +5002,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.09999847412109,
-						"score": 7.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 19,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -5024,7 +5024,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 64.5,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5043,9 +5043,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOMBISSIRI,
-		"total_points": 32.5,
+		"total_points": 66.5,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 5,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -5065,9 +5065,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.5,
+				"points": 14.5,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5092,29 +5092,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.40000152587891,
-						"score": 10.5,
-						"points": [0,1,4,6,8,10],
+						"score": 9.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 9,
+				"points": 44,
 				"max_points": 53,
-				"stars": 1,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 0,
-						"score": 0,
+						"value": 16405.599609375,
+						"score": 25,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 0,
-						"score": 0,
+						"value": 1016.700012207031,
+						"score": 10,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5133,7 +5133,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOMTOEGA,
-		"total_points": 44.40000152587891,
+		"total_points": 41.59999847412109,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -5155,7 +5155,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 18.39999961853027,
+				"points": 15.60000038146973,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -5182,8 +5182,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.40000152587891,
-						"score": 11.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 8.600000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -5223,7 +5223,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KONGOUSSI,
-		"total_points": 49.59999847412109,
+		"total_points": 45.40000152587891,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -5245,7 +5245,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 18.60000038146973,
+				"points": 13.39999961853027,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -5272,15 +5272,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.40000152587891,
-						"score": 12.60000038146973,
-						"points": [0,1,4,6,8,10],
+						"score": 7.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 23,
+				"points": 24,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -5294,7 +5294,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 57.40000152587891,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5313,7 +5313,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KORSIMORO,
-		"total_points": 46,
+		"total_points": 45,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -5335,9 +5335,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15,
+				"points": 13,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5362,15 +5362,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 96.69999694824219,
-						"score": 11,
-						"points": [0,1,4,6,8,10],
+						"score": 9,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 24,
+				"points": 25,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -5384,7 +5384,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 79.19999694824219,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5403,7 +5403,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOUPELA,
-		"total_points": 59.20000076293945,
+		"total_points": 58.79999923706055,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -5425,9 +5425,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.19999980926514,
+				"points": 13.80000019073486,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5452,8 +5452,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 99.30000305175781,
-						"score": 10.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 9.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -5493,7 +5493,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOUTOUGOU,
-		"total_points": 30.29999923706055,
+		"total_points": 28.70000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -5515,7 +5515,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.30000019073486,
+				"points": 12.69999980926514,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -5542,15 +5542,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.80000305175781,
-						"score": 11.30000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 8.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 10,
+				"points": 11,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -5564,7 +5564,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 59,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5583,7 +5583,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LALGAYE,
-		"total_points": 49.29999923706055,
+		"total_points": 48.70000076293945,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -5605,7 +5605,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.300000190734863,
+				"points": 8.699999809265137,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -5632,8 +5632,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 76.69999694824219,
-						"score": 5.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 4.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -5673,9 +5673,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LAYE,
-		"total_points": 39.09999847412109,
+		"total_points": 41.90000152587891,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -5695,9 +5695,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.10000038146973,
+				"points": 6.900000095367432,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5722,22 +5722,22 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 58.70000076293945,
-						"score": 7.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 2.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 21,
+				"points": 28,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1.799999952316284,
-						"score": 0,
+						"value": 1790.400024414063,
+						"score": 7,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
@@ -5763,7 +5763,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LOUMANA,
-		"total_points": 45.40000152587891,
+		"total_points": 44.59999847412109,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -5785,9 +5785,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.39999961853027,
+				"points": 9.600000381469727,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5812,8 +5812,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 88.19999694824219,
-						"score": 7.400000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 6.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -5875,9 +5875,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.5,
+				"points": 14.5,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -5902,15 +5902,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.40000152587891,
-						"score": 10.5,
-						"points": [0,1,4,6,8,10],
+						"score": 9.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 28,
+				"points": 29,
 				"max_points": 53,
 				"stars": 5,
 				"items": [
@@ -5924,7 +5924,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 59.29999923706055,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -5943,9 +5943,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANE,
-		"total_points": 38.20000076293945,
+		"total_points": 35.79999923706055,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -5965,7 +5965,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.19999980926514,
+				"points": 10.80000019073486,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -5992,8 +5992,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 68.40000152587891,
-						"score": 6.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 3.799999952316284,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6002,7 +6002,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 20,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -6033,9 +6033,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANGA,
-		"total_points": 45.20000076293945,
+		"total_points": 45.79999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -6055,9 +6055,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.19999980926514,
+				"points": 11.80000019073486,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6082,15 +6082,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.19999694824219,
-						"score": 7.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 24,
+				"points": 25,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -6104,7 +6104,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 78.40000152587891,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -6123,7 +6123,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANGODARA,
-		"total_points": 28.29999923706055,
+		"total_points": 25.70000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -6145,7 +6145,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.30000019073486,
+				"points": 12.69999980926514,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -6172,8 +6172,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 66.5,
-						"score": 6.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 3.700000047683716,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6213,9 +6213,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANSILA,
-		"total_points": 33.09999847412109,
+		"total_points": 30.89999961853027,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -6235,7 +6235,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.100000381469727,
+				"points": 6.900000095367432,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -6262,8 +6262,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 69.40000152587891,
-						"score": 6.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 3.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6303,7 +6303,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MARKOYE,
-		"total_points": 36.5,
+		"total_points": 34.5,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -6325,7 +6325,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.5,
+				"points": 10.5,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -6352,15 +6352,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 82.40000152587891,
-						"score": 8.5,
-						"points": [0,1,4,6,8,10],
+						"score": 5.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -6374,7 +6374,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 60.90000152587891,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -6393,9 +6393,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MEGUET,
-		"total_points": 42.90000152587891,
+		"total_points": 40.09999847412109,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -6415,9 +6415,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.89999961853027,
+				"points": 9.100000381469727,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6442,15 +6442,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 80.69999694824219,
-						"score": 8.899999618530273,
-						"points": [0,1,4,6,8,10],
+						"score": 5.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 27,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -6464,7 +6464,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 93.30000305175781,
-						"score": 7,
+						"score": 8,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -6483,7 +6483,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MOGTEDO,
-		"total_points": 37.70000076293945,
+		"total_points": 36.29999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -6505,9 +6505,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.69999980926514,
+				"points": 9.300000190734863,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6532,8 +6532,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 86.5,
-						"score": 7.699999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6573,9 +6573,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MOUSSODOUGOU,
-		"total_points": 36.29999923706055,
+		"total_points": 36.70000076293945,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -6595,9 +6595,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.30000019073486,
+				"points": 10.69999980926514,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6622,15 +6622,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 88.30000305175781,
-						"score": 7.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 6.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -6644,7 +6644,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89.30000305175781,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -6663,9 +6663,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAGBINGOU,
-		"total_points": 35,
+		"total_points": 36,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -6687,7 +6687,7 @@
 				"label": "CONSEIL MUNICIPAL",
 				"points": 15,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6713,14 +6713,14 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 100,
 						"score": 10,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -6734,7 +6734,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 82.30000305175781,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -6753,7 +6753,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAGREONGO,
-		"total_points": 73.40000152587891,
+		"total_points": 72.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -6775,9 +6775,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.39999961853027,
+				"points": 12.60000038146973,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6802,8 +6802,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.80000305175781,
-						"score": 10.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 9.600000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6843,7 +6843,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAMISSIGUIMA,
-		"total_points": 47,
+		"total_points": 43,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -6865,9 +6865,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15,
+				"points": 11,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -6892,8 +6892,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 93.19999694824219,
-						"score": 12,
-						"points": [0,1,4,6,8,10],
+						"score": 8,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -6933,7 +6933,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NASSERE,
-		"total_points": 40.09999847412109,
+		"total_points": 38.90000152587891,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -6955,7 +6955,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 9.899999618530273,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -6982,15 +6982,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 84.30000305175781,
-						"score": 8.100000381469727,
-						"points": [0,1,4,6,8,10],
+						"score": 5.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -7004,7 +7004,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 68.30000305175781,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -7023,7 +7023,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NASSOUMBOU,
-		"total_points": 39.70000076293945,
+		"total_points": 39.29999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -7045,7 +7045,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.69999980926514,
+				"points": 9.300000190734863,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -7072,15 +7072,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 86.40000152587891,
-						"score": 7.699999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -7094,7 +7094,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 93.80000305175781,
-						"score": 7,
+						"score": 8,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -7113,7 +7113,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIANGOLOKO,
-		"total_points": 29,
+		"total_points": 30,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -7137,7 +7137,7 @@
 				"label": "CONSEIL MUNICIPAL",
 				"points": 11,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7163,14 +7163,14 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 100,
 						"score": 10,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 11,
+				"points": 12,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -7184,7 +7184,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 60.29999923706055,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -7203,9 +7203,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIANKORODOUGOU,
-		"total_points": 36.90000152587891,
+		"total_points": 35.09999847412109,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -7225,9 +7225,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.89999961853027,
+				"points": 9.100000381469727,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7252,8 +7252,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 70.80000305175781,
-						"score": 5.900000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 4.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7262,7 +7262,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 20,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -7293,7 +7293,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIAOGO,
-		"total_points": 36,
+		"total_points": 34,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -7315,7 +7315,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13,
+				"points": 11,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -7342,8 +7342,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 85,
-						"score": 8,
-						"points": [0,1,4,6,8,10],
+						"score": 6,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7383,9 +7383,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIOU,
-		"total_points": 44.70000076293945,
+		"total_points": 40.29999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -7405,9 +7405,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.70000076293945,
+				"points": 12.30000019073486,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7432,15 +7432,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.09999847412109,
-						"score": 12.69999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -7454,7 +7454,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 80.40000152587891,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -7473,9 +7473,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NOBÉRÉ,
-		"total_points": 42.70000076293945,
+		"total_points": 38.29999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -7495,9 +7495,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.69999980926514,
+				"points": 10.30000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7522,15 +7522,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.09999847412109,
-						"score": 12.69999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 21,
+				"points": 22,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -7544,7 +7544,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 67.80000305175781,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -7563,7 +7563,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUARGAYE,
-		"total_points": 51.40000152587891,
+		"total_points": 46.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -7585,7 +7585,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 23.39999961853027,
+				"points": 18.60000038146973,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -7612,8 +7612,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.90000152587891,
-						"score": 12.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7653,9 +7653,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUELENI,
-		"total_points": 40.79999923706055,
+		"total_points": 35.20000076293945,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -7675,9 +7675,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.79999923706055,
+				"points": 11.19999980926514,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7702,8 +7702,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.59999847412109,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7743,7 +7743,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUO,
-		"total_points": 24.5,
+		"total_points": 21.5,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -7765,7 +7765,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.5,
+				"points": 6.5,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -7792,8 +7792,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 65.19999694824219,
-						"score": 6.5,
-						"points": [0,1,4,6,8,10],
+						"score": 3.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7806,14 +7806,14 @@
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 132.3000030517578,
+						"value": 140.1000061035156,
 						"score": 1,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 17.79999923706055,
+						"value": 18.89999961853027,
 						"score": 0,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
@@ -7833,9 +7833,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OURGOU_MANEGA,
-		"total_points": 45.20000076293945,
+		"total_points": 40.79999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -7855,9 +7855,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.20000076293945,
+				"points": 12.80000019073486,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7882,8 +7882,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92.59999847412109,
-						"score": 12.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -7923,7 +7923,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OURSI,
-		"total_points": 36.20000076293945,
+		"total_points": 34.79999923706055,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -7945,9 +7945,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.19999980926514,
+				"points": 12.80000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -7972,15 +7972,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 83.90000152587891,
-						"score": 8.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 5.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 14,
+				"points": 15,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -7994,7 +7994,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 61,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8013,9 +8013,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PENSA,
-		"total_points": 33.70000076293945,
+		"total_points": 29.29999923706055,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -8035,9 +8035,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.70000076293945,
+				"points": 11.30000019073486,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8062,15 +8062,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.09999847412109,
-						"score": 12.69999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 15,
+				"points": 16,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -8084,7 +8084,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 57.20000076293945,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8103,9 +8103,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PIBAORE,
-		"total_points": 32.29999923706055,
+		"total_points": 32.70000076293945,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -8125,9 +8125,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.30000019073486,
+				"points": 12.69999980926514,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8152,15 +8152,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 99,
-						"score": 10.30000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 9.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -8174,7 +8174,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 72.90000152587891,
-						"score": 3,
+						"score": 4,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8193,7 +8193,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PISSILA,
-		"total_points": 44.90000152587891,
+		"total_points": 43.09999847412109,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -8215,9 +8215,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.89999961853027,
+				"points": 9.100000381469727,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8242,22 +8242,22 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 60.79999923706055,
-						"score": 6.900000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 3.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 28,
 				"max_points": 53,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": .300000011920929,
-						"score": 0,
+						"value": 329.6000061035156,
+						"score": 2,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
@@ -8283,7 +8283,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PO,
-		"total_points": 43.29999923706055,
+		"total_points": 41.70000076293945,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -8305,7 +8305,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.30000019073486,
+				"points": 9.699999809265137,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -8332,15 +8332,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 83.30000305175781,
-						"score": 8.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 5.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -8354,7 +8354,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 84.69999694824219,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8373,9 +8373,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": POBE_MENGAO,
-		"total_points": 43.40000152587891,
+		"total_points": 39.59999847412109,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -8395,9 +8395,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.39999961853027,
+				"points": 10.60000038146973,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8422,15 +8422,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.90000152587891,
-						"score": 12.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -8444,7 +8444,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 78.90000152587891,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8463,7 +8463,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": POUYTENGA,
-		"total_points": 60.70000076293945,
+		"total_points": 56.29999923706055,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -8485,9 +8485,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.70000076293945,
+				"points": 11.30000019073486,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8512,15 +8512,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.19999694824219,
-						"score": 12.69999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 36,
+				"points": 37,
 				"max_points": 53,
 				"stars": 5,
 				"items": [
@@ -8534,7 +8534,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 84.5,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8553,9 +8553,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ROLLO,
-		"total_points": 50,
+		"total_points": 45,
 		"max_points": 86,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -8575,9 +8575,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 18,
+				"points": 12,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8602,15 +8602,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.09999847412109,
-						"score": 13,
-						"points": [0,1,4,6,8,10],
+						"score": 7,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 26,
+				"points": 27,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -8624,7 +8624,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89.90000152587891,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -8643,7 +8643,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ROUKO,
-		"total_points": 27.29999923706055,
+		"total_points": 26.70000076293945,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -8665,7 +8665,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.300000190734863,
+				"points": 8.699999809265137,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -8692,8 +8692,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 76.69999694824219,
-						"score": 5.300000190734863,
-						"points": [0,1,4,6,8,10],
+						"score": 4.699999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -8733,7 +8733,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SABCE,
-		"total_points": 71.40000152587891,
+		"total_points": 66.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -8755,9 +8755,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.39999961853027,
+				"points": 12.60000038146973,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -8782,8 +8782,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.90000152587891,
-						"score": 12.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -8823,7 +8823,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SALOGO,
-		"total_points": 35.20000076293945,
+		"total_points": 34.79999923706055,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -8845,7 +8845,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.199999809265137,
+				"points": 8.800000190734863,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -8872,8 +8872,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 77.80000305175781,
-						"score": 5.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 4.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -8913,9 +8913,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SAMPELGA,
-		"total_points": 34.5,
+		"total_points": 31.5,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -8935,7 +8935,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.5,
+				"points": 11.5,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -8962,8 +8962,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95,
-						"score": 11.5,
-						"points": [0,1,4,6,8,10],
+						"score": 8.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9003,7 +9003,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SANGA,
-		"total_points": 36.09999847412109,
+		"total_points": 35.90000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -9025,9 +9025,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.10000038146973,
+				"points": 10.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -9052,8 +9052,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.5,
-						"score": 7.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9093,7 +9093,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SAPONE,
-		"total_points": 56.79999923706055,
+		"total_points": 53.20000076293945,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -9115,7 +9115,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.80000019073486,
+				"points": 11.19999980926514,
 				"max_points": 23,
 				"stars": 3,
 				"items": [
@@ -9142,8 +9142,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 94.09999847412109,
-						"score": 11.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 8.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9183,7 +9183,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SEBBA,
-		"total_points": 46.59999847412109,
+		"total_points": 43.40000152587891,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -9205,7 +9205,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.60000038146973,
+				"points": 12.39999961853027,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -9232,8 +9232,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 94.80000305175781,
-						"score": 11.60000038146973,
-						"points": [0,1,4,6,8,10],
+						"score": 8.399999618530273,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9273,7 +9273,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SEYTENGA,
-		"total_points": 35.40000152587891,
+		"total_points": 34.59999847412109,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -9295,9 +9295,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 14.39999961853027,
+				"points": 13.60000038146973,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -9322,8 +9322,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.80000305175781,
-						"score": 10.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 9.600000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9363,7 +9363,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SIDERADOUGOU,
-		"total_points": 28.60000038146973,
+		"total_points": 28.39999961853027,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -9385,7 +9385,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.60000038146973,
+				"points": 10.39999961853027,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -9412,15 +9412,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87,
-						"score": 7.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 9,
+				"points": 10,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -9434,7 +9434,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 57.70000076293945,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -9453,7 +9453,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SINDOU,
-		"total_points": 41.90000152587891,
+		"total_points": 39.09999847412109,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -9475,9 +9475,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.89999961853027,
+				"points": 9.100000381469727,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -9502,15 +9502,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 80.59999847412109,
-						"score": 8.899999618530273,
-						"points": [0,1,4,6,8,10],
+						"score": 5.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 23,
+				"points": 24,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -9524,7 +9524,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -9543,9 +9543,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOLHAN,
-		"total_points": 33.59999847412109,
+		"total_points": 31.39999961853027,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -9565,7 +9565,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.60000038146973,
+				"points": 7.400000095367432,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -9592,15 +9592,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 63.5,
-						"score": 6.599999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 3.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 19,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -9614,7 +9614,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 86.90000152587891,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -9683,7 +9683,7 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 0,
 						"score": 0,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9723,7 +9723,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOUDOUGUI,
-		"total_points": 33.20000076293945,
+		"total_points": 31.79999923706055,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -9745,7 +9745,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.19999980926514,
+				"points": 9.800000190734863,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -9772,15 +9772,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 84.19999694824219,
-						"score": 8.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 5.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 15,
+				"points": 16,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -9794,7 +9794,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 89.40000152587891,
-						"score": 6,
+						"score": 7,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -9813,9 +9813,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOURGOUBILA,
-		"total_points": 29,
+		"total_points": 32,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -9835,7 +9835,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16,
+				"points": 12,
 				"max_points": 23,
 				"stars": 4,
 				"items": [
@@ -9862,29 +9862,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 93.30000305175781,
-						"score": 12,
-						"points": [0,1,4,6,8,10],
+						"score": 8,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 6,
+				"points": 13,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1.299999952316284,
-						"score": 0,
+						"value": 1269.5,
+						"score": 6,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 63.29999923706055,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -9903,7 +9903,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TANKOUGOUNADIE,
-		"total_points": 39.20000076293945,
+		"total_points": 38.79999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -9925,7 +9925,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.199999809265137,
+				"points": 8.800000190734863,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -9952,8 +9952,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 78.19999694824219,
-						"score": 5.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 4.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -9962,7 +9962,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 27,
 				"max_points": 53,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -9993,9 +9993,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TENKODOGO,
-		"total_points": 45.70000076293945,
+		"total_points": 35.29999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10015,9 +10015,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.69999980926514,
+				"points": 10.30000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10042,28 +10042,28 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.80000305175781,
-						"score": 12.69999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 7.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 17,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 1988.099975585938,
-						"score": 8,
+						"value": 576.9000244140625,
+						"score": 3,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 21.39999961853027,
+						"value": 6.199999809265137,
 						"score": 0,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
@@ -10083,7 +10083,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TENSOBENTENGA,
-		"total_points": 52.59999847412109,
+		"total_points": 47.40000152587891,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -10105,9 +10105,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.60000038146973,
+				"points": 12.39999961853027,
 				"max_points": 23,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10132,8 +10132,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 91.30000305175781,
-						"score": 12.60000038146973,
-						"points": [0,1,4,6,8,10],
+						"score": 7.400000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -10175,7 +10175,7 @@
 		"commune": TIEBELE,
 		"total_points": 36.5,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10195,9 +10195,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.5,
+				"points": 12.5,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10222,15 +10222,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.69999694824219,
-						"score": 7.5,
-						"points": [0,1,4,6,8,10],
+						"score": 6.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -10244,7 +10244,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 57.29999923706055,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10263,9 +10263,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIEFORA,
-		"total_points": 36.09999847412109,
+		"total_points": 36.90000152587891,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10285,9 +10285,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.10000038146973,
+				"points": 9.899999618530273,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10312,15 +10312,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 78.69999694824219,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 19,
+				"points": 20,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -10334,7 +10334,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 80,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10353,7 +10353,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIKARE,
-		"total_points": 50.90000152587891,
+		"total_points": 46.09999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -10375,9 +10375,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.89999961853027,
+				"points": 10.10000038146973,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10402,15 +10402,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.40000152587891,
-						"score": 12.89999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 7.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 30,
+				"points": 31,
 				"max_points": 53,
 				"stars": 5,
 				"items": [
@@ -10424,7 +10424,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 95,
-						"score": 7,
+						"score": 8,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10443,9 +10443,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIN_AKOFF,
-		"total_points": 42.5,
+		"total_points": 39.5,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10465,7 +10465,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.5,
+				"points": 14.5,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -10492,8 +10492,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 82.40000152587891,
-						"score": 8.5,
-						"points": [0,1,4,6,8,10],
+						"score": 5.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -10535,7 +10535,7 @@
 		"commune": TITABE,
 		"total_points": 46,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10557,7 +10557,7 @@
 				"label": "CONSEIL MUNICIPAL",
 				"points": 13,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10583,7 +10583,7 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 100,
 						"score": 10,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -10623,7 +10623,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TOECE,
-		"total_points": 50.40000152587891,
+		"total_points": 50.59999847412109,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -10645,7 +10645,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 24.39999961853027,
+				"points": 23.60000038146973,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -10672,15 +10672,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 98.69999694824219,
-						"score": 10.39999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 9.600000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -10694,7 +10694,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 93.90000152587891,
-						"score": 7,
+						"score": 8,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10713,9 +10713,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TOEGHIN,
-		"total_points": 41.79999923706055,
+		"total_points": 53.20000076293945,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 5,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -10735,7 +10735,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.79999923706055,
+				"points": 15.19999980926514,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -10762,22 +10762,22 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 97.19999694824219,
-						"score": 10.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 9.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 17,
+				"points": 30,
 				"max_points": 53,
-				"stars": 2,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 3,
-						"score": 0,
+						"value": 3004.5,
+						"score": 13,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
@@ -10803,7 +10803,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TONGOMAYEL,
-		"total_points": 40.70000076293945,
+		"total_points": 38.29999923706055,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -10825,9 +10825,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.69999980926514,
+				"points": 10.30000019073486,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10852,15 +10852,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 81.40000152587891,
-						"score": 8.699999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 5.300000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -10874,7 +10874,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 80,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10915,9 +10915,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.5,
+				"points": 10.5,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -10942,15 +10942,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 87.59999847412109,
-						"score": 7.5,
-						"points": [0,1,4,6,8,10],
+						"score": 6.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 27,
+				"points": 28,
 				"max_points": 53,
 				"stars": 5,
 				"items": [
@@ -10964,7 +10964,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 59,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -10983,7 +10983,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": WOLONKOTO,
-		"total_points": 48,
+		"total_points": 63,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -11005,7 +11005,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12,
+				"points": 10,
 				"max_points": 23,
 				"stars": 2,
 				"items": [
@@ -11032,29 +11032,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 85,
-						"score": 8,
-						"points": [0,1,4,6,8,10],
+						"score": 6,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 31,
+				"points": 48,
 				"max_points": 53,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 3437,
-						"score": 13,
+						"value": 7268.10009765625,
+						"score": 22,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 69.80000305175781,
-						"score": 2,
+						"value": 147.5,
+						"score": 10,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -11073,7 +11073,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YALGO,
-		"total_points": 47.09999847412109,
+		"total_points": 43.90000152587891,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -11095,7 +11095,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.10000038146973,
+				"points": 12.89999961853027,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -11122,15 +11122,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 92.90000152587891,
-						"score": 12.10000038146973,
-						"points": [0,1,4,6,8,10],
+						"score": 7.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 25,
+				"points": 26,
 				"max_points": 53,
 				"stars": 4,
 				"items": [
@@ -11144,7 +11144,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 80.69999694824219,
-						"score": 5,
+						"score": 6,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -11163,9 +11163,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YARGATENGA,
-		"total_points": 43.20000076293945,
+		"total_points": 38.79999923706055,
 		"max_points": 86,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -11185,9 +11185,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.19999980926514,
+				"points": 6.800000190734863,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11212,8 +11212,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 57.70000076293945,
-						"score": 7.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 2.799999952316284,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11253,7 +11253,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YARGO,
-		"total_points": 44.79999923706055,
+		"total_points": 43.20000076293945,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -11275,9 +11275,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 13.80000019073486,
+				"points": 12.19999980926514,
 				"max_points": 23,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11302,8 +11302,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 97.40000152587891,
-						"score": 10.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 9.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11343,7 +11343,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YONDE,
-		"total_points": 35.09999847412109,
+		"total_points": 35.90000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -11365,9 +11365,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.10000038146973,
+				"points": 9.899999618530273,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11392,15 +11392,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 79.19999694824219,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -11414,7 +11414,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 69.09999847412109,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -11433,7 +11433,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZABRE,
-		"total_points": 52.09999847412109,
+		"total_points": 51.90000152587891,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -11455,9 +11455,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.10000038146973,
+				"points": 10.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11482,8 +11482,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.5,
-						"score": 7.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 6.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11523,7 +11523,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZAM,
-		"total_points": 35.20000076293945,
+		"total_points": 35.79999923706055,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -11545,9 +11545,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.19999980926514,
+				"points": 9.800000190734863,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11572,15 +11572,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 89.09999847412109,
-						"score": 7.199999809265137,
-						"points": [0,1,4,6,8,10],
+						"score": 6.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 19,
+				"points": 20,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -11594,7 +11594,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 73.5,
-						"score": 3,
+						"score": 4,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -11613,7 +11613,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZECCO,
-		"total_points": 31.39999961853027,
+		"total_points": 29.60000038146973,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -11635,7 +11635,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.399999618530273,
+				"points": 6.599999904632568,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -11662,15 +11662,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 65.90000152587891,
-						"score": 6.400000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 3.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 16,
+				"points": 17,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -11684,7 +11684,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 68.09999847412109,
-						"score": 2,
+						"score": 3,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -11703,9 +11703,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZEGUEDEGUIN,
-		"total_points": 33.90000152587891,
+		"total_points": 30.10000038146973,
 		"max_points": 86,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -11725,9 +11725,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 11.89999961853027,
+				"points": 8.100000381469727,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11752,8 +11752,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 80.30000305175781,
-						"score": 8.899999618530273,
-						"points": [0,1,4,6,8,10],
+						"score": 5.099999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11843,7 +11843,7 @@
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 0,
 						"score": 0,
-						"points": [0,1,4,6,8,10],
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11883,7 +11883,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZIMTANGA,
-		"total_points": 34.09999847412109,
+		"total_points": 33.90000152587891,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -11905,9 +11905,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 12.10000038146973,
+				"points": 11.89999961853027,
 				"max_points": 23,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -11932,8 +11932,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 79.30000305175781,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -11973,9 +11973,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZINIARÉ,
-		"total_points": 40.90000152587891,
+		"total_points": 66.09999847412109,
 		"max_points": 86,
-		"stars": 3,
+		"stars": 5,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -11995,9 +11995,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.89999961853027,
+				"points": 14.10000038146973,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -12022,29 +12022,29 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 96.90000152587891,
-						"score": 10.89999961853027,
-						"points": [0,1,4,6,8,10],
+						"score": 9.100000381469727,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 45,
 				"max_points": 53,
-				"stars": 2,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
-						"value": 0,
-						"score": 0,
+						"value": 7544.10009765625,
+						"score": 25,
 						"points": [0,10,15,25],
 						"scale_marks": [50,2200,4500,7500]
 					},
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
-						"value": 0,
-						"score": 0,
+						"value": 63.40000152587891,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -12063,9 +12063,9 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZIOU,
-		"total_points": 32.09999847412109,
+		"total_points": 32.90000152587891,
 		"max_points": 86,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "MAIRIE/SERVICES MUNICIPAUX",
@@ -12085,9 +12085,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.10000038146973,
+				"points": 9.899999618530273,
 				"max_points": 23,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -12112,15 +12112,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 78.80000305175781,
-						"score": 5.099999904632568,
-						"points": [0,1,4,6,8,10],
+						"score": 4.900000095367432,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 18,
+				"points": 19,
 				"max_points": 53,
 				"stars": 2,
 				"items": [
@@ -12134,7 +12134,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 58.5,
-						"score": 0,
+						"score": 1,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -12153,7 +12153,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZITENGA,
-		"total_points": 43.79999923706055,
+		"total_points": 43.20000076293945,
 		"max_points": 86,
 		"stars": 4,
 		"items":[
@@ -12175,7 +12175,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 17.79999923706055,
+				"points": 16.20000076293945,
 				"max_points": 23,
 				"stars": 5,
 				"items": [
@@ -12202,15 +12202,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 97.19999694824219,
-						"score": 10.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 9.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 20,
+				"points": 21,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -12224,7 +12224,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 63.09999847412109,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -12243,7 +12243,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZOAGA,
-		"total_points": 34.40000152587891,
+		"total_points": 33.59999847412109,
 		"max_points": 86,
 		"stars": 2,
 		"items":[
@@ -12265,7 +12265,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 9.399999618530273,
+				"points": 8.600000381469727,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -12292,8 +12292,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 76.19999694824219,
-						"score": 5.400000095367432,
-						"points": [0,1,4,6,8,10],
+						"score": 4.599999904632568,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -12302,7 +12302,7 @@
 				"label": "GESTION FINANCIERE",
 				"points": 20,
 				"max_points": 53,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Recettes fiscales collectées\nen 2014 en fonction de la\npopulation (FCFA/habitant)",
@@ -12333,7 +12333,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZONSE,
-		"total_points": 38.5,
+		"total_points": 36.5,
 		"max_points": 86,
 		"stars": 3,
 		"items":[
@@ -12355,7 +12355,7 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 10.5,
+				"points": 7.5,
 				"max_points": 23,
 				"stars": 1,
 				"items": [
@@ -12382,15 +12382,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 65.19999694824219,
-						"score": 6.5,
-						"points": [0,1,4,6,8,10],
+						"score": 3.5,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 22,
+				"points": 23,
 				"max_points": 53,
 				"stars": 3,
 				"items": [
@@ -12404,7 +12404,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 79.30000305175781,
-						"score": 4,
+						"score": 5,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},
@@ -12423,7 +12423,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZORGHO,
-		"total_points": 63.79999923706055,
+		"total_points": 58.20000076293945,
 		"max_points": 86,
 		"stars": 5,
 		"items":[
@@ -12445,9 +12445,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 15.80000019073486,
+				"points": 10.19999980926514,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -12472,8 +12472,8 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 90.5,
-						"score": 12.80000019073486,
-						"points": [0,1,4,6,8,10],
+						"score": 7.199999809265137,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
@@ -12513,7 +12513,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZOUNGOU,
-		"total_points": 29.29999923706055,
+		"total_points": 27.79999923706055,
 		"max_points": 86,
 		"stars": 1,
 		"items":[
@@ -12535,9 +12535,9 @@
 			},
 			{
 				"label": "CONSEIL MUNICIPAL",
-				"points": 16.29999923706055,
+				"points": 13.80000019073486,
 				"max_points": 23,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Nombre de sessions\ndu Conseil Municipal\ntenues en 2014",
@@ -12562,15 +12562,15 @@
 					{
 						"label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)",
 						"value": 95.80000305175781,
-						"score": 11.19999980926514,
-						"points": [0,1,4,6,8,10],
+						"score": 8.800000190734863,
+						"points": [0,1,3,5,7,10],
 						"scale_marks": [20,40,60,80,90,100]
 					}
 				]
 			},
 			{
 				"label": "GESTION FINANCIERE",
-				"points": 9,
+				"points": 10,
 				"max_points": 53,
 				"stars": 1,
 				"items": [
@@ -12584,7 +12584,7 @@
 					{
 						"label": "Taux du recouvrement de\ntaxes en 2014 en fonction\ndes prévisions (%)",
 						"value": 61.59999847412109,
-						"score": 1,
+						"score": 2,
 						"points": [0,2,4,6,8,10],
 						"scale_marks": [50,60,70,80,90,100]
 					},

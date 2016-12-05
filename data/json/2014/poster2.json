@@ -3,20 +3,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ABSOUYA,
-		"total_points": 86.40000152587891,
+		"total_points": 90.40000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.40000152587891,
+				"points": 42.40000152587891,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.4000000059604645,
-						"score": 8,
+						"value": 16.60000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -108,20 +108,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ANDEMTENGA,
-		"total_points": 74.19999694824219,
+		"total_points": 82.19999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.20000076293945,
+				"points": 41.20000076293945,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 11.60000038146973,
-						"score": 10,
+						"value": 28.60000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -213,20 +213,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ARBINDA,
-		"total_points": 59.29999923706055,
+		"total_points": 64.30000305175781,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.79999923706055,
+				"points": 45.79999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5.199999809265137,
-						"score": 9,
+						"value": 22.20000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -318,20 +318,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BAGRE,
-		"total_points": 78.69999694824219,
+		"total_points": 83.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.70000076293945,
+				"points": 44.70000076293945,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.5,
-						"score": 9,
+						"value": 24.5,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -423,20 +423,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANE,
-		"total_points": 85,
+		"total_points": 89,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 51,
+				"points": 55,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 2.299999952316284,
-						"score": 8,
+						"value": 19.29999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -528,20 +528,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANFORA,
-		"total_points": 61.40000152587891,
+		"total_points": 63.40000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.90000152587891,
+				"points": 39.90000152587891,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -8.600000381469727,
-						"score": 7,
+						"value": 8.399999618530273,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -633,20 +633,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BANI,
-		"total_points": 60.70000076293945,
+		"total_points": 64.69999694824219,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.70000076293945,
+				"points": 36.70000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .6000000238418579,
-						"score": 8,
+						"value": 17.60000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -738,20 +738,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BARABOULE,
-		"total_points": 65.40000152587891,
+		"total_points": 71.40000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.90000152587891,
+				"points": 39.90000152587891,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 17.79999923706055,
-						"score": 12,
+						"value": 34.79999923706055,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -843,20 +843,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BARSALOGHO,
-		"total_points": 76.5,
+		"total_points": 77.5,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.09999847412109,
+				"points": 33.09999847412109,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -53.40000152587891,
-						"score": 1,
+						"value": -36.40000152587891,
+						"score": 2,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -948,20 +948,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BASKOURE,
-		"total_points": 72.19999694824219,
+		"total_points": 77.19999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.20000076293945,
+				"points": 43.20000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.099999904632568,
-						"score": 9,
+						"value": 23.10000038146973,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1053,20 +1053,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BEGUEDO,
-		"total_points": 78.80000305175781,
+		"total_points": 81.80000305175781,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 26.79999923706055,
+				"points": 29.79999923706055,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -30,
-						"score": 3,
+						"value": -13,
+						"score": 6,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1158,20 +1158,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BERE,
-		"total_points": 68.90000152587891,
+		"total_points": 73.90000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.90000152587891,
+				"points": 41.90000152587891,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.400000095367432,
-						"score": 9,
+						"value": 24.39999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1263,20 +1263,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BEREGADOUGOU,
-		"total_points": 54.59999847412109,
+		"total_points": 58.59999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.59999847412109,
+				"points": 44.59999847412109,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.699999988079071,
-						"score": 8,
+						"value": 16.29999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1370,13 +1370,13 @@
 		"commune": BINDE,
 		"total_points": 65.09999847412109,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 36.09999847412109,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -1473,20 +1473,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BISSIGA,
-		"total_points": 61.5,
+		"total_points": 69.5,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.5,
+				"points": 48.5,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.60000038146973,
-						"score": 10,
+						"value": 29.60000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1578,20 +1578,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BITTOU,
-		"total_points": 58.40000152587891,
+		"total_points": 64.40000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.89999961853027,
+				"points": 37.90000152587891,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 4.5,
-						"score": 8,
+						"value": 21.5,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1683,20 +1683,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOALA,
-		"total_points": 51.09999847412109,
+		"total_points": 55.09999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.10000038146973,
+				"points": 33.09999847412109,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 1,
-						"score": 8,
+						"value": 18,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1788,20 +1788,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUDRY,
-		"total_points": 76,
+		"total_points": 80,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.70000076293945,
+				"points": 47.70000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .800000011920929,
-						"score": 8,
+						"value": 17.79999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1893,20 +1893,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOULSA,
-		"total_points": 86.59999847412109,
+		"total_points": 91.59999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.29999923706055,
+				"points": 44.29999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.199999809265137,
-						"score": 9,
+						"value": 24.20000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -1998,20 +1998,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUNDORE,
-		"total_points": 79.69999694824219,
+		"total_points": 83.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.70000076293945,
+				"points": 41.70000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 0,
-						"score": 8,
+						"value": 17,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2103,20 +2103,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUROUM,
-		"total_points": 70.30000305175781,
+		"total_points": 75.30000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.29999923706055,
+				"points": 47.29999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5.599999904632568,
-						"score": 9,
+						"value": 22.60000038146973,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2208,20 +2208,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOURZANGA,
-		"total_points": 73.5,
+		"total_points": 78.5,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.5,
+				"points": 45.5,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.199999809265137,
-						"score": 9,
+						"value": 24.20000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2313,20 +2313,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSE,
-		"total_points": 67.69999694824219,
+		"total_points": 69.69999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.70000076293945,
+				"points": 35.70000076293945,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -8.100000381469727,
-						"score": 7,
+						"value": 8.899999618530273,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2418,20 +2418,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSOUMA GARANGO,
-		"total_points": 75,
+		"total_points": 78,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40,
+				"points": 43,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -11.39999961853027,
-						"score": 6,
+						"value": 5.599999904632568,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2523,20 +2523,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": BOUSSOUMA KAYA,
-		"total_points": 71.5,
+		"total_points": 73.5,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.5,
+				"points": 38.5,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -7.5,
-						"score": 7,
+						"value": 9.5,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2628,20 +2628,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": COMIN_YANGA,
-		"total_points": 63.09999847412109,
+		"total_points": 65.09999847412109,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.09999847412109,
+				"points": 36.09999847412109,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.60000038146973,
-						"score": 6,
+						"value": 4.400000095367432,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2733,20 +2733,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DABLO,
-		"total_points": 80.19999694824219,
+		"total_points": 82.19999694824219,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 51.20000076293945,
+				"points": 53.20000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -9.899999618530273,
-						"score": 7,
+						"value": 7.099999904632568,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2838,20 +2838,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DAKORO,
-		"total_points": 75.59999847412109,
+		"total_points": 83.59999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.59999847412109,
+				"points": 48.59999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 14.60000038146973,
-						"score": 10,
+						"value": 31.60000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -2943,20 +2943,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DAPELOGO,
-		"total_points": 70.40000152587891,
+		"total_points": 73.40000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36,
+				"points": 39,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -34.29999923706055,
-						"score": 2,
+						"value": -17.29999923706055,
+						"score": 5,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3048,20 +3048,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DARGO,
-		"total_points": 67.90000152587891,
+		"total_points": 76.90000152587891,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.89999961853027,
+				"points": 38.90000152587891,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 9,
-						"score": 9,
+						"value": 26,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3153,20 +3153,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DEOU,
-		"total_points": 63.29999923706055,
+		"total_points": 67.30000305175781,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.29999923706055,
+				"points": 40.29999923706055,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -20.5,
-						"score": 4,
+						"value": -3.5,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3258,20 +3258,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DIALGAYE,
-		"total_points": 69,
+		"total_points": 71,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42,
+				"points": 44,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -3.799999952316284,
-						"score": 8,
+						"value": 13.19999980926514,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3363,20 +3363,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DIGUEL,
-		"total_points": 63.09999847412109,
+		"total_points": 72.09999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.09999847412109,
+				"points": 50.09999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 9.5,
-						"score": 9,
+						"value": 26.5,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3468,20 +3468,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DJIBO,
-		"total_points": 71,
+		"total_points": 79,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40,
+				"points": 48,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 11,
-						"score": 10,
+						"value": 28,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3573,20 +3573,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DORI,
-		"total_points": 66.59999847412109,
+		"total_points": 68.59999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.90000152587891,
+				"points": 35.90000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.30000019073486,
-						"score": 6,
+						"value": 4.699999809265137,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3678,20 +3678,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DOULOUGOU,
-		"total_points": 59.59999847412109,
+		"total_points": 64.59999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.59999847412109,
+				"points": 38.59999847412109,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.699999809265137,
-						"score": 9,
+						"value": 23.70000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3783,20 +3783,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": DOUNA,
-		"total_points": 70.30000305175781,
+		"total_points": 78.30000305175781,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.29999923706055,
+				"points": 43.29999923706055,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.39999961853027,
-						"score": 10,
+						"value": 29.39999961853027,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3894,14 +3894,14 @@
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 26.39999961853027,
+				"points": 28.39999961853027,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -42.40000152587891,
-						"score": 1,
+						"value": -25.39999961853027,
+						"score": 3,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -3993,20 +3993,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": FALAGOUNTOU,
-		"total_points": 78,
+		"total_points": 80,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32,
+				"points": 34,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.80000019073486,
-						"score": 6,
+						"value": 4.199999809265137,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4098,20 +4098,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GAONGO,
-		"total_points": 62.70000076293945,
+		"total_points": 64.69999694824219,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.70000076293945,
+				"points": 37.70000076293945,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -9.899999618530273,
-						"score": 7,
+						"value": 7.099999904632568,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4203,20 +4203,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GARANGO,
-		"total_points": 72.19999694824219,
+		"total_points": 76.19999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.20000076293945,
+				"points": 42.20000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -1.399999976158142,
-						"score": 8,
+						"value": 15.60000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4308,20 +4308,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOGO,
-		"total_points": 76.69999694824219,
+		"total_points": 82.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43,
+				"points": 49,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 3.099999904632568,
-						"score": 8,
+						"value": 20.10000038146973,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4413,20 +4413,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOMBOUSSOUGOU,
-		"total_points": 81.80000305175781,
+		"total_points": 86.80000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.79999923706055,
+				"points": 44.79999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.199999809265137,
-						"score": 9,
+						"value": 23.20000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4518,20 +4518,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GORGADJI,
-		"total_points": 62.90000152587891,
+		"total_points": 64.90000152587891,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.90000152587891,
+				"points": 43.90000152587891,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13.10000038146973,
-						"score": 6,
+						"value": 3.900000095367432,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4623,20 +4623,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOROM_GOROM,
-		"total_points": 52.20000076293945,
+		"total_points": 55.20000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32,
+				"points": 35,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -10.5,
-						"score": 6,
+						"value": 6.5,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4728,20 +4728,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GOUNGHIN,
-		"total_points": 56.5,
+		"total_points": 60.5,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.20000076293945,
+				"points": 35.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.4000000059604645,
-						"score": 8,
+						"value": 16.60000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4833,20 +4833,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIARO,
-		"total_points": 70,
+		"total_points": 74,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34,
+				"points": 38,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 2.299999952316284,
-						"score": 8,
+						"value": 19.29999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -4938,20 +4938,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIBA,
-		"total_points": 68.40000152587891,
+		"total_points": 72.40000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.70000076293945,
+				"points": 41.70000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 2.299999952316284,
-						"score": 8,
+						"value": 19.29999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5043,20 +5043,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": GUIBARE,
-		"total_points": 80.5,
+		"total_points": 83.5,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.5,
+				"points": 46.5,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -6.699999809265137,
-						"score": 7,
+						"value": 10.30000019073486,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5148,20 +5148,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": IPELCE,
-		"total_points": 66.19999694824219,
+		"total_points": 72.19999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.20000076293945,
+				"points": 42.20000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 3.599999904632568,
-						"score": 8,
+						"value": 20.60000038146973,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5253,20 +5253,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KANDO,
-		"total_points": 70.30000305175781,
+		"total_points": 73.30000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.29999923706055,
+				"points": 35.29999923706055,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -6.800000190734863,
-						"score": 7,
+						"value": 10.19999980926514,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5358,20 +5358,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KANKALABA,
-		"total_points": 66.69999694824219,
+		"total_points": 68.69999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.20000076293945,
+				"points": 33.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -8.600000381469727,
-						"score": 7,
+						"value": 8.399999618530273,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5463,20 +5463,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KAYA,
-		"total_points": 69.90000152587891,
+		"total_points": 74.90000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.90000152587891,
+				"points": 42.90000152587891,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5.900000095367432,
-						"score": 9,
+						"value": 22.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5568,20 +5568,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KAYAO,
-		"total_points": 57.79999923706055,
+		"total_points": 59.79999923706055,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.60000038146973,
+				"points": 33.59999847412109,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -14.19999980926514,
-						"score": 6,
+						"value": 2.799999952316284,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5673,20 +5673,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KELBO,
-		"total_points": 72.40000152587891,
+		"total_points": 77.40000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.40000152587891,
+				"points": 37.40000152587891,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.199999809265137,
-						"score": 9,
+						"value": 24.20000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5778,20 +5778,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOGHO,
-		"total_points": 83.09999847412109,
+		"total_points": 91.09999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.09999847412109,
+				"points": 51.09999847412109,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.30000019073486,
-						"score": 10,
+						"value": 29.29999923706055,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5883,20 +5883,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOMBISSIRI,
-		"total_points": 63.20000076293945,
+		"total_points": 66.19999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.20000076293945,
+				"points": 32.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -17.5,
-						"score": 5,
+						"value": -.5,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -5988,20 +5988,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOMTOEGA,
-		"total_points": 84,
+		"total_points": 86,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38,
+				"points": 40,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -38.20000076293945,
-						"score": 2,
+						"value": -21.20000076293945,
+						"score": 4,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6093,20 +6093,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KONGOUSSI,
-		"total_points": 75.80000305175781,
+		"total_points": 77.80000305175781,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.79999923706055,
+				"points": 43.79999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -4.699999809265137,
-						"score": 8,
+						"value": 12.30000019073486,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6198,20 +6198,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KORSIMORO,
-		"total_points": 60.20000076293945,
+		"total_points": 69.19999694824219,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.20000076293945,
+				"points": 41.20000076293945,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 8.600000381469727,
-						"score": 9,
+						"value": 25.60000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6303,20 +6303,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOUPELA,
-		"total_points": 88.40000152587891,
+		"total_points": 93.40000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.79999923706055,
+				"points": 46.79999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.300000190734863,
-						"score": 9,
+						"value": 24.29999923706055,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6408,20 +6408,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": KOUTOUGOU,
-		"total_points": 47.09999847412109,
+		"total_points": 55.09999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.09999847412109,
+				"points": 43.09999847412109,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 10,
-						"score": 10,
+						"value": 27,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6513,20 +6513,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LALGAYE,
-		"total_points": 78,
+		"total_points": 81,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38,
+				"points": 41,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -10.80000019073486,
-						"score": 6,
+						"value": 6.199999809265137,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6618,20 +6618,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LAYE,
-		"total_points": 76.5,
+		"total_points": 79.5,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.5,
+				"points": 46.5,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -7,
-						"score": 7,
+						"value": 10,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6723,20 +6723,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LOUMANA,
-		"total_points": 83.80000305175781,
+		"total_points": 91.80000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.70000076293945,
+				"points": 44.70000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 10.30000019073486,
-						"score": 10,
+						"value": 27.29999923706055,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6828,20 +6828,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": LOUMBILA,
-		"total_points": 61.79999923706055,
+		"total_points": 66.80000305175781,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.79999923706055,
+				"points": 43.79999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5.699999809265137,
-						"score": 9,
+						"value": 22.70000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -6933,20 +6933,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANE,
-		"total_points": 79.30000305175781,
+		"total_points": 85.30000305175781,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.29999923706055,
+				"points": 49.29999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 16.70000076293945,
-						"score": 12,
+						"value": 33.70000076293945,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7038,20 +7038,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANGA,
-		"total_points": 69.19999694824219,
+		"total_points": 74.19999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.5,
+				"points": 39.5,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.300000190734863,
-						"score": 9,
+						"value": 24.29999923706055,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7143,20 +7143,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANGODARA,
-		"total_points": 73,
+		"total_points": 77,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.79999923706055,
+				"points": 46.79999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 2,
-						"score": 8,
+						"value": 19,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7248,20 +7248,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MANSILA,
-		"total_points": 71.19999694824219,
+		"total_points": 75.19999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.20000076293945,
+				"points": 41.20000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.300000011920929,
-						"score": 8,
+						"value": 16.70000076293945,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7353,20 +7353,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MARKOYE,
-		"total_points": 61,
+		"total_points": 63,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 44,
+				"points": 46,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.30000019073486,
-						"score": 6,
+						"value": 4.699999809265137,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7458,20 +7458,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MEGUET,
-		"total_points": 78,
+		"total_points": 80,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 37,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -4.599999904632568,
-						"score": 8,
+						"value": 12.39999961853027,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7563,20 +7563,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MOGTEDO,
-		"total_points": 75.40000152587891,
+		"total_points": 77.40000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38,
+				"points": 40,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -7.699999809265137,
-						"score": 7,
+						"value": 9.300000190734863,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7668,20 +7668,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": MOUSSODOUGOU,
-		"total_points": 77.59999847412109,
+		"total_points": 85.59999847412109,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.59999847412109,
+				"points": 51.59999847412109,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 11.19999980926514,
-						"score": 10,
+						"value": 28.20000076293945,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7773,20 +7773,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAGBINGOU,
-		"total_points": 77.69999694824219,
+		"total_points": 86.69999694824219,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.70000076293945,
+				"points": 52.70000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 8.699999809265137,
-						"score": 9,
+						"value": 25.70000076293945,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7878,20 +7878,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAGREONGO,
-		"total_points": 83.69999694824219,
+		"total_points": 85.69999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.70000076293945,
+				"points": 41.70000076293945,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13.60000038146973,
-						"score": 6,
+						"value": 3.400000095367432,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -7983,20 +7983,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NAMISSIGUIMA,
-		"total_points": 94.19999694824219,
+		"total_points": 100.1999969482422,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 50.20000076293945,
+				"points": 56.20000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 3,
-						"score": 8,
+						"value": 20,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8088,20 +8088,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NASSERE,
-		"total_points": 67.09999847412109,
+		"total_points": 71.09999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.09999847412109,
+				"points": 42.09999847412109,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .4000000059604645,
-						"score": 8,
+						"value": 17.39999961853027,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8193,20 +8193,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NASSOUMBOU,
-		"total_points": 57.5,
+		"total_points": 60.5,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.09999847412109,
+				"points": 37.09999847412109,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -5.900000095367432,
-						"score": 7,
+						"value": 11.10000038146973,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8298,20 +8298,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIANGOLOKO,
-		"total_points": 69.90000152587891,
+		"total_points": 72.90000152587891,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.20000076293945,
+				"points": 32.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -15.10000038146973,
-						"score": 5,
+						"value": 1.899999976158142,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8403,20 +8403,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIANKORODOUGOU,
-		"total_points": 80.59999847412109,
+		"total_points": 88.59999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.09999847412109,
+				"points": 48.09999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 13.39999961853027,
-						"score": 10,
+						"value": 30.39999961853027,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8508,20 +8508,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIAOGO,
-		"total_points": 67.69999694824219,
+		"total_points": 69.69999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.70000076293945,
+				"points": 38.70000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -3.5,
-						"score": 8,
+						"value": 13.5,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8613,20 +8613,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NIOU,
-		"total_points": 67,
+		"total_points": 73,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41,
+				"points": 47,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5,
-						"score": 8,
+						"value": 22,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8718,20 +8718,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": NOBÉRÉ,
-		"total_points": 72.90000152587891,
+		"total_points": 81.90000152587891,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.40000152587891,
+				"points": 44.40000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 9.699999809265137,
-						"score": 9,
+						"value": 26.70000076293945,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8823,20 +8823,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUARGAYE,
-		"total_points": 60.59999847412109,
+		"total_points": 62.59999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.59999847412109,
+				"points": 39.59999847412109,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.60000038146973,
-						"score": 6,
+						"value": 4.400000095367432,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -8928,20 +8928,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUELENI,
-		"total_points": 83.80000305175781,
+		"total_points": 91.80000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.29999923706055,
+				"points": 47.29999923706055,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.60000038146973,
-						"score": 10,
+						"value": 29.60000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9033,20 +9033,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OUO,
-		"total_points": 63.79999923706055,
+		"total_points": 67.80000305175781,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.79999923706055,
+				"points": 37.79999923706055,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 1.100000023841858,
-						"score": 8,
+						"value": 18.10000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9138,20 +9138,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OURGOU_MANEGA,
-		"total_points": 65,
+		"total_points": 68,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 38,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -6.900000095367432,
-						"score": 7,
+						"value": 10.10000038146973,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9243,20 +9243,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": OURSI,
-		"total_points": 52,
+		"total_points": 60,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40,
+				"points": 48,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.10000038146973,
-						"score": 10,
+						"value": 29.10000038146973,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9348,20 +9348,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PENSA,
-		"total_points": 91,
+		"total_points": 95,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.5,
+				"points": 41.5,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -20,
-						"score": 4,
+						"value": -3,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9453,20 +9453,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PIBAORE,
-		"total_points": 68.5,
+		"total_points": 70.5,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 37,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -7.300000190734863,
-						"score": 7,
+						"value": 9.699999809265137,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9558,20 +9558,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PISSILA,
-		"total_points": 67.90000152587891,
+		"total_points": 69.90000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.90000152587891,
+				"points": 35.90000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -9.100000381469727,
-						"score": 7,
+						"value": 7.900000095367432,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9663,20 +9663,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": PO,
-		"total_points": 69.19999694824219,
+		"total_points": 74.19999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.20000076293945,
+				"points": 38.20000076293945,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5,
-						"score": 9,
+						"value": 22,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9768,20 +9768,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": POBE_MENGAO,
-		"total_points": 68.40000152587891,
+		"total_points": 73.40000152587891,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37,
+				"points": 42,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7,
-						"score": 9,
+						"value": 24,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9873,20 +9873,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": POUYTENGA,
-		"total_points": 85.19999694824219,
+		"total_points": 90.19999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.20000076293945,
+				"points": 41.20000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.699999809265137,
-						"score": 9,
+						"value": 23.70000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -9978,20 +9978,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ROLLO,
-		"total_points": 77.5,
+		"total_points": 80.5,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.5,
+				"points": 44.5,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -15.60000038146973,
-						"score": 5,
+						"value": 1.399999976158142,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10083,20 +10083,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ROUKO,
-		"total_points": 75.69999694824219,
+		"total_points": 80.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 45.70000076293945,
+				"points": 50.70000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.599999904632568,
-						"score": 9,
+						"value": 23.5,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10188,20 +10188,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SABCE,
-		"total_points": 81.30000305175781,
+		"total_points": 86.30000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.29999923706055,
+				"points": 47.29999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.900000095367432,
-						"score": 9,
+						"value": 24.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10293,20 +10293,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SALOGO,
-		"total_points": 71.80000305175781,
+		"total_points": 74.80000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.79999923706055,
+				"points": 35.79999923706055,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -29.70000076293945,
-						"score": 3,
+						"value": -12.69999980926514,
+						"score": 6,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10398,20 +10398,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SAMPELGA,
-		"total_points": 63.40000152587891,
+		"total_points": 67.40000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.39999961853027,
+				"points": 33.40000152587891,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -25.70000076293945,
-						"score": 3,
+						"value": -8.699999809265137,
+						"score": 7,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10503,20 +10503,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SANGA,
-		"total_points": 48.20000076293945,
+		"total_points": 52.20000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.20000076293945,
+				"points": 35.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .1000000014901161,
-						"score": 8,
+						"value": 17.10000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10608,20 +10608,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SAPONE,
-		"total_points": 82.90000152587891,
+		"total_points": 86.90000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.90000152587891,
+				"points": 42.90000152587891,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 1.799999952316284,
-						"score": 8,
+						"value": 18.79999923706055,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10719,14 +10719,14 @@
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.60000038146973,
+				"points": 34.59999847412109,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -16.10000038146973,
-						"score": 5,
+						"value": .8999999761581421,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10824,14 +10824,14 @@
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38,
+				"points": 42,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .4000000059604645,
-						"score": 8,
+						"value": 17.39999961853027,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -10923,20 +10923,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SIDERADOUGOU,
-		"total_points": 74,
+		"total_points": 76,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 33,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13.39999961853027,
-						"score": 6,
+						"value": 3.599999904632568,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11028,20 +11028,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SINDOU,
-		"total_points": 84.90000152587891,
+		"total_points": 88.90000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.90000152587891,
+				"points": 42.90000152587891,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.6000000238418579,
-						"score": 8,
+						"value": 16.39999961853027,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11133,20 +11133,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOLHAN,
-		"total_points": 67.09999847412109,
+		"total_points": 71.09999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.09999847412109,
+				"points": 37.09999847412109,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 0,
-						"score": 8,
+						"value": 17,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11238,20 +11238,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOUBAKANIEDOUGOU,
-		"total_points": 72.90000152587891,
+		"total_points": 74.90000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.90000152587891,
+				"points": 36.90000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13,
-						"score": 6,
+						"value": 4,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11343,20 +11343,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOUDOUGUI,
-		"total_points": 57,
+		"total_points": 60,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41,
+				"points": 44,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -11.30000019073486,
-						"score": 6,
+						"value": 5.699999809265137,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11448,20 +11448,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": SOURGOUBILA,
-		"total_points": 51.20000076293945,
+		"total_points": 54.20000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.20000076293945,
+				"points": 37.20000076293945,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -19.10000038146973,
-						"score": 5,
+						"value": -2.099999904632568,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11553,20 +11553,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TANKOUGOUNADIE,
-		"total_points": 74.40000152587891,
+		"total_points": 76.40000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.40000152587891,
+				"points": 35.40000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -9.899999618530273,
-						"score": 7,
+						"value": 7.099999904632568,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11658,20 +11658,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TENKODOGO,
-		"total_points": 76.40000152587891,
+		"total_points": 78.40000152587891,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.29999923706055,
+				"points": 44.29999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -2.700000047683716,
-						"score": 8,
+						"value": 14.30000019073486,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11763,20 +11763,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TENSOBENTENGA,
-		"total_points": 72.59999847412109,
+		"total_points": 76.59999847412109,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.59999847412109,
+				"points": 43.59999847412109,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": .8999999761581421,
-						"score": 8,
+						"value": 17.89999961853027,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11868,20 +11868,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIEBELE,
-		"total_points": 58.5,
+		"total_points": 64.5,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.5,
+				"points": 43.5,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 4.900000095367432,
-						"score": 8,
+						"value": 21.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -11973,20 +11973,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIEFORA,
-		"total_points": 67.19999694824219,
+		"total_points": 76.19999694824219,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.90000152587891,
+				"points": 45.90000152587891,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 8.699999809265137,
-						"score": 9,
+						"value": 25.70000076293945,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12078,20 +12078,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIKARE,
-		"total_points": 69.30000305175781,
+		"total_points": 74.30000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.29999923706055,
+				"points": 43.29999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 5.900000095367432,
-						"score": 9,
+						"value": 22.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12183,20 +12183,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TIN_AKOFF,
-		"total_points": 42.09999847412109,
+		"total_points": 44.09999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.09999847412109,
+				"points": 34.09999847412109,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.30000019073486,
-						"score": 6,
+						"value": 4.699999809265137,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12288,20 +12288,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TITABE,
-		"total_points": 75.80000305175781,
+		"total_points": 77.80000305175781,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.79999923706055,
+				"points": 35.79999923706055,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13.19999980926514,
-						"score": 6,
+						"value": 3.799999952316284,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12393,20 +12393,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TOECE,
-		"total_points": 76,
+		"total_points": 81,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37,
+				"points": 42,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.900000095367432,
-						"score": 9,
+						"value": 23.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12498,20 +12498,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TOEGHIN,
-		"total_points": 61.79999923706055,
+		"total_points": 65.80000305175781,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.79999923706055,
+				"points": 46.79999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -1.700000047683716,
-						"score": 8,
+						"value": 15.30000019073486,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12603,20 +12603,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TONGOMAYEL,
-		"total_points": 64.30000305175781,
+		"total_points": 68.30000305175781,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.59999847412109,
+				"points": 39.59999847412109,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.8999999761581421,
-						"score": 8,
+						"value": 16.10000038146973,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12708,20 +12708,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": TOUGOURI,
-		"total_points": 68.90000152587891,
+		"total_points": 72.90000152587891,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.90000152587891,
+				"points": 40.90000152587891,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -.6000000238418579,
-						"score": 8,
+						"value": 16.39999961853027,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12813,20 +12813,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": WOLONKOTO,
-		"total_points": 69.59999847412109,
+		"total_points": 77.59999847412109,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.59999847412109,
+				"points": 43.59999847412109,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 12.80000019073486,
-						"score": 10,
+						"value": 29.79999923706055,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -12918,20 +12918,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YALGO,
-		"total_points": 70.09999847412109,
+		"total_points": 76.09999847412109,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.09999847412109,
+				"points": 42.09999847412109,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 4.699999809265137,
-						"score": 8,
+						"value": 21.70000076293945,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13023,20 +13023,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YARGATENGA,
-		"total_points": 64.19999694824219,
+		"total_points": 69.19999694824219,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.20000076293945,
+				"points": 38.20000076293945,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.800000190734863,
-						"score": 9,
+						"value": 23.79999923706055,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13128,20 +13128,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YARGO,
-		"total_points": 72.30000305175781,
+		"total_points": 74.30000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.29999923706055,
+				"points": 45.29999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -9.300000190734863,
-						"score": 7,
+						"value": 7.699999809265137,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13233,20 +13233,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": YONDE,
-		"total_points": 84.09999847412109,
+		"total_points": 87.09999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.09999847412109,
+				"points": 38.09999847412109,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -6.199999809265137,
-						"score": 7,
+						"value": 10.80000019073486,
+						"score": 10,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13338,20 +13338,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZABRE,
-		"total_points": 72.80000305175781,
+		"total_points": 76.80000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 39,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 1.700000047683716,
-						"score": 8,
+						"value": 18.70000076293945,
+						"score": 12,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13443,20 +13443,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZAM,
-		"total_points": 94.59999847412109,
+		"total_points": 102.5999984741211,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 52.59999847412109,
+				"points": 60.59999847412109,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 14.5,
-						"score": 10,
+						"value": 31.5,
+						"score": 18,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13548,20 +13548,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZECCO,
-		"total_points": 58.70000076293945,
+		"total_points": 63.70000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.70000076293945,
+				"points": 41.70000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.300000190734863,
-						"score": 9,
+						"value": 23.29999923706055,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13653,20 +13653,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZEGUEDEGUIN,
-		"total_points": 74.5,
+		"total_points": 77.5,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.5,
+				"points": 42.5,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -10.69999980926514,
-						"score": 6,
+						"value": 6.300000190734863,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13758,20 +13758,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZIGA,
-		"total_points": 68.09999847412109,
+		"total_points": 73.09999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 45.09999847412109,
+				"points": 50.09999847412109,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 6.800000190734863,
-						"score": 9,
+						"value": 23.79999923706055,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13863,20 +13863,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZIMTANGA,
-		"total_points": 89,
+		"total_points": 95,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 53,
+				"points": 59,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 4.099999904632568,
-						"score": 8,
+						"value": 21.10000038146973,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -13968,20 +13968,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZINIARÉ,
-		"total_points": 90.59999847412109,
+		"total_points": 95.59999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.59999847412109,
+				"points": 39.59999847412109,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": 7.900000095367432,
-						"score": 9,
+						"value": 24.89999961853027,
+						"score": 14,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -14073,20 +14073,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZIOU,
-		"total_points": 53,
+		"total_points": 56,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39,
+				"points": 42,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -11.5,
-						"score": 6,
+						"value": 5.5,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -14178,20 +14178,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZITENGA,
-		"total_points": 90.19999694824219,
+		"total_points": 92.19999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.20000076293945,
+				"points": 42.20000076293945,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -13.69999980926514,
-						"score": 6,
+						"value": 3.299999952316284,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -14388,20 +14388,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZONSE,
-		"total_points": 84.30000305175781,
+		"total_points": 87.30000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.29999923706055,
+				"points": 46.29999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -15.5,
-						"score": 5,
+						"value": 1.5,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -14493,20 +14493,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZORGHO,
-		"total_points": 96.09999847412109,
+		"total_points": 98.09999847412109,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42,
+				"points": 44,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -12.60000038146973,
-						"score": 6,
+						"value": 4.400000095367432,
+						"score": 8,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},
@@ -14598,20 +14598,20 @@
 		"label": "PERFORMANCE MUNICIPALE 2014/15",
 		"year": "2014/15",
 		"commune": ZOUNGOU,
-		"total_points": 88.69999694824219,
+		"total_points": 90.69999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40,
+				"points": 42,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
-						"value": -7.599999904632568,
-						"score": 7,
+						"value": 9.399999618530273,
+						"score": 9,
 						"points": [0,4,8,14,18],
 						"scale_marks": [-40,-20,0,20,35]
 					},

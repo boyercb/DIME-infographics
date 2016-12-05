@@ -95,7 +95,7 @@ forval i = 1/`=_N' {
     file w p1 _tab(6) `""label": "Taux de participation\naux sessions ordinaires du\nConseil Municipal (%)","' _n
     file w p1 _tab(6) `""value": `value_attendance',"' _n
     file w p1 _tab(6) `""score": `score_attendance',"' _n
-    file w p1 _tab(6) `""points": [0,1,4,6,8,10],"' _n
+    file w p1 _tab(6) `""points": [0,1,3,5,7,10],"' _n
     file w p1 _tab(6) `""scale_marks": [20,40,60,80,90,100]"' _n
     file w p1 _tab(5) "}" _n
     
