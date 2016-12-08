@@ -288,23 +288,23 @@ replace score_school_supplies = 0 if value_school_supplies > 200 & !mi(value_sch
 
 * percentage of schools with working water source
 g score_school_wells = 0
-replace score_school_wells = 1 if value_school_wells < 20 
-replace score_school_wells = 2 if value_school_wells < 25 
-replace score_school_wells = 3 if value_school_wells < 30
-replace score_school_wells = 4 if value_school_wells < 35 
-replace score_school_wells = 5 if value_school_wells < 40 
-replace score_school_wells = 6 if value_school_wells < 45
-replace score_school_wells = 7 if value_school_wells < 50 
-replace score_school_wells = 8 if value_school_wells < 55 
-replace score_school_wells = 9 if value_school_wells < 60
-replace score_school_wells = 10 if value_school_wells < 65 
-replace score_school_wells = 11 if value_school_wells < 70 
-replace score_school_wells = 12 if value_school_wells < 75 
-replace score_school_wells = 13 if value_school_wells < 80 
-replace score_school_wells = 14 if value_school_wells < 85 
-replace score_school_wells = 15 if value_school_wells < 90 
-replace score_school_wells = 16 if value_school_wells < 95 
-replace score_school_wells = 20 if value_school_wells < 100
+replace score_school_wells = 1 if value_school_wells < 20 & value_school_wells >= 0
+replace score_school_wells = 2 if value_school_wells < 25 & value_school_wells >= 20
+replace score_school_wells = 3 if value_school_wells < 30 & value_school_wells >= 25
+replace score_school_wells = 4 if value_school_wells < 35 & value_school_wells >= 30
+replace score_school_wells = 5 if value_school_wells < 40 & value_school_wells >= 35
+replace score_school_wells = 6 if value_school_wells < 45 & value_school_wells >= 40
+replace score_school_wells = 7 if value_school_wells < 50 & value_school_wells >= 45
+replace score_school_wells = 8 if value_school_wells < 55 & value_school_wells >= 50
+replace score_school_wells = 9 if value_school_wells < 60 & value_school_wells >= 55
+replace score_school_wells = 10 if value_school_wells < 65 & value_school_wells >= 60
+replace score_school_wells = 11 if value_school_wells < 70 & value_school_wells >= 65
+replace score_school_wells = 12 if value_school_wells < 75 & value_school_wells >= 70
+replace score_school_wells = 13 if value_school_wells < 80 & value_school_wells >= 75
+replace score_school_wells = 14 if value_school_wells < 85 & value_school_wells >= 80
+replace score_school_wells = 15 if value_school_wells < 90 & value_school_wells >= 85
+replace score_school_wells = 16 if value_school_wells < 95 & value_school_wells >= 90
+replace score_school_wells = 20 if value_school_wells < 100 & value_school_wells >= 95
 replace score_school_wells = 25 if value_school_wells >= 100 & value_school_wells < .
 
 * percentage of schools with functioning latrines for each class

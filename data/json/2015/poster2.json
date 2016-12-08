@@ -3,13 +3,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ABSOUYA,
-		"total_points": 77.40000152587891,
+		"total_points": 71.40000152587891,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.39999961853027,
+				"points": 25.39999961853027,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -30,7 +30,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -110,13 +110,13 @@
 		"commune": ANDEMTENGA,
 		"total_points": 74.40000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 38.40000152587891,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -213,13 +213,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ARBINDA,
-		"total_points": 55.40000152587891,
+		"total_points": 50.40000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.40000152587891,
+				"points": 28.39999961853027,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -240,7 +240,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 85,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -318,13 +318,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BAGRE,
-		"total_points": 94.19999694824219,
+		"total_points": 90.19999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.59999847412109,
+				"points": 37.59999847412109,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
@@ -345,7 +345,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -423,15 +423,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BANE,
-		"total_points": 67.30000305175781,
+		"total_points": 61.29999923706055,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41.29999923706055,
+				"points": 35.29999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -450,7 +450,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -528,13 +528,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BANFORA,
-		"total_points": 60,
+		"total_points": 54,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29,
+				"points": 23,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -555,7 +555,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -633,13 +633,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BANI,
-		"total_points": 59,
+		"total_points": 55,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33,
+				"points": 29,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -660,7 +660,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -738,13 +738,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BARABOULE,
-		"total_points": 73.59999847412109,
+		"total_points": 69.59999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.09999847412109,
+				"points": 34.09999847412109,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -765,7 +765,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -845,13 +845,13 @@
 		"commune": BARSALOGHO,
 		"total_points": 68.30000305175781,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 33.29999923706055,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -1061,7 +1061,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 35.90000152587891,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -1158,13 +1158,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BERE,
-		"total_points": 53.59999847412109,
+		"total_points": 41.59999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30.10000038146973,
+				"points": 18.10000038146973,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -1185,7 +1185,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 53.29999923706055,
-						"score": 20,
+						"score": 8,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -1265,7 +1265,7 @@
 		"commune": BEREGADOUGOU,
 		"total_points": 64.59999847412109,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -1368,13 +1368,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BINDE,
-		"total_points": 50.5,
+		"total_points": 31.5,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30,
+				"points": 11,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -1395,7 +1395,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 13.30000019073486,
-						"score": 20,
+						"score": 1,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -1473,13 +1473,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BISSIGA,
-		"total_points": 49.90000152587891,
+		"total_points": 45.90000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 26.89999961853027,
+				"points": 22.89999961853027,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -1500,7 +1500,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -1580,7 +1580,7 @@
 		"commune": BITTOU,
 		"total_points": 57,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -1683,13 +1683,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BOALA,
-		"total_points": 68.09999847412109,
+		"total_points": 64.09999847412109,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 44.79999923706055,
+				"points": 40.79999923706055,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
@@ -1710,7 +1710,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -1893,15 +1893,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BOULSA,
-		"total_points": 74.59999847412109,
+		"total_points": 69.59999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.59999847412109,
+				"points": 35.59999847412109,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -1920,7 +1920,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 88,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -1998,15 +1998,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BOUNDORE,
-		"total_points": 73.5,
+		"total_points": 65.5,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.5,
+				"points": 24.5,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -2025,7 +2025,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 73.30000305175781,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -2103,15 +2103,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BOUROUM,
-		"total_points": 66.59999847412109,
+		"total_points": 56.59999847412109,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.29999923706055,
+				"points": 24.29999923706055,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -2130,7 +2130,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 60,
-						"score": 20,
+						"score": 10,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -2210,7 +2210,7 @@
 		"commune": BOURZANGA,
 		"total_points": 75.40000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -2321,7 +2321,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 29.29999923706055,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -2420,7 +2420,7 @@
 		"commune": BOUSSOUMA GARANGO,
 		"total_points": 70.30000305175781,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -2628,13 +2628,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": COMIN_YANGA,
-		"total_points": 63.5,
+		"total_points": 59.5,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.5,
+				"points": 28.5,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -2655,7 +2655,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -2838,13 +2838,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DAKORO,
-		"total_points": 64.90000152587891,
+		"total_points": 60.90000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.90000152587891,
+				"points": 31.89999961853027,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -2865,7 +2865,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -2943,13 +2943,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DAPELOGO,
-		"total_points": 70.80000305175781,
+		"total_points": 66.80000305175781,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.79999923706055,
+				"points": 33.79999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -2970,7 +2970,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3048,15 +3048,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DARGO,
-		"total_points": 70.59999847412109,
+		"total_points": 62.59999847412109,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.09999847412109,
+				"points": 28.10000038146973,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3075,7 +3075,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 73.30000305175781,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3153,15 +3153,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DEOU,
-		"total_points": 60,
+		"total_points": 56,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 27,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3180,7 +3180,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 92.90000152587891,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3258,13 +3258,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DIALGAYE,
-		"total_points": 90.69999694824219,
+		"total_points": 84.69999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36,
+				"points": 30,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -3285,7 +3285,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3363,15 +3363,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DIGUEL,
-		"total_points": 71.90000152587891,
+		"total_points": 60.90000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.90000152587891,
+				"points": 28.89999961853027,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3390,7 +3390,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 57.09999847412109,
-						"score": 20,
+						"score": 9,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3468,13 +3468,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DJIBO,
-		"total_points": 72.09999847412109,
+		"total_points": 68.09999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.79999923706055,
+				"points": 28.79999923706055,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -3495,7 +3495,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90.90000152587891,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3573,13 +3573,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DORI,
-		"total_points": 63.29999923706055,
+		"total_points": 58.29999923706055,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.70000076293945,
+				"points": 28.70000076293945,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -3600,7 +3600,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 88,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3678,15 +3678,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DOULOUGOU,
-		"total_points": 66.30000305175781,
+		"total_points": 53.20000076293945,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.29999923706055,
+				"points": 23.20000076293945,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3697,22 +3697,22 @@
 					},
 					{
 						"label": "Retard moyen d'appro-\nvisionnement en fournitures\nscolaires (nombre de jours\naprès la rentrée scolaire)",
-						"value": 18.60000038146973,
-						"score": 2.299999952316284,
+						"value": 21.29999923706055,
+						"score": 2.200000047683716,
 						"points": [1,2,3,5,10],
 						"scale_marks": [50,25,10,4,0]
 					},
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 57.09999847412109,
-						"score": 20,
+						"score": 9,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
 					{
 						"label": "Taux d’écoles avec\ndes latrines fonctionnelles\npour chaque classe",
-						"value": 71.40000152587891,
-						"score": 8,
+						"value": 64.30000305175781,
+						"score": 6,
 						"points": [0,3,6,10,15],
 						"scale_marks": [25,40,60,80,100]
 					}
@@ -3783,15 +3783,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DOUNA,
-		"total_points": 66.30000305175781,
+		"total_points": 56.29999923706055,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.29999923706055,
+				"points": 26.29999923706055,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3810,7 +3810,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 60,
-						"score": 20,
+						"score": 10,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -3888,15 +3888,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DOURTENGA,
-		"total_points": 65.09999847412109,
+		"total_points": 57.09999847412109,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.09999847412109,
+				"points": 25.10000038146973,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -3915,7 +3915,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 70,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -4098,13 +4098,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GAONGO,
-		"total_points": 56.09999847412109,
+		"total_points": 37.09999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 28.10000038146973,
+				"points": 9.100000381469727,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -4125,7 +4125,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 12.5,
-						"score": 20,
+						"score": 1,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -4205,13 +4205,13 @@
 		"commune": GARANGO,
 		"total_points": 58,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 29,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -4308,13 +4308,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GOGO,
-		"total_points": 77.09999847412109,
+		"total_points": 69.09999847412109,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30,
+				"points": 22,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -4335,7 +4335,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 73.30000305175781,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -4413,15 +4413,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GOMBOUSSOUGOU,
-		"total_points": 72.40000152587891,
+		"total_points": 65.40000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.70000076293945,
+				"points": 27.70000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -4440,7 +4440,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 75,
-						"score": 20,
+						"score": 13,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -4520,7 +4520,7 @@
 		"commune": GORGADJI,
 		"total_points": 62.20000076293945,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -4623,13 +4623,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GOROM_GOROM,
-		"total_points": 55.70000076293945,
+		"total_points": 49.70000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29,
+				"points": 23,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -4650,7 +4650,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -4730,13 +4730,13 @@
 		"commune": GOUNGHIN,
 		"total_points": 58.20000076293945,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 35.20000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -4835,13 +4835,13 @@
 		"commune": GUIARO,
 		"total_points": 73.59999847412109,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 38.09999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -4938,13 +4938,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GUIBA,
-		"total_points": 56,
+		"total_points": 38,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 28,
+				"points": 10,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -4965,7 +4965,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 23.5,
-						"score": 20,
+						"score": 2,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5043,15 +5043,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": GUIBARE,
-		"total_points": 88.40000152587891,
+		"total_points": 82.40000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.40000152587891,
+				"points": 31.39999961853027,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -5070,7 +5070,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 83.30000305175781,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5150,7 +5150,7 @@
 		"commune": IPELCE,
 		"total_points": 70,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -5253,13 +5253,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KANDO,
-		"total_points": 68.69999694824219,
+		"total_points": 62.70000076293945,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.70000076293945,
+				"points": 25.70000076293945,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -5280,7 +5280,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 84.19999694824219,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5358,13 +5358,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KANKALABA,
-		"total_points": 66,
+		"total_points": 62,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 31,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -5385,7 +5385,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5463,13 +5463,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KAYA,
-		"total_points": 61.40000152587891,
+		"total_points": 55.40000152587891,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30.39999961853027,
+				"points": 24.39999961853027,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -5490,7 +5490,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5568,15 +5568,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KAYAO,
-		"total_points": 62.70000076293945,
+		"total_points": 52.70000076293945,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.90000152587891,
+				"points": 24.89999961853027,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -5595,7 +5595,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 60,
-						"score": 20,
+						"score": 10,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5673,15 +5673,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KELBO,
-		"total_points": 74.19999694824219,
+		"total_points": 70.19999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30.20000076293945,
+				"points": 26.20000076293945,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -5700,7 +5700,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5778,13 +5778,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KOGHO,
-		"total_points": 75.30000305175781,
+		"total_points": 69.30000305175781,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.29999923706055,
+				"points": 33.29999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -5805,7 +5805,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5883,13 +5883,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KOMBISSIRI,
-		"total_points": 73.69999694824219,
+		"total_points": 67.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 27.39999961853027,
+				"points": 21.39999961853027,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -5910,7 +5910,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 84.19999694824219,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -5990,13 +5990,13 @@
 		"commune": KOMTOEGA,
 		"total_points": 74.19999694824219,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 36.20000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6095,7 +6095,7 @@
 		"commune": KONGOUSSI,
 		"total_points": 64.69999694824219,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -6206,7 +6206,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 32.90000152587891,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6303,15 +6303,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KOUPELA,
-		"total_points": 79,
+		"total_points": 71,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34,
+				"points": 26,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6330,7 +6330,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 73.30000305175781,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6408,15 +6408,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": KOUTOUGOU,
-		"total_points": 64.5,
+		"total_points": 58.5,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.5,
+				"points": 28.5,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6435,7 +6435,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6513,13 +6513,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": LALGAYE,
-		"total_points": 66.40000152587891,
+		"total_points": 62.40000152587891,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.40000152587891,
+				"points": 30.39999961853027,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -6540,7 +6540,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6618,15 +6618,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": LAYE,
-		"total_points": 66.19999694824219,
+		"total_points": 60.20000076293945,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.20000076293945,
+				"points": 31.20000076293945,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6645,7 +6645,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6723,13 +6723,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": LOUMANA,
-		"total_points": 71.30000305175781,
+		"total_points": 66.30000305175781,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.59999847412109,
+				"points": 27.60000038146973,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -6750,7 +6750,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6828,15 +6828,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": LOUMBILA,
-		"total_points": 62,
+		"total_points": 57,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34,
+				"points": 29,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -6855,7 +6855,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -6941,7 +6941,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 29.79999923706055,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -7038,13 +7038,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": MANGA,
-		"total_points": 54.90000152587891,
+		"total_points": 49.90000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 28,
+				"points": 23,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -7065,7 +7065,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -7143,13 +7143,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": MANGODARA,
-		"total_points": 66.59999847412109,
+		"total_points": 61.59999847412109,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.59999847412109,
+				"points": 30.60000038146973,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -7170,7 +7170,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 87.5,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -7361,7 +7361,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 34.79999923706055,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -7458,13 +7458,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": MEGUET,
-		"total_points": 75.90000152587891,
+		"total_points": 71.90000152587891,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.90000152587891,
+				"points": 30.89999961853027,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -7485,7 +7485,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -7571,7 +7571,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 38.70000076293945,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -7668,15 +7668,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": MOUSSODOUGOU,
-		"total_points": 83.90000152587891,
+		"total_points": 74.90000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.90000152587891,
+				"points": 33.90000152587891,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -7695,7 +7695,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 66.69999694824219,
-						"score": 20,
+						"score": 11,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -7773,15 +7773,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NAGBINGOU,
-		"total_points": 78.19999694824219,
+		"total_points": 72.19999694824219,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 43.20000076293945,
+				"points": 37.20000076293945,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -7800,7 +7800,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -7983,15 +7983,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NAMISSIGUIMA,
-		"total_points": 91,
+		"total_points": 77,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39,
+				"points": 25,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -8010,7 +8010,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 40,
-						"score": 20,
+						"score": 6,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -8088,13 +8088,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NASSERE,
-		"total_points": 78.69999694824219,
+		"total_points": 74.69999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.70000076293945,
+				"points": 31.70000076293945,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -8115,7 +8115,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -8193,15 +8193,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NASSOUMBOU,
-		"total_points": 72.69999694824219,
+		"total_points": 68.69999694824219,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 40.70000076293945,
+				"points": 36.70000076293945,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -8220,7 +8220,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -8298,13 +8298,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NIANGOLOKO,
-		"total_points": 70.80000305175781,
+		"total_points": 64.80000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.79999923706055,
+				"points": 23.79999923706055,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -8325,7 +8325,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -8405,7 +8405,7 @@
 		"commune": NIANKORODOUGOU,
 		"total_points": 68.30000305175781,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -8510,7 +8510,7 @@
 		"commune": NIAOGO,
 		"total_points": 65.90000152587891,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -8615,7 +8615,7 @@
 		"commune": NIOU,
 		"total_points": 65,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -8718,15 +8718,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": NOBÉRÉ,
-		"total_points": 57.5,
+		"total_points": 52.5,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 26,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -8745,7 +8745,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -8823,13 +8823,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": OUARGAYE,
-		"total_points": 61,
+		"total_points": 57,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36,
+				"points": 32,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -8850,7 +8850,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -9035,13 +9035,13 @@
 		"commune": OUO,
 		"total_points": 55.79999923706055,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 33.79999923706055,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9146,7 +9146,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 39,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9251,7 +9251,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 26,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9350,13 +9350,13 @@
 		"commune": PENSA,
 		"total_points": 65,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 32,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9453,13 +9453,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": PIBAORE,
-		"total_points": 63.40000152587891,
+		"total_points": 59.40000152587891,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.40000152587891,
+				"points": 30.39999961853027,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -9480,7 +9480,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -9558,13 +9558,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": PISSILA,
-		"total_points": 64,
+		"total_points": 58,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32,
+				"points": 26,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -9585,7 +9585,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 81,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -9663,15 +9663,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": PO,
-		"total_points": 64,
+		"total_points": 60,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 27,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9690,7 +9690,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -9768,13 +9768,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": POBE_MENGAO,
-		"total_points": 60.20000076293945,
+		"total_points": 54.20000076293945,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30.20000076293945,
+				"points": 24.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -9795,7 +9795,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 83.30000305175781,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -9881,7 +9881,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 30.39999961853027,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -9978,15 +9978,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ROLLO,
-		"total_points": 74.09999847412109,
+		"total_points": 66.09999847412109,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.09999847412109,
+				"points": 30.10000038146973,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -10005,7 +10005,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 70,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10083,13 +10083,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ROUKO,
-		"total_points": 72.5,
+		"total_points": 66.5,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.5,
+				"points": 23.5,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -10110,7 +10110,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10188,13 +10188,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SABCE,
-		"total_points": 55.29999923706055,
+		"total_points": 51.29999923706055,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 29.29999923706055,
+				"points": 25.29999923706055,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -10215,7 +10215,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10293,13 +10293,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SALOGO,
-		"total_points": 66,
+		"total_points": 58,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 23,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -10320,7 +10320,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 70,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10400,13 +10400,13 @@
 		"commune": SAMPELGA,
 		"total_points": 59,
 		"max_points": 140,
-		"stars": 1,
+		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 31,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -10503,13 +10503,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SANGA,
-		"total_points": 53.09999847412109,
+		"total_points": 49.09999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.10000038146973,
+				"points": 27.10000038146973,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -10530,7 +10530,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10608,15 +10608,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SAPONE,
-		"total_points": 63.5,
+		"total_points": 55.5,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 37.5,
+				"points": 29.5,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -10635,7 +10635,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 70,
-						"score": 20,
+						"score": 12,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10713,13 +10713,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SEBBA,
-		"total_points": 72.59999847412109,
+		"total_points": 67.59999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 26.60000038146973,
+				"points": 21.60000038146973,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -10740,7 +10740,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10824,7 +10824,7 @@
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.20000076293945,
+				"points": 27.29999923706055,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -10837,15 +10837,15 @@
 					},
 					{
 						"label": "Retard moyen d'appro-\nvisionnement en fournitures\nscolaires (nombre de jours\naprès la rentrée scolaire)",
-						"value": 68.30000305175781,
-						"score": 1.200000047683716,
+						"value": 57.70000076293945,
+						"score": 1.299999952316284,
 						"points": [1,2,3,5,10],
 						"scale_marks": [50,25,10,4,0]
 					},
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -10925,13 +10925,13 @@
 		"commune": SIDERADOUGOU,
 		"total_points": 69.90000152587891,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 33.90000152587891,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -11028,13 +11028,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SINDOU,
-		"total_points": 61.29999923706055,
+		"total_points": 57.29999923706055,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35,
+				"points": 31,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -11055,7 +11055,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11133,13 +11133,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SOLHAN,
-		"total_points": 70.30000305175781,
+		"total_points": 66.30000305175781,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 32.29999923706055,
+				"points": 28.29999923706055,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -11160,7 +11160,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11238,13 +11238,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SOUBAKANIEDOUGOU,
-		"total_points": 73,
+		"total_points": 68,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.5,
+				"points": 30.5,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -11265,7 +11265,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 86.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11343,13 +11343,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": SOUDOUGUI,
-		"total_points": 55.40000152587891,
+		"total_points": 51.40000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.40000152587891,
+				"points": 35.40000152587891,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -11370,7 +11370,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11456,7 +11456,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 35.20000076293945,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -11553,13 +11553,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TANKOUGOUNADIE,
-		"total_points": 70.69999694824219,
+		"total_points": 66.69999694824219,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.70000076293945,
+				"points": 27.70000076293945,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -11580,7 +11580,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11660,13 +11660,13 @@
 		"commune": TENKODOGO,
 		"total_points": 69,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 37.59999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -11763,13 +11763,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TENSOBENTENGA,
-		"total_points": 78.19999694824219,
+		"total_points": 74.19999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.20000076293945,
+				"points": 34.20000076293945,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -11790,7 +11790,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11868,13 +11868,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TIEBELE,
-		"total_points": 50.29999923706055,
+		"total_points": 46.29999923706055,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.09999847412109,
+				"points": 30.10000038146973,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -11895,7 +11895,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.80000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -11973,15 +11973,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TIEFORA,
-		"total_points": 58.70000076293945,
+		"total_points": 51.70000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.70000076293945,
+				"points": 24.70000076293945,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12000,7 +12000,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 79.30000305175781,
-						"score": 20,
+						"score": 13,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -12183,13 +12183,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TIN_AKOFF,
-		"total_points": 41.20000076293945,
+		"total_points": 35.20000076293945,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 24.20000076293945,
+				"points": 18.20000076293945,
 				"max_points": 70,
 				"stars": 1,
 				"items": [
@@ -12210,7 +12210,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -12296,7 +12296,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 33.29999923706055,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12393,15 +12393,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TOECE,
-		"total_points": 69,
+		"total_points": 54,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31,
+				"points": 16,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12420,7 +12420,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 35,
-						"score": 20,
+						"score": 5,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -12603,13 +12603,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": TONGOMAYEL,
-		"total_points": 65.30000305175781,
+		"total_points": 61.29999923706055,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 34.29999923706055,
+				"points": 30.29999923706055,
 				"max_points": 70,
 				"stars": 3,
 				"items": [
@@ -12630,7 +12630,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 94.09999847412109,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -12710,13 +12710,13 @@
 		"commune": TOUGOURI,
 		"total_points": 67.59999847412109,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 37.59999847412109,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12813,15 +12813,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": WOLONKOTO,
-		"total_points": 68,
+		"total_points": 52,
 		"max_points": 140,
-		"stars": 3,
+		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 41,
+				"points": 25,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 1,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12840,7 +12840,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 33.29999923706055,
-						"score": 20,
+						"score": 4,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -12918,15 +12918,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": YALGO,
-		"total_points": 66,
+		"total_points": 62,
 		"max_points": 140,
-		"stars": 2,
+		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 30,
+				"points": 26,
 				"max_points": 70,
-				"stars": 1,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -12945,7 +12945,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 93.30000305175781,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13031,7 +13031,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 33.70000076293945,
 				"max_points": 70,
-				"stars": 2,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -13136,7 +13136,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 39.29999923706055,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -13241,7 +13241,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 34.09999847412109,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -13338,13 +13338,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZAM,
-		"total_points": 83,
+		"total_points": 78,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 42.20000076293945,
+				"points": 37.20000076293945,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
@@ -13365,7 +13365,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 89.5,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13443,13 +13443,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZECCO,
-		"total_points": 57.59999847412109,
+		"total_points": 51.59999847412109,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.59999847412109,
+				"points": 27.60000038146973,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -13470,7 +13470,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 80,
-						"score": 20,
+						"score": 14,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13548,13 +13548,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZEGUEDEGUIN,
-		"total_points": 65.30000305175781,
+		"total_points": 61.29999923706055,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 38.29999923706055,
+				"points": 34.29999923706055,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -13575,7 +13575,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13653,15 +13653,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZIGA,
-		"total_points": 68.80000305175781,
+		"total_points": 63.79999923706055,
 		"max_points": 140,
 		"stars": 3,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 39.79999923706055,
+				"points": 34.79999923706055,
 				"max_points": 70,
-				"stars": 5,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -13680,7 +13680,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 85.69999694824219,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13760,7 +13760,7 @@
 		"commune": ZIMTANGA,
 		"total_points": 75.90000152587891,
 		"max_points": 140,
-		"stars": 4,
+		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
@@ -13863,13 +13863,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZINIARÉ,
-		"total_points": 76.59999847412109,
+		"total_points": 71.59999847412109,
 		"max_points": 140,
-		"stars": 5,
+		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 33.59999847412109,
+				"points": 28.60000038146973,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -13890,7 +13890,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 88,
-						"score": 20,
+						"score": 15,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -13968,13 +13968,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZIOU,
-		"total_points": 45.90000152587891,
+		"total_points": 41.90000152587891,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 31.89999961853027,
+				"points": 27.89999961853027,
 				"max_points": 70,
 				"stars": 2,
 				"items": [
@@ -13995,7 +13995,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -14081,7 +14081,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 35.29999923706055,
 				"max_points": 70,
-				"stars": 3,
+				"stars": 4,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -14178,15 +14178,15 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZOAGA,
-		"total_points": 82.40000152587891,
+		"total_points": 78.40000152587891,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 36.40000152587891,
+				"points": 32.40000152587891,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -14205,7 +14205,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -14291,7 +14291,7 @@
 				"label": "ÉCOLES PRIMAIRES",
 				"points": 37.5,
 				"max_points": 70,
-				"stars": 4,
+				"stars": 5,
 				"items": [
 					{
 						"label": "Écart entre le taux d'admission\nau CEP dans la commune et au\nniveau national (en points\nde pourcentage)",
@@ -14388,13 +14388,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZORGHO,
-		"total_points": 87.30000305175781,
+		"total_points": 81.69999694824219,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 45,
+				"points": 41,
 				"max_points": 70,
 				"stars": 5,
 				"items": [
@@ -14415,7 +14415,7 @@
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
 						"value": 90,
-						"score": 20,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -14430,7 +14430,7 @@
 			},
 			{
 				"label": "SANTÉ",
-				"points": 21.29999923706055,
+				"points": 19.70000076293945,
 				"max_points": 40,
 				"stars": 3,
 				"items": [
@@ -14450,8 +14450,8 @@
 					},
 					{
 						"label": "Taux de CSPS ayant reçu\nun stock de gaz suffisant de la\nmunicipalité entre juin\net décembre 2015",
-						"value": 33.29999923706055,
-						"score": 3.299999952316284,
+						"value": 16.70000076293945,
+						"score": 1.700000047683716,
 						"points": [0,5,8,10],
 						"scale_marks": [0,50,80,100]
 					}
