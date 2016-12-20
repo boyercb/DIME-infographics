@@ -528,7 +528,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BANFORA,
-		"total_points": 54,
+		"total_points": 53,
 		"max_points": 140,
 		"stars": 1,
 		"items":[
@@ -570,7 +570,7 @@
 			},
 			{
 				"label": "SANTÉ",
-				"points": 17,
+				"points": 16,
 				"max_points": 40,
 				"stars": 2,
 				"items": [
@@ -590,8 +590,8 @@
 					},
 					{
 						"label": "Taux de CSPS ayant reçu\nun stock de gaz suffisant de la\nmunicipalité entre juin\net décembre 2015",
-						"value": 80,
-						"score": 8,
+						"value": 70,
+						"score": 7,
 						"points": [0,5,8,10],
 						"scale_marks": [0,50,80,100]
 					}
@@ -1893,13 +1893,13 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": BOULSA,
-		"total_points": 69.59999847412109,
+		"total_points": 70.59999847412109,
 		"max_points": 140,
 		"stars": 4,
 		"items":[
 			{
 				"label": "ÉCOLES PRIMAIRES",
-				"points": 35.59999847412109,
+				"points": 36.59999847412109,
 				"max_points": 70,
 				"stars": 4,
 				"items": [
@@ -1919,8 +1919,8 @@
 					},
 					{
 						"label": "Taux d'écoles avec\nun forage fonctionnel",
-						"value": 88,
-						"score": 15,
+						"value": 92,
+						"score": 16,
 						"points": [0,2,8,12,25],
 						"scale_marks": [0,25,50,75,100]
 					},
@@ -2357,7 +2357,7 @@
 				"label": "SANTÉ",
 				"points": 18.5,
 				"max_points": 40,
-				"stars": 2,
+				"stars": 3,
 				"items": [
 					{
 						"label": "Taux d’accouchements\nassistés pendant l’année",
@@ -3573,7 +3573,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": DORI,
-		"total_points": 58.29999923706055,
+		"total_points": 57.70000076293945,
 		"max_points": 140,
 		"stars": 2,
 		"items":[
@@ -3615,9 +3615,9 @@
 			},
 			{
 				"label": "SANTÉ",
-				"points": 18.60000038146973,
+				"points": 18,
 				"max_points": 40,
-				"stars": 3,
+				"stars": 2,
 				"items": [
 					{
 						"label": "Taux d’accouchements\nassistés pendant l’année",
@@ -3635,8 +3635,8 @@
 					},
 					{
 						"label": "Taux de CSPS ayant reçu\nun stock de gaz suffisant de la\nmunicipalité entre juin\net décembre 2015",
-						"value": 6.300000190734863,
-						"score": .6000000238418579,
+						"value": 0,
+						"score": 0,
 						"points": [0,5,8,10],
 						"scale_marks": [0,50,80,100]
 					}
@@ -10837,7 +10837,7 @@
 					},
 					{
 						"label": "Retard moyen d'appro-\nvisionnement en fournitures\nscolaires (nombre de jours\naprès la rentrée scolaire)",
-						"value": 57.70000076293945,
+						"value": 63.09999847412109,
 						"score": 1.299999952316284,
 						"points": [1,2,3,5,10],
 						"scale_marks": [50,25,10,4,0]
@@ -14388,7 +14388,7 @@
 		"label": "PERFORMANCE MUNICIPALE 2015/16",
 		"year": "2015/16",
 		"commune": ZORGHO,
-		"total_points": 81.69999694824219,
+		"total_points": 83.30000305175781,
 		"max_points": 140,
 		"stars": 5,
 		"items":[
@@ -14430,7 +14430,7 @@
 			},
 			{
 				"label": "SANTÉ",
-				"points": 19.70000076293945,
+				"points": 21.29999923706055,
 				"max_points": 40,
 				"stars": 3,
 				"items": [
@@ -14450,8 +14450,8 @@
 					},
 					{
 						"label": "Taux de CSPS ayant reçu\nun stock de gaz suffisant de la\nmunicipalité entre juin\net décembre 2015",
-						"value": 16.70000076293945,
-						"score": 1.700000047683716,
+						"value": 33.29999923706055,
+						"score": 3.299999952316284,
 						"points": [0,5,8,10],
 						"scale_marks": [0,50,80,100]
 					}
