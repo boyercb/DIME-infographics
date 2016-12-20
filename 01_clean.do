@@ -30,13 +30,14 @@ local id4 `""commune1""'
 local id5 `""commune""'
 
 local ids `"`id1' `id2' `id3' `id4' `id5'"'
+local repfiles ""
 
 * loop through raw data and extract duplicates
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "${raw}/`file' ${year}_WIDE.csv", ///
-		clear bindquotes(strict)
+	insheet using "${raw}/`file' ${year}_WIDE.csv", ///
+		clear names
 		
 	* sort data set 
 	gettoken id ids : ids
@@ -51,21 +52,29 @@ foreach file of local filenames {
 	* drop non duplicates
 	drop if dups == 0
 		
-	* export list to excel
-	export excel using "${etc}/duplicates.xlsx", ///
-	    sheet("`file'") sheetreplace firstrow(var) 
+	if _N > 0 {
+		* add file to list
+		local dupfile "duplicates_`file'"
+		local repfile `""replacements_`file'""'
+		local repfiles : list repfiles | repfile
+		
+		* export list to excel
+		outsheet using "${etc}/`dupfile'.csv", ///
+			comma replace 
+	}
 }
 
-import excel using "${etc}/replacements.xlsx", describe
-forval i = 1/`r(N_worksheet)' {
-	local sheet `"`r(worksheet_`i')'"'
+foreach rep of local repfiles {
 
 	* import the sheet
-	import excel using "${etc}/replacements.xlsx", ///
-	    sheet(`sheet') firstrow clear
+	insheet using "${etc}/`rep'.csv", ///
+	    names clear
 		
+	* get file name
+	local file : subinstr local rep "replacements_" "" 
+	
 	* save stata data set
-	save "${dta}/`sheet'_rep.dta", replace
+	save "${dta}/`file'_rep.dta", replace
 }
 
 local ids `"`id1' `id2' `id3' `id4' `id5'"'
@@ -74,8 +83,8 @@ local ids `"`id1' `id2' `id3' `id4' `id5'"'
 foreach file of local filenames {
 
 	* read csv file with raw indicator data
-	import delimited using "${raw}/`file' ${year}_WIDE.csv", ///
-		clear bindquotes(strict)
+	insheet using "${raw}/`file' ${year}_WIDE.csv", ///
+		clear names
 		
 	* sort data set 
 	gettoken id ids : ids
@@ -89,9 +98,16 @@ foreach file of local filenames {
 	
 	* drop duplicates
 	drop if keep == 0
-	drop keep
+	drop keep id
 	
-	* save stata data set
+	* check id is now unique
+	cap isid `id'
+	if _rc != 0 & _rc != 459 {
+		di as err "There are still duplicates check replacements file."
+		error 198
+    }
+	
+	* save stata data set	
 	save "${dta}/`file'.dta", replace
 }
 
