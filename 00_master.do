@@ -1,5 +1,4 @@
-*! version 1.4 Christopher Boyer 23nov2016
-*! version 1.0 Christopher Boyer 04aug2016
+*! version 1.5 Christopher Boyer 28dec2016
 
 /* this is the master file for the creation of infographic 
    posters for the WB's DIME team. The program cleans the 
@@ -22,11 +21,20 @@ global national_average = 65.2
 /* Note:
     (+) 2014 national average = 65.2 
     (+) 2015 national average = 82.2  */
-	
+
+* define subfolders
 global raw  "data/raw/${year}"
 global dta  "data/dta/${year}"
 global json "data/json/${year}"
 global etc  "data/etc/${year}"
+
+* create subfolders if they don't already exist
+foreach dir in $dta $json $etc {
+	cap confirm file "`dir'/nul" 
+	if _rc {
+		mkdir "`dir'"
+	}
+}
 
 
 /* =================================================== 
