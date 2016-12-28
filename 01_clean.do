@@ -111,9 +111,16 @@ foreach file of local filenames {
 	save "${dta}/`file'.dta", replace
 }
 
-* add the potable water data set (already in Stata format)
+* add the potable water data set
 local f6 `""Access Potable Water""'
 local filenames `"`filenames' `f6'"'
+
+* read csv file with raw indicator data
+insheet using `"${raw}/`:word 6 of `filenames'' ${year}.csv"', ///
+	clear names
+		
+* save stata data set	
+save "${dta}/`:word 6 of `filenames''.dta", replace
 
 * loop through files again and standardize for merging
 foreach file of local filenames {
