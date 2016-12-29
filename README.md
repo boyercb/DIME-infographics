@@ -10,9 +10,9 @@ Data for the infographic indicators were collected via interviews with key infor
  - [`District Sanitaire 2014_WIDE.csv`](data/raw/2014/District Sanitaire 2014_WIDE.csv)
  - [`Municipalite 2014_WIDE.csv`](data/raw/2014/Municipalite 2014_WIDE.csv)
 
-In addition, data about the availability of potable water should be converted to a `dta` file and copied, by year, to the [`data/dta`](data/dta) folder (example from 2014/2015 below): 
+In addition, data about the availability of potable water is derived from government sources. This is normally in the form of an Excel spreadsheet, but, for the purposes of this project, it should be converted to a `csv` file and copied, by year, to the [`data/raw`](data/raw) folder (example from 2014/2015 below): 
 
- - [`Access Potable Water.dta`](data/dta/2014/Access Potable Water.dta)
+ - [`Access Potable Water 2014.csv`](data/raw/2014/Access Potable Water 2014.csv)
 
 ## Construction of the Infographic Posters
 We use [Stata 13 MP](http://www.stata.com/) to clean the data, calculate the indicators, and create JSON-formatted text files describing the layout of the posters. The latter are then read by a short Java script that uses the [Processing Development Environment](https://processing.org/) to build the infographic images.
@@ -39,7 +39,7 @@ The [`poster1.pde`](poster1/poster1.pde) and [`poster2.pde`](poster2/poster2.pde
 
 ## Instructions for Creating New Posters
 
-  1. Create new folders for year `X` in the [`data/raw`](data/raw), [`data/dta`](data/dta), [`data/etc`](data/etc), and [`data/json`](data/json) folders as well as in the [`poster1/pdf`](poster1/pdf) and [`poster2/pdf`](poster2/pdf) folders.
+  1. Create new folders for year `X` in the [`data/raw`](data/raw) folder and add all the raw data source files for year `X` (see above).
   2. Open [`00_master.do`](00_master.do). Update the `year` global macro to `X`; update the `national_average` global to the average rate of admission to the CEP for year `X`. Then run.
   3. If there are duplicate observations they will be written to `duplicates.xlsx` in the [`data/etc`](data/etc) folder. You can mark which to keep (e.g. the most recent submission) in the `replacements.xlsx` file. You will need to re-run [`00_master.do`](00_master.do).
   4. If there have been any changes in the names of variables you can update them in either the [`01_clean.do`](01_clean.do) file or the [`02_calculate_scores.do`](02_calculate_scores.do).
