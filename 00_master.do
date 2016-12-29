@@ -17,10 +17,16 @@ set more off
   
 global year = 2014
 global national_average = 65.2
+global groupnames = 1
 
-/* Note:
-    (+) 2014 national average = 65.2 
-    (+) 2015 national average = 82.2  */
+/* Completed Sets:
+    (+) year = 2014
+		national average = 65.2 
+		groupnames = 1
+	
+    (+) year = 2015
+	    national average = 82.2
+		groupnames = 0  */
 
 * define subfolders
 global raw  "data/raw/${year}"

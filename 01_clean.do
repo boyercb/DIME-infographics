@@ -145,7 +145,7 @@ foreach file of local filenames {
 	replace commune = "BOUSSOUMA KAYA" if commune == "BOUSSOUMA_KAYA"
 	replace commune = "ZIMTANGA" if commune == "ZIMTENGA"
 	
-	if "`file'" == "CEB" & ${year} == 2015 {
+	if "`file'" == "CEB" & !${groupnames} {
 		ren students_admitted_exam sd_a_01students_admitted_exam 
 	    ren total_students_sitting_exam sd_a_01total_students_sitting_ex
 	} 
@@ -166,7 +166,7 @@ foreach file of local filenames {
 use "${dta}/Directeur Ecole.dta", clear
 
 * calculate indicators to be aggregated
-if ${year} == 2014 {
+if ${groupnames} {
 	g functional_latrines = (sd_a_02functional_latrines / number_classes) >= 1
 	g functional_water = sd_a_01water_source_functional >= 9
 	g supplies_received = date(sd_a_03year_month_received_schoo, "MDY", 2100) - ///
@@ -193,7 +193,7 @@ save "${dta}/Directeur Ecole.dta", replace
 use "${dta}/Directeur Formation Sanitaire.dta", clear
 
 * aggregate gas stock data by commune
-if ${year} == 2015 {
+if !${groupnames} {
 	g sd_a_01stock_gas = stock_gas
 }
 collapse (mean) sd_a_01stock_gas , by(commune)
