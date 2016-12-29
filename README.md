@@ -51,7 +51,7 @@ The [`poster1.pde`](poster1/poster1.pde) and [`poster2.pde`](poster2/poster2.pde
 ## Example Posters
 
 ### Poster 1
-![ABSOUYA Slide](poster1/pdf/2014/ABSOUYA.pdf)
+![Banfora](poster1/poster1_example.png)
 
 ### Poster 2
-![ABSOUYA Slide](poster2/pdf/2014/ABSOUYA.pdf)
+![Banfora](poster2/poster2_example.png)
